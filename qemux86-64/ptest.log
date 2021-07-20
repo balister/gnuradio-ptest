@@ -1,176 +1,178 @@
 START: ptest-runner
-2021-07-19T23:26
+2021-07-20T14:21
 BEGIN: /usr/lib/fftw/ptest
 fftw  test result:PASSED
 fftwf test result:PASSED
 fftwl test result:PASSED
-DURATION: 1657
+DURATION: 1633
 END: /usr/lib/fftw/ptest
-2021-07-19T23:54
-2021-07-19T23:54
+2021-07-20T14:48
+2021-07-20T14:48
 BEGIN: /usr/lib/gnuradio/ptest
 Test project /usr/lib/gnuradio/ptest
         Start   1: qa_flowgraph
-  1/202 Test   #1: qa_flowgraph .........................   Passed    
+  1/207 Test   #1: qa_flowgraph .........................   Passed    
         Start   2: qa_prefs
-  2/202 Test   #2: qa_prefs .............................   Passed    
+  2/207 Test   #2: qa_prefs .............................   Passed    
         Start   3: qa_random
-  3/202 Test   #3: qa_random ............................   Passed    
+  3/207 Test   #3: qa_random ............................   Passed    
         Start   4: qa_tag_utils
-  4/202 Test   #4: qa_tag_utils .........................   Passed    
+  4/207 Test   #4: qa_tag_utils .........................   Passed    
         Start   5: qa_hier_block2
-  5/202 Test   #5: qa_hier_block2 .......................   Passed   
+  5/207 Test   #5: qa_hier_block2 .......................   Passed   
         Start   6: qa_uncaught_exception
-  6/202 Test   #6: qa_uncaught_exception ................   Passed    
+  6/207 Test   #6: qa_uncaught_exception ................   Passed    
         Start   7: qa_pmt
-  7/202 Test   #7: qa_pmt ...............................   Passed    
+  7/207 Test   #7: qa_pmt ...............................   Passed    
         Start   8: qa_pmt_to_python
-  8/202 Test   #8: qa_pmt_to_python .....................   Passed    
+  8/207 Test   #8: qa_pmt_to_python .....................   Passed    
         Start   9: qa_add_mult_div_sub
-  9/202 Test   #9: qa_add_mult_div_sub ..................   Passed    
+  9/207 Test   #9: qa_add_mult_div_sub ..................   Passed    
         Start  10: qa_add_mult_v
- 10/202 Test  #10: qa_add_mult_v ........................   Passed    
+ 10/207 Test  #10: qa_add_mult_v ........................   Passed    
         Start  11: qa_affinity
- 11/202 Test  #11: qa_affinity ..........................   Passed    
+ 11/207 Test  #11: qa_affinity ..........................   Passed    
         Start  12: qa_argmax
- 12/202 Test  #12: qa_argmax ............................   Passed    
+ 12/207 Test  #12: qa_argmax ............................   Passed    
         Start  13: qa_block_behavior
- 13/202 Test  #13: qa_block_behavior ....................   Passed    
+ 13/207 Test  #13: qa_block_behavior ....................   Passed    
         Start  14: qa_block_gateway
- 14/202 Test  #14: qa_block_gateway .....................   Passed    
+ 14/207 Test  #14: qa_block_gateway .....................   Passed    
         Start  15: qa_boolean_operators
- 15/202 Test  #15: qa_boolean_operators .................   Passed    
+ 15/207 Test  #15: qa_boolean_operators .................   Passed    
         Start  16: qa_burst_tagger
- 16/202 Test  #16: qa_burst_tagger ......................   Passed    
+ 16/207 Test  #16: qa_burst_tagger ......................   Passed    
         Start  17: qa_conjugate
- 17/202 Test  #17: qa_conjugate .........................   Passed    
+ 17/207 Test  #17: qa_conjugate .........................   Passed    
         Start  18: qa_copy
- 18/202 Test  #18: qa_copy ..............................   Passed    
+ 18/207 Test  #18: qa_copy ..............................   Passed    
         Start  19: qa_delay
- 19/202 Test  #19: qa_delay .............................   Passed    
+ 19/207 Test  #19: qa_delay .............................   Passed    
         Start  20: qa_endian_swap
- 20/202 Test  #20: qa_endian_swap .......................   Passed    
+ 20/207 Test  #20: qa_endian_swap .......................   Passed    
         Start  21: qa_exponentiate_const_cci
- 21/202 Test  #21: qa_exponentiate_const_cci ............   Passed    
+ 21/207 Test  #21: qa_exponentiate_const_cci ............   Passed    
         Start  22: qa_file_descriptor_source_sink
- 22/202 Test  #22: qa_file_descriptor_source_sink .......   Passed    
+ 22/207 Test  #22: qa_file_descriptor_source_sink .......   Passed    
         Start  23: qa_file_metadata
- 23/202 Test  #23: qa_file_metadata .....................***Failed    
+ 23/207 Test  #23: qa_file_metadata .....................***Failed    
         Start  24: qa_file_sink
- 24/202 Test  #24: qa_file_sink .........................   Passed    
+ 24/207 Test  #24: qa_file_sink .........................   Passed    
         Start  25: qa_file_source
- 25/202 Test  #25: qa_file_source .......................   Passed    
+ 25/207 Test  #25: qa_file_source .......................   Passed    
         Start  26: qa_head
- 26/202 Test  #26: qa_head ..............................   Passed    
+ 26/207 Test  #26: qa_head ..............................   Passed    
         Start  27: qa_hier_block2
- 27/202 Test  #27: qa_hier_block2 .......................   Passed    
+ 27/207 Test  #27: qa_hier_block2 .......................   Passed    
         Start  28: qa_hier_block2_message_connections
- 28/202 Test  #28: qa_hier_block2_message_connections ...   Passed    
+ 28/207 Test  #28: qa_hier_block2_message_connections ...   Passed    
         Start  29: qa_integrate
- 29/202 Test  #29: qa_integrate .........................   Passed    
+ 29/207 Test  #29: qa_integrate .........................   Passed    
         Start  30: qa_interleave
- 30/202 Test  #30: qa_interleave ........................   Passed    
+ 30/207 Test  #30: qa_interleave ........................   Passed    
         Start  31: qa_keep_m_in_n
- 31/202 Test  #31: qa_keep_m_in_n .......................   Passed    
+ 31/207 Test  #31: qa_keep_m_in_n .......................   Passed    
         Start  32: qa_keep_one_in_n
- 32/202 Test  #32: qa_keep_one_in_n .....................   Passed    
+ 32/207 Test  #32: qa_keep_one_in_n .....................   Passed    
         Start  33: qa_logger
- 33/202 Test  #33: qa_logger ............................   Passed    
-        Start  34: qa_max
- 34/202 Test  #34: qa_max ...............................   Passed    
-        Start  35: qa_message
- 35/202 Test  #35: qa_message ...........................   Passed    
-        Start  36: qa_min
- 36/202 Test  #36: qa_min ...............................   Passed    
-        Start  37: qa_moving_average
- 37/202 Test  #37: qa_moving_average ....................   Passed    
-        Start  38: qa_multiply_conjugate
- 38/202 Test  #38: qa_multiply_conjugate ................   Passed    
-        Start  39: qa_multiply_matrix_xx
- 39/202 Test  #39: qa_multiply_matrix_xx ................   Passed    
-        Start  40: qa_mute
- 40/202 Test  #40: qa_mute ..............................   Passed    
-        Start  41: qa_nlog10
- 41/202 Test  #41: qa_nlog10 ............................***Failed    
-        Start  42: qa_null_sink_source
- 42/202 Test  #42: qa_null_sink_source ..................   Passed    
-        Start  43: qa_pack_k_bits
- 43/202 Test  #43: qa_pack_k_bits .......................   Passed    
-        Start  44: qa_packed_to_unpacked
- 44/202 Test  #44: qa_packed_to_unpacked ................   Passed    
-        Start  45: qa_patterned_interleaver
- 45/202 Test  #45: qa_patterned_interleaver .............   Passed    
-        Start  46: qa_peak_detector
- 46/202 Test  #46: qa_peak_detector .....................   Passed    
-        Start  47: qa_peak_detector2
- 47/202 Test  #47: qa_peak_detector2 ....................   Passed    
-        Start  48: qa_pipe_fittings
- 48/202 Test  #48: qa_pipe_fittings .....................   Passed    
-        Start  49: qa_plateau_detector_fb
- 49/202 Test  #49: qa_plateau_detector_fb ...............   Passed    
-        Start  50: qa_probe_signal
- 50/202 Test  #50: qa_probe_signal ......................   Passed    
-        Start  51: qa_python_message_passing
- 51/202 Test  #51: qa_python_message_passing ............   Passed    
-        Start  52: qa_regenerate
- 52/202 Test  #52: qa_regenerate ........................   Passed    
-        Start  53: qa_repack_bits_bb
- 53/202 Test  #53: qa_repack_bits_bb ....................   Passed    
-        Start  54: qa_repeat
- 54/202 Test  #54: qa_repeat ............................   Passed    
-        Start  55: qa_rms
- 55/202 Test  #55: qa_rms ...............................   Passed    
-        Start  56: qa_rotator_cc
- 56/202 Test  #56: qa_rotator_cc ........................   Passed    
-        Start  57: qa_sample_and_hold
- 57/202 Test  #57: qa_sample_and_hold ...................   Passed    
-        Start  58: qa_selector
- 58/202 Test  #58: qa_selector ..........................   Passed    
-        Start  59: qa_skiphead
- 59/202 Test  #59: qa_skiphead ..........................   Passed    
-        Start  60: qa_stream_demux
- 60/202 Test  #60: qa_stream_demux ......................   Passed    
-        Start  61: qa_stream_mux
- 61/202 Test  #61: qa_stream_mux ........................   Passed    
-        Start  62: qa_stream_to_tagged_stream
- 62/202 Test  #62: qa_stream_to_tagged_stream ...........   Passed    
-        Start  63: qa_stretch
- 63/202 Test  #63: qa_stretch ...........................   Passed    
-        Start  64: qa_tag_debug
- 64/202 Test  #64: qa_tag_debug .........................   Passed    
-        Start  65: qa_tag_file_sink
- 65/202 Test  #65: qa_tag_file_sink .....................   Passed    
-        Start  66: qa_tag_gate
- 66/202 Test  #66: qa_tag_gate ..........................   Passed    
-        Start  67: qa_tag_share
- 67/202 Test  #67: qa_tag_share .........................   Passed    
-        Start  68: qa_tagged_stream_mux
- 68/202 Test  #68: qa_tagged_stream_mux .................   Passed    
-        Start  69: qa_tags_strobe
- 69/202 Test  #69: qa_tags_strobe .......................   Passed    
-        Start  70: qa_threshold
- 70/202 Test  #70: qa_threshold .........................   Passed    
-        Start  71: qa_throttle
- 71/202 Test  #71: qa_throttle ..........................   Passed    
-        Start  72: qa_transcendental
- 72/202 Test  #72: qa_transcendental ....................   Passed    
-        Start  73: qa_tsb_vector_sink_X
- 73/202 Test  #73: qa_tsb_vector_sink_X .................   Passed    
-        Start  74: qa_type_conversions
- 74/202 Test  #74: qa_type_conversions ..................   Passed    
-        Start  75: qa_unpack_k_bits
- 75/202 Test  #75: qa_unpack_k_bits .....................   Passed    
-        Start  76: qa_vco
- 76/202 Test  #76: qa_vco ...............................   Passed    
-        Start  77: qa_vector_insert
- 77/202 Test  #77: qa_vector_insert .....................   Passed    
-        Start  78: qa_vector_map
- 78/202 Test  #78: qa_vector_map ........................   Passed    
-        Start  79: qa_vector_sink_source
- 79/202 Test  #79: qa_vector_sink_source ................   Passed    
-        Start  80: qa_wavfile
- 80/202 Test  #80: qa_wavfile ...........................***Failed    
-        Start  81: test_rs
+ 33/207 Test  #33: qa_logger ............................   Passed    
+        Start  34: qa_matrix_interleaver
+ 34/207 Test  #34: qa_matrix_interleaver ................***Failed    
+        Start  35: qa_max
+ 35/207 Test  #35: qa_max ...............................   Passed    
+        Start  36: qa_message
+ 36/207 Test  #36: qa_message ...........................   Passed    
+        Start  37: qa_min
+ 37/207 Test  #37: qa_min ...............................   Passed    
+        Start  38: qa_moving_average
+ 38/207 Test  #38: qa_moving_average ....................   Passed    
+        Start  39: qa_multiply_conjugate
+ 39/207 Test  #39: qa_multiply_conjugate ................   Passed    
+        Start  40: qa_multiply_matrix_xx
+ 40/207 Test  #40: qa_multiply_matrix_xx ................   Passed    
+        Start  41: qa_mute
+ 41/207 Test  #41: qa_mute ..............................   Passed    
+        Start  42: qa_nlog10
+ 42/207 Test  #42: qa_nlog10 ............................***Failed    
+        Start  43: qa_null_sink_source
+ 43/207 Test  #43: qa_null_sink_source ..................   Passed    
+        Start  44: qa_pack_k_bits
+ 44/207 Test  #44: qa_pack_k_bits .......................   Passed    
+        Start  45: qa_packed_to_unpacked
+ 45/207 Test  #45: qa_packed_to_unpacked ................   Passed    
+        Start  46: qa_patterned_interleaver
+ 46/207 Test  #46: qa_patterned_interleaver .............   Passed    
+        Start  47: qa_peak_detector
+ 47/207 Test  #47: qa_peak_detector .....................   Passed    
+        Start  48: qa_peak_detector2
+ 48/207 Test  #48: qa_peak_detector2 ....................   Passed    
+        Start  49: qa_pipe_fittings
+ 49/207 Test  #49: qa_pipe_fittings .....................   Passed    
+        Start  50: qa_plateau_detector_fb
+ 50/207 Test  #50: qa_plateau_detector_fb ...............   Passed    
+        Start  51: qa_probe_signal
+ 51/207 Test  #51: qa_probe_signal ......................   Passed    
+        Start  52: qa_python_message_passing
+ 52/207 Test  #52: qa_python_message_passing ............   Passed    
+        Start  53: qa_regenerate
+ 53/207 Test  #53: qa_regenerate ........................   Passed    
+        Start  54: qa_repack_bits_bb
+ 54/207 Test  #54: qa_repack_bits_bb ....................   Passed    
+        Start  55: qa_repeat
+ 55/207 Test  #55: qa_repeat ............................   Passed    
+        Start  56: qa_rms
+ 56/207 Test  #56: qa_rms ...............................   Passed    
+        Start  57: qa_rotator_cc
+ 57/207 Test  #57: qa_rotator_cc ........................   Passed    
+        Start  58: qa_sample_and_hold
+ 58/207 Test  #58: qa_sample_and_hold ...................   Passed    
+        Start  59: qa_selector
+ 59/207 Test  #59: qa_selector ..........................   Passed    
+        Start  60: qa_skiphead
+ 60/207 Test  #60: qa_skiphead ..........................   Passed    
+        Start  61: qa_stream_demux
+ 61/207 Test  #61: qa_stream_demux ......................   Passed    
+        Start  62: qa_stream_mux
+ 62/207 Test  #62: qa_stream_mux ........................   Passed    
+        Start  63: qa_stream_to_tagged_stream
+ 63/207 Test  #63: qa_stream_to_tagged_stream ...........   Passed    
+        Start  64: qa_stretch
+ 64/207 Test  #64: qa_stretch ...........................   Passed    
+        Start  65: qa_tag_debug
+ 65/207 Test  #65: qa_tag_debug .........................   Passed    
+        Start  66: qa_tag_file_sink
+ 66/207 Test  #66: qa_tag_file_sink .....................   Passed    
+        Start  67: qa_tag_gate
+ 67/207 Test  #67: qa_tag_gate ..........................   Passed    
+        Start  68: qa_tag_share
+ 68/207 Test  #68: qa_tag_share .........................   Passed    
+        Start  69: qa_tagged_stream_mux
+ 69/207 Test  #69: qa_tagged_stream_mux .................   Passed    
+        Start  70: qa_tags_strobe
+ 70/207 Test  #70: qa_tags_strobe .......................   Passed    
+        Start  71: qa_threshold
+ 71/207 Test  #71: qa_threshold .........................   Passed    
+        Start  72: qa_throttle
+ 72/207 Test  #72: qa_throttle ..........................   Passed    
+        Start  73: qa_transcendental
+ 73/207 Test  #73: qa_transcendental ....................   Passed    
+        Start  74: qa_tsb_vector_sink_X
+ 74/207 Test  #74: qa_tsb_vector_sink_X .................   Passed    
+        Start  75: qa_type_conversions
+ 75/207 Test  #75: qa_type_conversions ..................   Passed    
+        Start  76: qa_unpack_k_bits
+ 76/207 Test  #76: qa_unpack_k_bits .....................   Passed    
+        Start  77: qa_vco
+ 77/207 Test  #77: qa_vco ...............................   Passed    
+        Start  78: qa_vector_insert
+ 78/207 Test  #78: qa_vector_insert .....................   Passed    
+        Start  79: qa_vector_map
+ 79/207 Test  #79: qa_vector_map ........................   Passed    
+        Start  80: qa_vector_sink_source
+ 80/207 Test  #80: qa_vector_sink_source ................   Passed    
+        Start  81: qa_wavfile
+ 81/207 Test  #81: qa_wavfile ...........................***Failed    
+        Start  82: test_rs
 Could not find executable gr_fec_rstest
 Looked in the following places:
 gr_fec_rstest
@@ -188,31 +190,31 @@ Deployment/gr_fec_rstest
 Development/gr_fec_rstest
 Development/gr_fec_rstest
 Unable to find executable: gr_fec_rstest
- 81/202 Test  #81: test_rs ..............................***Not Run   
-        Start  82: qa_ber_bf
- 82/202 Test  #82: qa_ber_bf ............................   Passed    
-        Start  83: qa_depuncture
- 83/202 Test  #83: qa_depuncture ........................   Passed    
-        Start  84: qa_ecc_ccsds_27
- 84/202 Test  #84: qa_ecc_ccsds_27 ......................   Passed    
-        Start  85: qa_fecapi_cc
- 85/202 Test  #85: qa_fecapi_cc .........................***Failed    
-        Start  86: qa_fecapi_cc_buffer_overflow
- 86/202 Test  #86: qa_fecapi_cc_buffer_overflow .........   Passed   
-        Start  87: qa_fecapi_dummy
- 87/202 Test  #87: qa_fecapi_dummy ......................***Failed    
-        Start  88: qa_fecapi_ldpc
- 88/202 Test  #88: qa_fecapi_ldpc .......................***Failed    
-        Start  89: qa_fecapi_repetition
- 89/202 Test  #89: qa_fecapi_repetition .................***Failed    
-        Start  90: qa_polar_decoder_sc
+ 82/207 Test  #82: test_rs ..............................***Not Run   
+        Start  83: qa_ber_bf
+ 83/207 Test  #83: qa_ber_bf ............................   Passed    
+        Start  84: qa_depuncture
+ 84/207 Test  #84: qa_depuncture ........................   Passed    
+        Start  85: qa_ecc_ccsds_27
+ 85/207 Test  #85: qa_ecc_ccsds_27 ......................   Passed    
+        Start  86: qa_fecapi_cc
+ 86/207 Test  #86: qa_fecapi_cc .........................***Failed    
+        Start  87: qa_fecapi_cc_buffer_overflow
+ 87/207 Test  #87: qa_fecapi_cc_buffer_overflow .........   Passed   
+        Start  88: qa_fecapi_dummy
+ 88/207 Test  #88: qa_fecapi_dummy ......................***Failed    
+        Start  89: qa_fecapi_ldpc
+ 89/207 Test  #89: qa_fecapi_ldpc .......................***Failed    
+        Start  90: qa_fecapi_repetition
+ 90/207 Test  #90: qa_fecapi_repetition .................***Failed    
+        Start  91: qa_polar_decoder_sc
 
 ERROR: Exit status is 9
-DURATION: 1311
+DURATION: 1315
 TIMEOUT: /usr/lib/gnuradio/ptest
 END: /usr/lib/gnuradio/ptest
-2021-07-20T00:16
-2021-07-20T00:16
+2021-07-20T15:10
+2021-07-20T15:10
 BEGIN: /usr/lib/volk/ptest
 Test project /usr/lib/volk/ptest
         Start   1: qa_volk_16i_32fc_dot_prod_32fc
@@ -489,5 +491,5 @@ Test project /usr/lib/volk/ptest
 Total Test time (real) =  
 DURATION: 26
 END: /usr/lib/volk/ptest
-2021-07-20T00:16
+2021-07-20T15:11
 STOP: ptest-runner
