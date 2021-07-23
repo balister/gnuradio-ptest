@@ -1,13 +1,13 @@
 START: ptest-runner
-2021-07-22T17:45
+2021-07-23T00:39
 BEGIN: /usr/lib/fftw/ptest
 fftw  test result:PASSED
 fftwf test result:PASSED
 fftwl test result:PASSED
-DURATION: 2769
+DURATION: 3024
 END: /usr/lib/fftw/ptest
-2021-07-22T18:31
-2021-07-22T18:31
+2021-07-23T01:30
+2021-07-23T01:30
 BEGIN: /usr/lib/gnuradio/ptest
 Test project /usr/lib/gnuradio/ptest
         Start   1: qa_flowgraph
@@ -210,11 +210,11 @@ Unable to find executable: gr_fec_rstest
         Start  91: qa_polar_decoder_sc
 
 ERROR: Exit status is 9
-DURATION: 1313
+DURATION: 1307
 TIMEOUT: /usr/lib/gnuradio/ptest
 END: /usr/lib/gnuradio/ptest
-2021-07-22T18:53
-2021-07-22T18:53
+2021-07-23T01:52
+2021-07-23T01:52
 BEGIN: /usr/lib/volk/ptest
 Test project /usr/lib/volk/ptest
         Start   1: qa_volk_16i_32fc_dot_prod_32fc
@@ -489,7 +489,7 @@ Test project /usr/lib/volk/ptest
 100% tests passed, 0 tests failed out of 134
 
 Total Test time (real) =  
-DURATION: 26
+DURATION: 27
 END: /usr/lib/volk/ptest
-2021-07-22T18:53
+2021-07-23T01:52
 STOP: ptest-runner
