@@ -1,13 +1,13 @@
 START: ptest-runner
-2021-07-22T22:03
+2021-07-28T23:26
 BEGIN: /usr/lib/fftw/ptest
 fftw  test result:PASSED
 fftwf test result:PASSED
 fftwl test result:PASSED
-DURATION: 855
+DURATION: 785
 END: /usr/lib/fftw/ptest
-2021-07-22T22:18
-2021-07-22T22:18
+2021-07-28T23:39
+2021-07-28T23:39
 BEGIN: /usr/lib/gnuradio/ptest
 Test project /usr/lib/gnuradio/ptest
         Start   1: qa_flowgraph
@@ -55,7 +55,7 @@ Test project /usr/lib/gnuradio/ptest
         Start  22: qa_file_descriptor_source_sink
  22/207 Test  #22: qa_file_descriptor_source_sink .......   Passed    
         Start  23: qa_file_metadata
- 23/207 Test  #23: qa_file_metadata .....................***Failed    
+ 23/207 Test  #23: qa_file_metadata .....................   Passed    
         Start  24: qa_file_sink
  24/207 Test  #24: qa_file_sink .........................   Passed    
         Start  25: qa_file_source
@@ -77,7 +77,7 @@ Test project /usr/lib/gnuradio/ptest
         Start  33: qa_logger
  33/207 Test  #33: qa_logger ............................   Passed    
         Start  34: qa_matrix_interleaver
- 34/207 Test  #34: qa_matrix_interleaver ................***Failed    
+ 34/207 Test  #34: qa_matrix_interleaver ................   Passed    
         Start  35: qa_max
  35/207 Test  #35: qa_max ...............................   Passed    
         Start  36: qa_message
@@ -93,7 +93,7 @@ Test project /usr/lib/gnuradio/ptest
         Start  41: qa_mute
  41/207 Test  #41: qa_mute ..............................   Passed    
         Start  42: qa_nlog10
- 42/207 Test  #42: qa_nlog10 ............................***Failed    
+ 42/207 Test  #42: qa_nlog10 ............................   Passed    
         Start  43: qa_null_sink_source
  43/207 Test  #43: qa_null_sink_source ..................   Passed    
         Start  44: qa_pack_k_bits
@@ -234,7 +234,7 @@ Unable to find executable: gr_fec_rstest
         Start 103: qa_filter_delay_fc
 103/207 Test #103: qa_filter_delay_fc ...................   Passed    
         Start 104: qa_filterbank
-104/207 Test #104: qa_filterbank ........................   Passed    
+104/207 Test #104: qa_filterbank ........................***Failed    
         Start 105: qa_fir_filter
 105/207 Test #105: qa_fir_filter ........................   Passed    
         Start 106: qa_firdes
@@ -354,7 +354,7 @@ Unable to find executable: gr_fec_rstest
         Start 163: qa_framer_sink
 163/207 Test #163: qa_framer_sink .......................   Passed    
         Start 164: qa_glfsr_source
-164/207 Test #164: qa_glfsr_source ......................   Passed    
+164/207 Test #164: qa_glfsr_source ......................   Passed   
         Start 165: qa_hdlc_framer
 165/207 Test #165: qa_hdlc_framer .......................   Passed    
         Start 166: qa_header_payload_demux
@@ -442,16 +442,13 @@ Unable to find executable: gr_fec_rstest
         Start 207: qa_socket_pdu
 207/207 Test #207: qa_socket_pdu ........................***Failed    
 
-86% tests passed, 28 tests failed out of 207
+87% tests passed, 26 tests failed out of 207
 
 Total Test time (real) = 
 
 The following tests FAILED:
 	  9 - qa_add_mult_div_sub (Failed)
 	 10 - qa_add_mult_v (Failed)
-	 23 - qa_file_metadata (Failed)
-	 34 - qa_matrix_interleaver (Failed)
-	 42 - qa_nlog10 (Failed)
 	 75 - qa_type_conversions (Failed)
 	 81 - qa_wavfile (Failed)
 	 82 - test_rs (Not Run)
@@ -460,6 +457,7 @@ The following tests FAILED:
 	 89 - qa_fecapi_ldpc (Failed)
 	 90 - qa_fecapi_repetition (Failed)
 	102 - qa_file_taps_loader (Failed)
+	104 - qa_filterbank (Failed)
 	109 - qa_freq_xlating_fft_filter (Failed)
 	113 - qa_interp_fir_filter (Failed)
 	120 - qa_rational_resampler (Failed)
@@ -482,8 +480,8 @@ Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.
 ERROR: Exit status is 8
 DURATION: 938
 END: /usr/lib/gnuradio/ptest
-2021-07-22T22:33
-2021-07-22T22:33
+2021-07-28T23:54
+2021-07-28T23:54
 BEGIN: /usr/lib/volk/ptest
 Test project /usr/lib/volk/ptest
         Start   1: qa_volk_16i_32fc_dot_prod_32fc
@@ -758,7 +756,7 @@ Test project /usr/lib/volk/ptest
 100% tests passed, 0 tests failed out of 134
 
 Total Test time (real) =  
-DURATION: 27
+DURATION: 26
 END: /usr/lib/volk/ptest
-2021-07-22T22:34
+2021-07-28T23:55
 STOP: ptest-runner
