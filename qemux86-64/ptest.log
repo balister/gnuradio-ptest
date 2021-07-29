@@ -1,13 +1,13 @@
 START: ptest-runner
-2021-07-23T00:39
+2021-07-29T01:48
 BEGIN: /usr/lib/fftw/ptest
 fftw  test result:PASSED
 fftwf test result:PASSED
 fftwl test result:PASSED
-DURATION: 3024
+DURATION: 1944
 END: /usr/lib/fftw/ptest
-2021-07-23T01:30
-2021-07-23T01:30
+2021-07-29T02:20
+2021-07-29T02:20
 BEGIN: /usr/lib/gnuradio/ptest
 Test project /usr/lib/gnuradio/ptest
         Start   1: qa_flowgraph
@@ -55,7 +55,7 @@ Test project /usr/lib/gnuradio/ptest
         Start  22: qa_file_descriptor_source_sink
  22/207 Test  #22: qa_file_descriptor_source_sink .......   Passed    
         Start  23: qa_file_metadata
- 23/207 Test  #23: qa_file_metadata .....................***Failed    
+ 23/207 Test  #23: qa_file_metadata .....................   Passed    
         Start  24: qa_file_sink
  24/207 Test  #24: qa_file_sink .........................   Passed    
         Start  25: qa_file_source
@@ -77,7 +77,7 @@ Test project /usr/lib/gnuradio/ptest
         Start  33: qa_logger
  33/207 Test  #33: qa_logger ............................   Passed    
         Start  34: qa_matrix_interleaver
- 34/207 Test  #34: qa_matrix_interleaver ................***Failed    
+ 34/207 Test  #34: qa_matrix_interleaver ................   Passed    
         Start  35: qa_max
  35/207 Test  #35: qa_max ...............................   Passed    
         Start  36: qa_message
@@ -93,7 +93,7 @@ Test project /usr/lib/gnuradio/ptest
         Start  41: qa_mute
  41/207 Test  #41: qa_mute ..............................   Passed    
         Start  42: qa_nlog10
- 42/207 Test  #42: qa_nlog10 ............................***Failed    
+ 42/207 Test  #42: qa_nlog10 ............................   Passed    
         Start  43: qa_null_sink_source
  43/207 Test  #43: qa_null_sink_source ..................   Passed    
         Start  44: qa_pack_k_bits
@@ -210,11 +210,11 @@ Unable to find executable: gr_fec_rstest
         Start  91: qa_polar_decoder_sc
 
 ERROR: Exit status is 9
-DURATION: 1307
+DURATION: 1313
 TIMEOUT: /usr/lib/gnuradio/ptest
 END: /usr/lib/gnuradio/ptest
-2021-07-23T01:52
-2021-07-23T01:52
+2021-07-29T02:42
+2021-07-29T02:42
 BEGIN: /usr/lib/volk/ptest
 Test project /usr/lib/volk/ptest
         Start   1: qa_volk_16i_32fc_dot_prod_32fc
@@ -489,7 +489,7 @@ Test project /usr/lib/volk/ptest
 100% tests passed, 0 tests failed out of 134
 
 Total Test time (real) =  
-DURATION: 27
+DURATION: 26
 END: /usr/lib/volk/ptest
-2021-07-23T01:52
+2021-07-29T02:43
 STOP: ptest-runner
