@@ -1,13 +1,13 @@
 START: ptest-runner
-2021-08-20T20:29
+2021-08-31T09:30
 BEGIN: /usr/lib/fftw/ptest
 fftw  test result:PASSED
 fftwf test result:PASSED
 fftwl test result:PASSED
-DURATION: 2927
+DURATION: 9696
 END: /usr/lib/fftw/ptest
-2021-08-20T21:18
-2021-08-20T21:18
+2021-08-31T12:12
+2021-08-31T12:12
 BEGIN: /usr/lib/gnuradio/ptest
 Test project /usr/lib/gnuradio/ptest
         Start   1: qa_flowgraph
@@ -208,13 +208,271 @@ Unable to find executable: gr_fec_rstest
         Start  90: qa_fecapi_repetition
  90/207 Test  #90: qa_fecapi_repetition .................***Failed    
         Start  91: qa_polar_decoder_sc
+ 91/207 Test  #91: qa_polar_decoder_sc ..................   Passed    
+        Start  92: qa_polar_decoder_sc_list
+ 92/207 Test  #92: qa_polar_decoder_sc_list .............   Passed    
+        Start  93: qa_polar_decoder_sc_systematic
+ 93/207 Test  #93: qa_polar_decoder_sc_systematic .......   Passed    
+        Start  94: qa_polar_encoder
+ 94/207 Test  #94: qa_polar_encoder .....................   Passed    
+        Start  95: qa_polar_encoder_systematic
+ 95/207 Test  #95: qa_polar_encoder_systematic ..........   Passed    
+        Start  96: qa_puncture
+ 96/207 Test  #96: qa_puncture ..........................   Passed   
+        Start  97: qa_fft
+ 97/207 Test  #97: qa_fft ...............................   Passed    
+        Start  98: qa_goertzel
+ 98/207 Test  #98: qa_goertzel ..........................   Passed    
+        Start  99: qa_window
+ 99/207 Test  #99: qa_window ............................   Passed    
+        Start 100: qa_dc_blocker
+100/207 Test #100: qa_dc_blocker ........................   Passed    
+        Start 101: qa_fft_filter
+101/207 Test #101: qa_fft_filter ........................   Passed   
+        Start 102: qa_file_taps_loader
+102/207 Test #102: qa_file_taps_loader ..................***Failed    
+        Start 103: qa_filter_delay_fc
+103/207 Test #103: qa_filter_delay_fc ...................   Passed    
+        Start 104: qa_filterbank
+104/207 Test #104: qa_filterbank ........................   Passed    
+        Start 105: qa_fir_filter
+105/207 Test #105: qa_fir_filter ........................   Passed    
+        Start 106: qa_firdes
+106/207 Test #106: qa_firdes ............................   Passed    
+        Start 107: qa_fractional_interpolator
+107/207 Test #107: qa_fractional_interpolator ...........   Passed    
+        Start 108: qa_fractional_resampler
+108/207 Test #108: qa_fractional_resampler ..............   Passed    
+        Start 109: qa_freq_xlating_fft_filter
+109/207 Test #109: qa_freq_xlating_fft_filter ...........   Passed    
+        Start 110: qa_freq_xlating_fir_filter
+110/207 Test #110: qa_freq_xlating_fir_filter ...........   Passed    
+        Start 111: qa_hilbert
+111/207 Test #111: qa_hilbert ...........................   Passed    
+        Start 112: qa_iir_filter
+112/207 Test #112: qa_iir_filter ........................   Passed    
+        Start 113: qa_interp_fir_filter
+113/207 Test #113: qa_interp_fir_filter .................   Passed    
+        Start 114: qa_pfb_arb_resampler
+114/207 Test #114: qa_pfb_arb_resampler .................   Passed    
+        Start 115: qa_pfb_channelizer
+115/207 Test #115: qa_pfb_channelizer ...................   Passed    
+        Start 116: qa_pfb_decimator
+116/207 Test #116: qa_pfb_decimator .....................   Passed    
+        Start 117: qa_pfb_interpolator
+117/207 Test #117: qa_pfb_interpolator ..................   Passed    
+        Start 118: qa_pfb_synthesizer
+118/207 Test #118: qa_pfb_synthesizer ...................   Passed    
+        Start 119: qa_pm_remez
+119/207 Test #119: qa_pm_remez ..........................   Passed    
+        Start 120: qa_rational_resampler
+120/207 Test #120: qa_rational_resampler ................   Passed    
+        Start 121: qa_single_pole_iir
+121/207 Test #121: qa_single_pole_iir ...................   Passed    
+        Start 122: qa_agc
+122/207 Test #122: qa_agc ...............................   Passed    
+        Start 123: qa_cpfsk
+123/207 Test #123: qa_cpfsk .............................   Passed    
+        Start 124: qa_ctcss_squelch
+124/207 Test #124: qa_ctcss_squelch .....................   Passed    
+        Start 125: qa_dpll
+125/207 Test #125: qa_dpll ..............................   Passed    
+        Start 126: qa_fastnoise
+126/207 Test #126: qa_fastnoise .........................   Passed   
+        Start 127: qa_fm_emph
+127/207 Test #127: qa_fm_emph ...........................   Passed    
+        Start 128: qa_fmdet
+128/207 Test #128: qa_fmdet .............................   Passed    
+        Start 129: qa_frequency_modulator
+129/207 Test #129: qa_frequency_modulator ...............   Passed    
+        Start 130: qa_noise
+130/207 Test #130: qa_noise .............................   Passed    
+        Start 131: qa_phase_modulator
+131/207 Test #131: qa_phase_modulator ...................   Passed    
+        Start 132: qa_pll_carriertracking
+132/207 Test #132: qa_pll_carriertracking ...............   Passed    
+        Start 133: qa_pll_freqdet
+133/207 Test #133: qa_pll_freqdet .......................   Passed    
+        Start 134: qa_pll_refout
+134/207 Test #134: qa_pll_refout ........................   Passed    
+        Start 135: qa_probe_avg_mag_sqrd
+135/207 Test #135: qa_probe_avg_mag_sqrd ................   Passed    
+        Start 136: qa_pwr_squelch
+136/207 Test #136: qa_pwr_squelch .......................   Passed    
+        Start 137: qa_quadrature_demod
+137/207 Test #137: qa_quadrature_demod ..................   Passed    
+        Start 138: qa_rail_ff
+138/207 Test #138: qa_rail_ff ...........................   Passed    
+        Start 139: qa_random_uniform_source
+139/207 Test #139: qa_random_uniform_source .............   Passed    
+        Start 140: qa_sig_source
+140/207 Test #140: qa_sig_source ........................   Passed    
+        Start 141: qa_simple_squelch
+141/207 Test #141: qa_simple_squelch ....................   Passed    
+        Start 142: qa_binary_slicer_fb
+142/207 Test #142: qa_binary_slicer_fb ..................   Passed    
+        Start 143: qa_burst_shaper
+143/207 Test #143: qa_burst_shaper ......................   Passed    
+        Start 144: qa_chunks_to_symbols
+144/207 Test #144: qa_chunks_to_symbols .................   Passed    
+        Start 145: qa_clock_recovery_mm
+145/207 Test #145: qa_clock_recovery_mm .................   Passed    
+        Start 146: qa_constellation
+146/207 Test #146: qa_constellation .....................   Passed  
+        Start 147: qa_constellation_decoder_cb
+147/207 Test #147: qa_constellation_decoder_cb ..........   Passed    
+        Start 148: qa_constellation_encoder_bc
+148/207 Test #148: qa_constellation_encoder_bc ..........   Passed    
+        Start 149: qa_constellation_receiver
+149/207 Test #149: qa_constellation_receiver ............   Passed   
+        Start 150: qa_constellation_soft_decoder_cf
+150/207 Test #150: qa_constellation_soft_decoder_cf .....   Passed   
+        Start 151: qa_correlate_access_code
+151/207 Test #151: qa_correlate_access_code .............   Passed    
+        Start 152: qa_correlate_access_code_XX_ts
+152/207 Test #152: qa_correlate_access_code_XX_ts .......   Passed    
+        Start 153: qa_correlate_access_code_tag
+153/207 Test #153: qa_correlate_access_code_tag .........   Passed    
+        Start 154: qa_costas_loop_cc
+154/207 Test #154: qa_costas_loop_cc ....................   Passed    
+        Start 155: qa_cpm
+155/207 Test #155: qa_cpm ...............................   Passed    
+        Start 156: qa_crc32_bb
+156/207 Test #156: qa_crc32_bb ..........................   Passed    
+        Start 157: qa_decision_feedback_equalizer
+157/207 Test #157: qa_decision_feedback_equalizer .......   Passed    
+        Start 158: qa_diff_encoder
+158/207 Test #158: qa_diff_encoder ......................   Passed    
+        Start 159: qa_diff_encoder_nrzi
+159/207 Test #159: qa_diff_encoder_nrzi .................   Passed    
+        Start 160: qa_diff_phasor_cc
+160/207 Test #160: qa_diff_phasor_cc ....................   Passed    
+        Start 161: qa_digital
+161/207 Test #161: qa_digital ...........................   Passed    
+        Start 162: qa_fll_band_edge
+162/207 Test #162: qa_fll_band_edge .....................   Passed    
+        Start 163: qa_framer_sink
+163/207 Test #163: qa_framer_sink .......................   Passed    
+        Start 164: qa_glfsr_source
+164/207 Test #164: qa_glfsr_source ......................   Passed    
+        Start 165: qa_hdlc_framer
+165/207 Test #165: qa_hdlc_framer .......................   Passed    
+        Start 166: qa_header_payload_demux
+166/207 Test #166: qa_header_payload_demux ..............   Passed    
+        Start 167: qa_lfsr
+167/207 Test #167: qa_lfsr ..............................   Passed    
+        Start 168: qa_linear_equalizer
+168/207 Test #168: qa_linear_equalizer ..................   Passed    
+        Start 169: qa_map
+169/207 Test #169: qa_map ...............................   Passed    
+        Start 170: qa_meas_evm_cc
+170/207 Test #170: qa_meas_evm_cc .......................   Passed    
+        Start 171: qa_mpsk_snr_est
+171/207 Test #171: qa_mpsk_snr_est ......................   Passed    
+        Start 172: qa_ofdm_carrier_allocator_cvc
+172/207 Test #172: qa_ofdm_carrier_allocator_cvc ........   Passed    
+        Start 173: qa_ofdm_chanest_vcvc
+173/207 Test #173: qa_ofdm_chanest_vcvc .................   Passed    
+        Start 174: qa_ofdm_cyclic_prefixer
+174/207 Test #174: qa_ofdm_cyclic_prefixer ..............   Passed    
+        Start 175: qa_ofdm_frame_equalizer_vcvc
+175/207 Test #175: qa_ofdm_frame_equalizer_vcvc .........   Passed    
+        Start 176: qa_ofdm_serializer_vcc
+176/207 Test #176: qa_ofdm_serializer_vcc ...............   Passed    
+        Start 177: qa_ofdm_sync_sc_cfb
+177/207 Test #177: qa_ofdm_sync_sc_cfb ..................   Passed    
+        Start 178: qa_ofdm_txrx
+178/207 Test #178: qa_ofdm_txrx .........................   Passed    
+        Start 179: qa_packet_format
+179/207 Test #179: qa_packet_format .....................   Passed    
+        Start 180: qa_packet_headergenerator_bb
+180/207 Test #180: qa_packet_headergenerator_bb .........   Passed    
+        Start 181: qa_packet_headerparser_b
+181/207 Test #181: qa_packet_headerparser_b .............   Passed    
+        Start 182: qa_pfb_clock_sync
+182/207 Test #182: qa_pfb_clock_sync ....................   Passed    
+        Start 183: qa_pn_correlator_cc
+183/207 Test #183: qa_pn_correlator_cc ..................   Passed    
+        Start 184: qa_probe_density
+184/207 Test #184: qa_probe_density .....................   Passed    
+        Start 185: qa_scrambler
+185/207 Test #185: qa_scrambler .........................   Passed    
+        Start 186: qa_channel_model
+186/207 Test #186: qa_channel_model .....................   Passed    
+        Start 187: qa_fading_model
+187/207 Test #187: qa_fading_model ......................   Passed    
+        Start 188: qa_add_system_time
+188/207 Test #188: qa_add_system_time ...................***Failed    
+        Start 189: qa_pdu
+189/207 Test #189: qa_pdu ...............................***Failed    
+        Start 190: qa_pdu_lambda
+190/207 Test #190: qa_pdu_lambda ........................***Failed    
+        Start 191: qa_pdu_split
+191/207 Test #191: qa_pdu_split .........................***Failed    
+        Start 192: qa_pdu_to_stream
+192/207 Test #192: qa_pdu_to_stream .....................***Failed    
+        Start 193: qa_tags_to_pdu
+193/207 Test #193: qa_tags_to_pdu .......................***Failed    
+        Start 194: qa_take_skip_to_pdu
+194/207 Test #194: qa_take_skip_to_pdu ..................***Failed    
+        Start 195: qa_time_delta
+195/207 Test #195: qa_time_delta ........................***Failed    
+        Start 196: qa_trellis
+196/207 Test #196: qa_trellis ...........................   Passed    
+        Start 197: test_modtool
+197/207 Test #197: test_modtool .........................***Failed    
+        Start 198: qa_classify
+198/207 Test #198: qa_classify ..........................   Passed    
+        Start 199: qa_zeromq_pub
+199/207 Test #199: qa_zeromq_pub ........................   Passed    
+        Start 200: qa_zeromq_pubsub
+200/207 Test #200: qa_zeromq_pubsub .....................   Passed    
+        Start 201: qa_zeromq_pull_msg_source
+201/207 Test #201: qa_zeromq_pull_msg_source ............   Passed    
+        Start 202: qa_zeromq_pushpull
+202/207 Test #202: qa_zeromq_pushpull ...................   Passed    
+        Start 203: qa_zeromq_req_msg_source
+203/207 Test #203: qa_zeromq_req_msg_source .............   Passed    
+        Start 204: qa_zeromq_reqrep
+204/207 Test #204: qa_zeromq_reqrep .....................   Passed    
+        Start 205: qa_zeromq_sub
+205/207 Test #205: qa_zeromq_sub ........................   Passed    
+        Start 206: qa_zeromq_sub_msg_source
+206/207 Test #206: qa_zeromq_sub_msg_source .............   Passed    
+        Start 207: qa_socket_pdu
+207/207 Test #207: qa_socket_pdu ........................***Failed    
 
-ERROR: Exit status is 9
-DURATION: 1316
-TIMEOUT: /usr/lib/gnuradio/ptest
+92% tests passed, 17 tests failed out of 207
+
+Total Test time (real) = 
+
+The following tests FAILED:
+	 81 - qa_wavfile (Failed)
+	 82 - test_rs (Not Run)
+	 86 - qa_fecapi_cc (Failed)
+	 88 - qa_fecapi_dummy (Failed)
+	 89 - qa_fecapi_ldpc (Failed)
+	 90 - qa_fecapi_repetition (Failed)
+	102 - qa_file_taps_loader (Failed)
+	188 - qa_add_system_time (Failed)
+	189 - qa_pdu (Failed)
+	190 - qa_pdu_lambda (Failed)
+	191 - qa_pdu_split (Failed)
+	192 - qa_pdu_to_stream (Failed)
+	193 - qa_tags_to_pdu (Failed)
+	194 - qa_take_skip_to_pdu (Failed)
+	195 - qa_time_delta (Failed)
+	197 - test_modtool (Failed)
+	207 - qa_socket_pdu (Failed)
+Errors while running CTest
+Output from these tests are in: /usr/lib/gnuradio/ptest/Testing/Temporary/LastTest.log
+Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.
+
+ERROR: Exit status is 8
+DURATION: 942
 END: /usr/lib/gnuradio/ptest
-2021-08-20T21:40
-2021-08-20T21:40
+2021-08-31T12:27
+2021-08-31T12:27
 BEGIN: /usr/lib/volk/ptest
 Test project /usr/lib/volk/ptest
         Start   1: qa_volk_16i_32fc_dot_prod_32fc
@@ -489,7 +747,7 @@ Test project /usr/lib/volk/ptest
 100% tests passed, 0 tests failed out of 134
 
 Total Test time (real) =  
-DURATION: 26
+DURATION: 27
 END: /usr/lib/volk/ptest
-2021-08-20T21:40
+2021-08-31T12:28
 STOP: ptest-runner
