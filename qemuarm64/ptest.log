@@ -1,13 +1,13 @@
 START: ptest-runner
-2021-09-20T21:07
+2021-09-23T06:41
 BEGIN: /usr/lib/fftw/ptest
 fftw  test result:PASSED
 fftwf test result:PASSED
 fftwl test result:PASSED
-DURATION: 1342
+DURATION: 2275
 END: /usr/lib/fftw/ptest
-2021-09-20T21:29
-2021-09-20T21:29
+2021-09-23T07:18
+2021-09-23T07:18
 BEGIN: /usr/lib/gnuradio/ptest
 Test project /usr/lib/gnuradio/ptest
         Start   1: qa_flowgraph
@@ -318,7 +318,7 @@ Unable to find executable: gr_fec_rstest
         Start 145: qa_clock_recovery_mm
 145/207 Test #145: qa_clock_recovery_mm .................   Passed    
         Start 146: qa_constellation
-146/207 Test #146: qa_constellation .....................   Passed  
+146/207 Test #146: qa_constellation .....................   Passed   
         Start 147: qa_constellation_decoder_cb
 147/207 Test #147: qa_constellation_decoder_cb ..........   Passed    
         Start 148: qa_constellation_encoder_bc
@@ -470,10 +470,10 @@ Output from these tests are in: /usr/lib/gnuradio/ptest/Testing/Temporary/LastTe
 Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.
 
 ERROR: Exit status is 8
-DURATION: 823
+DURATION: 829
 END: /usr/lib/gnuradio/ptest
-2021-09-20T21:43
-2021-09-20T21:43
+2021-09-23T07:32
+2021-09-23T07:32
 BEGIN: /usr/lib/volk/ptest
 Test project /usr/lib/volk/ptest
         Start   1: qa_volk_16i_32fc_dot_prod_32fc
@@ -748,7 +748,7 @@ Test project /usr/lib/volk/ptest
 100% tests passed, 0 tests failed out of 134
 
 Total Test time (real) =  
-DURATION: 16
+DURATION: 17
 END: /usr/lib/volk/ptest
-2021-09-20T21:43
+2021-09-23T07:33
 STOP: ptest-runner
