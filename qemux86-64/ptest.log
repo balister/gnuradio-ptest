@@ -1,13 +1,13 @@
 START: ptest-runner
-2021-10-26T07:35
+2021-11-07T02:10
 BEGIN: /usr/lib/fftw/ptest
 fftw  test result:PASSED
 fftwf test result:PASSED
 fftwl test result:PASSED
-DURATION: 2185
+DURATION: 1568
 END: /usr/lib/fftw/ptest
-2021-10-26T08:12
-2021-10-26T08:12
+2021-11-07T02:36
+2021-11-07T02:36
 BEGIN: /usr/lib/gnuradio/ptest
 Test project /usr/lib/gnuradio/ptest
         Start   1: qa_flowgraph
@@ -370,7 +370,7 @@ Unable to find executable: gr_fec_rstest
         Start 171: qa_framer_sink
 171/209 Test #171: qa_framer_sink .......................   Passed    
         Start 172: qa_glfsr_source
-172/209 Test #172: qa_glfsr_source ......................   Passed    
+172/209 Test #172: qa_glfsr_source ......................   Passed   
         Start 173: qa_hdlc_framer
 173/209 Test #173: qa_hdlc_framer .......................   Passed    
         Start 174: qa_header_payload_demux
@@ -464,10 +464,10 @@ The following tests FAILED:
 Errors while running CTest
 
 ERROR: Exit status is 8
-DURATION: 936
+DURATION: 928
 END: /usr/lib/gnuradio/ptest
-2021-10-26T08:27
-2021-10-26T08:27
+2021-11-07T02:51
+2021-11-07T02:51
 BEGIN: /usr/lib/volk/ptest
 Test project /usr/lib/volk/ptest
         Start   1: qa_volk_16i_32fc_dot_prod_32fc
@@ -744,8 +744,8 @@ Test project /usr/lib/volk/ptest
 100% tests passed, 0 tests failed out of 135
 
 Total Test time (real) =  
-DURATION: 21
+DURATION: 20
 END: /usr/lib/volk/ptest
-2021-10-26T08:28
+2021-11-07T02:52
 STOP: ptest-runner
 TOTAL: 3 FAIL: 1
