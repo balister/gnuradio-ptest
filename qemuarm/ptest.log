@@ -1,13 +1,13 @@
 START: ptest-runner
-2021-11-07T17:33
+2021-12-10T01:03
 BEGIN: /usr/lib/fftw/ptest
 fftw  test result:PASSED
 fftwf test result:FAILED
 fftwl test result:PASSED
-DURATION: 377
+DURATION: 279
 END: /usr/lib/fftw/ptest
-2021-11-07T17:39
-2021-11-07T17:39
+2021-12-10T01:07
+2021-12-10T01:07
 BEGIN: /usr/lib/gnuradio/ptest
 Test project /usr/lib/gnuradio/ptest
         Start   1: qa_flowgraph
@@ -129,7 +129,7 @@ Test project /usr/lib/gnuradio/ptest
         Start  59: qa_rms
  59/209 Test  #59: qa_rms ...............................   Passed    
         Start  60: qa_rotator_cc
- 60/209 Test  #60: qa_rotator_cc ........................***Failed    
+ 60/209 Test  #60: qa_rotator_cc ........................   Passed    
         Start  61: qa_sample_and_hold
  61/209 Test  #61: qa_sample_and_hold ...................   Passed    
         Start  62: qa_selector
@@ -446,7 +446,7 @@ Unable to find executable: gr_fec_rstest
         Start 209: qa_zeromq_sub_msg_source
 209/209 Test #209: qa_zeromq_sub_msg_source .............   Passed    
 
-86% tests passed, 29 tests failed out of 209
+87% tests passed, 28 tests failed out of 209
 
 Total Test time (real) = 
 
@@ -456,7 +456,6 @@ The following tests FAILED:
 	 23 - qa_file_metadata (Failed)
 	 34 - qa_matrix_interleaver (Failed)
 	 44 - qa_nlog10 (Failed)
-	 60 - qa_rotator_cc (Failed)
 	 80 - qa_type_conversions (Failed)
 	 87 - qa_wavfile (Failed)
 	 88 - test_rs (Not Run)
@@ -485,8 +484,8 @@ Errors while running CTest
 ERROR: Exit status is 8
 DURATION: 875
 END: /usr/lib/gnuradio/ptest
-2021-11-07T17:53
-2021-11-07T17:53
+2021-12-10T01:22
+2021-12-10T01:22
 BEGIN: /usr/lib/volk/ptest
 Test project /usr/lib/volk/ptest
         Start   1: qa_volk_16i_32fc_dot_prod_32fc
@@ -763,8 +762,8 @@ Test project /usr/lib/volk/ptest
 100% tests passed, 0 tests failed out of 135
 
 Total Test time (real) =  
-DURATION: 18
+DURATION: 19
 END: /usr/lib/volk/ptest
-2021-11-07T17:54
+2021-12-10T01:22
 STOP: ptest-runner
 TOTAL: 3 FAIL: 1
