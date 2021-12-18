@@ -1,13 +1,13 @@
 START: ptest-runner
-2021-12-16T15:21
+2021-12-18T05:17
 BEGIN: /usr/lib/fftw/ptest
 fftw  test result:PASSED
 fftwf test result:PASSED
 fftwl test result:PASSED
-DURATION: 1728
+DURATION: 2772
 END: /usr/lib/fftw/ptest
-2021-12-16T15:50
-2021-12-16T15:50
+2021-12-18T06:03
+2021-12-18T06:03
 BEGIN: /usr/lib/gnuradio/ptest
 Test project /usr/lib/gnuradio/ptest
         Start   1: qa_flowgraph
@@ -332,7 +332,7 @@ Unable to find executable: gr_fec_rstest
         Start 152: qa_cma_equalizer
 152/209 Test #152: qa_cma_equalizer .....................   Passed    
         Start 153: qa_constellation
-153/209 Test #153: qa_constellation .....................   Passed  
+153/209 Test #153: qa_constellation .....................   Passed   
         Start 154: qa_constellation_decoder_cb
 154/209 Test #154: qa_constellation_decoder_cb ..........   Passed    
         Start 155: qa_constellation_encoder_bc
@@ -462,10 +462,10 @@ The following tests FAILED:
 Errors while running CTest
 
 ERROR: Exit status is 8
-DURATION: 913
+DURATION: 920
 END: /usr/lib/gnuradio/ptest
-2021-12-16T16:05
-2021-12-16T16:05
+2021-12-18T06:18
+2021-12-18T06:18
 BEGIN: /usr/lib/volk/ptest
 Test project /usr/lib/volk/ptest
         Start   1: qa_volk_16i_32fc_dot_prod_32fc
@@ -744,6 +744,6 @@ Test project /usr/lib/volk/ptest
 Total Test time (real) =  
 DURATION: 21
 END: /usr/lib/volk/ptest
-2021-12-16T16:05
+2021-12-18T06:19
 STOP: ptest-runner
 TOTAL: 3 FAIL: 1
