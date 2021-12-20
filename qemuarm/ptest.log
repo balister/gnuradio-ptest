@@ -1,13 +1,13 @@
 START: ptest-runner
-2021-12-17T22:52
+2021-12-20T14:58
 BEGIN: /usr/lib/fftw/ptest
 fftw  test result:PASSED
 fftwf test result:FAILED
 fftwl test result:PASSED
-DURATION: 423
+DURATION: 528
 END: /usr/lib/fftw/ptest
-2021-12-17T22:59
-2021-12-17T22:59
+2021-12-20T15:07
+2021-12-20T15:07
 BEGIN: /usr/lib/gnuradio/ptest
 Test project /usr/lib/gnuradio/ptest
         Start   1: qa_flowgraph
@@ -479,10 +479,10 @@ The following tests FAILED:
 Errors while running CTest
 
 ERROR: Exit status is 8
-DURATION: 872
+DURATION: 899
 END: /usr/lib/gnuradio/ptest
-2021-12-17T23:13
-2021-12-17T23:13
+2021-12-20T15:22
+2021-12-20T15:22
 BEGIN: /usr/lib/volk/ptest
 Test project /usr/lib/volk/ptest
         Start   1: qa_volk_16i_32fc_dot_prod_32fc
@@ -759,8 +759,8 @@ Test project /usr/lib/volk/ptest
 100% tests passed, 0 tests failed out of 135
 
 Total Test time (real) =  
-DURATION: 19
+DURATION: 20
 END: /usr/lib/volk/ptest
-2021-12-17T23:13
+2021-12-20T15:22
 STOP: ptest-runner
 TOTAL: 3 FAIL: 1
