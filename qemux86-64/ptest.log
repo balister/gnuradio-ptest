@@ -1,13 +1,13 @@
 START: ptest-runner
-2021-12-18T05:17
+2021-12-21T01:32
 BEGIN: /usr/lib/fftw/ptest
 fftw  test result:PASSED
 fftwf test result:PASSED
 fftwl test result:PASSED
-DURATION: 2772
+DURATION: 3961
 END: /usr/lib/fftw/ptest
-2021-12-18T06:03
-2021-12-18T06:03
+2021-12-21T02:38
+2021-12-21T02:38
 BEGIN: /usr/lib/gnuradio/ptest
 Test project /usr/lib/gnuradio/ptest
         Start   1: qa_flowgraph
@@ -51,7 +51,7 @@ Test project /usr/lib/gnuradio/ptest
         Start  20: qa_endian_swap
  20/209 Test  #20: qa_endian_swap .......................   Passed    
         Start  21: qa_exponentiate_const_cci
- 21/209 Test  #21: qa_exponentiate_const_cci ............   Passed    
+ 21/209 Test  #21: qa_exponentiate_const_cci ............   Passed   
         Start  22: qa_file_descriptor_source_sink
  22/209 Test  #22: qa_file_descriptor_source_sink .......   Passed    
         Start  23: qa_file_metadata
@@ -206,7 +206,7 @@ Unable to find executable: gr_fec_rstest
         Start  89: qa_ber_bf
  89/209 Test  #89: qa_ber_bf ............................   Passed    
         Start  90: qa_depuncture
- 90/209 Test  #90: qa_depuncture ........................   Passed    
+ 90/209 Test  #90: qa_depuncture ........................   Passed   
         Start  91: qa_ecc_ccsds_27
  91/209 Test  #91: qa_ecc_ccsds_27 ......................   Passed    
         Start  92: qa_fecapi_cc
@@ -226,7 +226,7 @@ Unable to find executable: gr_fec_rstest
         Start  99: qa_polar_decoder_sc_systematic
  99/209 Test  #99: qa_polar_decoder_sc_systematic .......   Passed    
         Start 100: qa_polar_encoder
-100/209 Test #100: qa_polar_encoder .....................   Passed    
+100/209 Test #100: qa_polar_encoder .....................   Passed   
         Start 101: qa_polar_encoder_systematic
 101/209 Test #101: qa_polar_encoder_systematic ..........   Passed    
         Start 102: qa_puncture
@@ -270,11 +270,11 @@ Unable to find executable: gr_fec_rstest
         Start 121: qa_pfb_channelizer
 121/209 Test #121: qa_pfb_channelizer ...................   Passed    
         Start 122: qa_pfb_decimator
-122/209 Test #122: qa_pfb_decimator .....................   Passed    
+122/209 Test #122: qa_pfb_decimator .....................   Passed   
         Start 123: qa_pfb_interpolator
 123/209 Test #123: qa_pfb_interpolator ..................   Passed    
         Start 124: qa_pfb_synthesizer
-124/209 Test #124: qa_pfb_synthesizer ...................   Passed    
+124/209 Test #124: qa_pfb_synthesizer ...................   Passed   
         Start 125: qa_pm_remez
 125/209 Test #125: qa_pm_remez ..........................   Passed    
         Start 126: qa_rational_resampler
@@ -290,7 +290,7 @@ Unable to find executable: gr_fec_rstest
         Start 131: qa_dpll
 131/209 Test #131: qa_dpll ..............................   Passed    
         Start 132: qa_fastnoise
-132/209 Test #132: qa_fastnoise .........................   Passed   
+132/209 Test #132: qa_fastnoise .........................   Passed  
         Start 133: qa_fm_emph
 133/209 Test #133: qa_fm_emph ...........................   Passed    
         Start 134: qa_fmdet
@@ -332,7 +332,7 @@ Unable to find executable: gr_fec_rstest
         Start 152: qa_cma_equalizer
 152/209 Test #152: qa_cma_equalizer .....................   Passed    
         Start 153: qa_constellation
-153/209 Test #153: qa_constellation .....................   Passed   
+153/209 Test #153: qa_constellation .....................   Passed  
         Start 154: qa_constellation_decoder_cb
 154/209 Test #154: qa_constellation_decoder_cb ..........   Passed    
         Start 155: qa_constellation_encoder_bc
@@ -370,11 +370,11 @@ Unable to find executable: gr_fec_rstest
         Start 171: qa_framer_sink
 171/209 Test #171: qa_framer_sink .......................   Passed    
         Start 172: qa_glfsr_source
-172/209 Test #172: qa_glfsr_source ......................   Passed    
+172/209 Test #172: qa_glfsr_source ......................   Passed   
         Start 173: qa_hdlc_framer
 173/209 Test #173: qa_hdlc_framer .......................   Passed    
         Start 174: qa_header_payload_demux
-174/209 Test #174: qa_header_payload_demux ..............   Passed    
+174/209 Test #174: qa_header_payload_demux ..............   Passed   
         Start 175: qa_lfsr
 175/209 Test #175: qa_lfsr ..............................   Passed    
         Start 176: qa_linear_equalizer
@@ -442,7 +442,7 @@ Unable to find executable: gr_fec_rstest
         Start 207: qa_zeromq_reqrep
 207/209 Test #207: qa_zeromq_reqrep .....................   Passed    
         Start 208: qa_zeromq_sub
-208/209 Test #208: qa_zeromq_sub ........................   Passed    
+208/209 Test #208: qa_zeromq_sub ........................   Passed   
         Start 209: qa_zeromq_sub_msg_source
 209/209 Test #209: qa_zeromq_sub_msg_source .............   Passed    
 
@@ -462,10 +462,10 @@ The following tests FAILED:
 Errors while running CTest
 
 ERROR: Exit status is 8
-DURATION: 920
+DURATION: 1623
 END: /usr/lib/gnuradio/ptest
-2021-12-18T06:18
-2021-12-18T06:18
+2021-12-21T03:05
+2021-12-21T03:05
 BEGIN: /usr/lib/volk/ptest
 Test project /usr/lib/volk/ptest
         Start   1: qa_volk_16i_32fc_dot_prod_32fc
@@ -742,8 +742,8 @@ Test project /usr/lib/volk/ptest
 100% tests passed, 0 tests failed out of 135
 
 Total Test time (real) =  
-DURATION: 21
+DURATION: 33
 END: /usr/lib/volk/ptest
-2021-12-18T06:19
+2021-12-21T03:06
 STOP: ptest-runner
 TOTAL: 3 FAIL: 1
