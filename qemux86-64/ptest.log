@@ -1,13 +1,13 @@
 START: ptest-runner
-2021-12-21T01:10
+2021-12-24T15:12
 BEGIN: /usr/lib/fftw/ptest
 fftw  test result:PASSED
 fftwf test result:PASSED
 fftwl test result:PASSED
-DURATION: 1315
+DURATION: 2613
 END: /usr/lib/fftw/ptest
-2021-12-21T01:32
-2021-12-21T01:32
+2021-12-24T15:56
+2021-12-24T15:56
 BEGIN: /usr/lib/gnuradio/ptest
 Test project /usr/lib/gnuradio/ptest
         Start   1: qa_flowgraph
@@ -198,7 +198,7 @@ Unable to find executable: gr_fec_rstest
         Start  85: qa_ber_bf
  85/213 Test  #85: qa_ber_bf ............................   Passed    
         Start  86: qa_depuncture
- 86/213 Test  #86: qa_depuncture ........................   Passed    
+ 86/213 Test  #86: qa_depuncture ........................   Passed   
         Start  87: qa_ecc_ccsds_27
  87/213 Test  #87: qa_ecc_ccsds_27 ......................   Passed    
         Start  88: qa_fecapi_cc
@@ -322,7 +322,7 @@ Unable to find executable: gr_fec_rstest
         Start 147: qa_clock_recovery_mm
 147/213 Test #147: qa_clock_recovery_mm .................   Passed    
         Start 148: qa_constellation
-148/213 Test #148: qa_constellation .....................   Passed   
+148/213 Test #148: qa_constellation .....................   Passed  
         Start 149: qa_constellation_decoder_cb
 149/213 Test #149: qa_constellation_decoder_cb ..........   Passed    
         Start 150: qa_constellation_encoder_bc
@@ -485,10 +485,10 @@ Output from these tests are in: /usr/lib/gnuradio/ptest/Testing/Temporary/LastTe
 Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.
 
 ERROR: Exit status is 8
-DURATION: 978
+DURATION: 982
 END: /usr/lib/gnuradio/ptest
-2021-12-21T01:49
-2021-12-21T01:49
+2021-12-24T16:12
+2021-12-24T16:12
 BEGIN: /usr/lib/volk/ptest
 Test project /usr/lib/volk/ptest
         Start   1: qa_volk_16i_32fc_dot_prod_32fc
@@ -765,8 +765,8 @@ Test project /usr/lib/volk/ptest
 100% tests passed, 0 tests failed out of 135
 
 Total Test time (real) =  
-DURATION: 26
+DURATION: 27
 END: /usr/lib/volk/ptest
-2021-12-21T01:49
+2021-12-24T16:13
 STOP: ptest-runner
 TOTAL: 3 FAIL: 1
