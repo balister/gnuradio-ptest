@@ -1,13 +1,13 @@
 START: ptest-runner
-2022-01-01T02:21
+2022-01-03T18:27
 BEGIN: /usr/lib/fftw/ptest
 fftw  test result:PASSED
 fftwf test result:PASSED
 fftwl test result:PASSED
-DURATION: 2928
+DURATION: 1458
 END: /usr/lib/fftw/ptest
-2022-01-01T03:10
-2022-01-01T03:10
+2022-01-03T18:51
+2022-01-03T18:51
 BEGIN: /usr/lib/gnuradio/ptest
 Test project /usr/lib/gnuradio/ptest
         Start   1: qa_flowgraph
@@ -218,9 +218,9 @@ Unable to find executable: gr_fec_rstest
         Start  95: qa_polar_decoder_sc_systematic
  95/213 Test  #95: qa_polar_decoder_sc_systematic .......   Passed    
         Start  96: qa_polar_encoder
- 96/213 Test  #96: qa_polar_encoder .....................   Passed   
+ 96/213 Test  #96: qa_polar_encoder .....................   Passed    
         Start  97: qa_polar_encoder_systematic
- 97/213 Test  #97: qa_polar_encoder_systematic ..........   Passed   
+ 97/213 Test  #97: qa_polar_encoder_systematic ..........   Passed    
         Start  98: qa_puncture
  98/213 Test  #98: qa_puncture ..........................   Passed   
         Start  99: qa_fft
@@ -262,11 +262,11 @@ Unable to find executable: gr_fec_rstest
         Start 117: qa_pfb_channelizer
 117/213 Test #117: qa_pfb_channelizer ...................   Passed    
         Start 118: qa_pfb_decimator
-118/213 Test #118: qa_pfb_decimator .....................   Passed   
+118/213 Test #118: qa_pfb_decimator .....................   Passed    
         Start 119: qa_pfb_interpolator
 119/213 Test #119: qa_pfb_interpolator ..................   Passed    
         Start 120: qa_pfb_synthesizer
-120/213 Test #120: qa_pfb_synthesizer ...................   Passed   
+120/213 Test #120: qa_pfb_synthesizer ...................   Passed    
         Start 121: qa_pm_remez
 121/213 Test #121: qa_pm_remez ..........................   Passed    
         Start 122: qa_rational_resampler
@@ -282,7 +282,7 @@ Unable to find executable: gr_fec_rstest
         Start 127: qa_dpll
 127/213 Test #127: qa_dpll ..............................   Passed    
         Start 128: qa_fastnoise
-128/213 Test #128: qa_fastnoise .........................   Passed  
+128/213 Test #128: qa_fastnoise .........................   Passed   
         Start 129: qa_fm_emph
 129/213 Test #129: qa_fm_emph ...........................   Passed    
         Start 130: qa_fmdet
@@ -362,7 +362,7 @@ Unable to find executable: gr_fec_rstest
         Start 167: qa_hdlc_framer
 167/213 Test #167: qa_hdlc_framer .......................   Passed    
         Start 168: qa_header_payload_demux
-168/213 Test #168: qa_header_payload_demux ..............   Passed   
+168/213 Test #168: qa_header_payload_demux ..............   Passed    
         Start 169: qa_lfsr
 169/213 Test #169: qa_lfsr ..............................   Passed    
         Start 170: qa_linear_equalizer
@@ -442,7 +442,7 @@ Unable to find executable: gr_fec_rstest
         Start 207: qa_zeromq_reqrep
 207/213 Test #207: qa_zeromq_reqrep .....................   Passed    
         Start 208: qa_zeromq_sub
-208/213 Test #208: qa_zeromq_sub ........................   Passed   
+208/213 Test #208: qa_zeromq_sub ........................   Passed    
         Start 209: qa_zeromq_sub_msg_source
 209/213 Test #209: qa_zeromq_sub_msg_source .............   Passed    
         Start 210: qa_socket_pdu
@@ -485,10 +485,10 @@ Output from these tests are in: /usr/lib/gnuradio/ptest/Testing/Temporary/LastTe
 Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.
 
 ERROR: Exit status is 8
-DURATION: 1658
+DURATION: 1039
 END: /usr/lib/gnuradio/ptest
-2022-01-01T03:37
-2022-01-01T03:37
+2022-01-03T19:09
+2022-01-03T19:09
 BEGIN: /usr/lib/volk/ptest
 Test project /usr/lib/volk/ptest
         Start   1: qa_volk_16i_32fc_dot_prod_32fc
@@ -765,8 +765,8 @@ Test project /usr/lib/volk/ptest
 100% tests passed, 0 tests failed out of 135
 
 Total Test time (real) =  
-DURATION: 25
+DURATION: 18
 END: /usr/lib/volk/ptest
-2022-01-01T03:38
+2022-01-03T19:09
 STOP: ptest-runner
 TOTAL: 3 FAIL: 1
