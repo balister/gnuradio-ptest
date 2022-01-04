@@ -1,13 +1,13 @@
 START: ptest-runner
-2022-01-03T17:10
+2022-01-04T03:57
 BEGIN: /usr/lib/fftw/ptest
 fftw  test result:PASSED
 fftwf test result:PASSED
 fftwl test result:PASSED
-DURATION: 634
+DURATION: 1163
 END: /usr/lib/fftw/ptest
-2022-01-03T17:21
-2022-01-03T17:21
+2022-01-04T04:17
+2022-01-04T04:17
 BEGIN: /usr/lib/gnuradio/ptest
 Test project /usr/lib/gnuradio/ptest
         Start   1: qa_flowgraph
@@ -218,9 +218,9 @@ Unable to find executable: gr_fec_rstest
         Start  95: qa_polar_decoder_sc_systematic
  95/213 Test  #95: qa_polar_decoder_sc_systematic .......   Passed    
         Start  96: qa_polar_encoder
- 96/213 Test  #96: qa_polar_encoder .....................   Passed    
+ 96/213 Test  #96: qa_polar_encoder .....................   Passed   
         Start  97: qa_polar_encoder_systematic
- 97/213 Test  #97: qa_polar_encoder_systematic ..........   Passed    
+ 97/213 Test  #97: qa_polar_encoder_systematic ..........   Passed   
         Start  98: qa_puncture
  98/213 Test  #98: qa_puncture ..........................   Passed   
         Start  99: qa_fft
@@ -262,11 +262,11 @@ Unable to find executable: gr_fec_rstest
         Start 117: qa_pfb_channelizer
 117/213 Test #117: qa_pfb_channelizer ...................   Passed    
         Start 118: qa_pfb_decimator
-118/213 Test #118: qa_pfb_decimator .....................   Passed    
+118/213 Test #118: qa_pfb_decimator .....................   Passed   
         Start 119: qa_pfb_interpolator
 119/213 Test #119: qa_pfb_interpolator ..................   Passed    
         Start 120: qa_pfb_synthesizer
-120/213 Test #120: qa_pfb_synthesizer ...................   Passed    
+120/213 Test #120: qa_pfb_synthesizer ...................   Passed   
         Start 121: qa_pm_remez
 121/213 Test #121: qa_pm_remez ..........................   Passed    
         Start 122: qa_rational_resampler
@@ -362,11 +362,11 @@ Unable to find executable: gr_fec_rstest
         Start 167: qa_hdlc_framer
 167/213 Test #167: qa_hdlc_framer .......................   Passed    
         Start 168: qa_header_payload_demux
-168/213 Test #168: qa_header_payload_demux ..............   Passed    
+168/213 Test #168: qa_header_payload_demux ..............   Passed   
         Start 169: qa_lfsr
 169/213 Test #169: qa_lfsr ..............................   Passed    
         Start 170: qa_linear_equalizer
-170/213 Test #170: qa_linear_equalizer ..................***Failed    
+170/213 Test #170: qa_linear_equalizer ..................***Failed   
         Start 171: qa_map
 171/213 Test #171: qa_map ...............................   Passed    
         Start 172: qa_meas_evm_cc
@@ -442,7 +442,7 @@ Unable to find executable: gr_fec_rstest
         Start 207: qa_zeromq_reqrep
 207/213 Test #207: qa_zeromq_reqrep .....................   Passed    
         Start 208: qa_zeromq_sub
-208/213 Test #208: qa_zeromq_sub ........................   Passed    
+208/213 Test #208: qa_zeromq_sub ........................   Passed   
         Start 209: qa_zeromq_sub_msg_source
 209/213 Test #209: qa_zeromq_sub_msg_source .............   Passed    
         Start 210: qa_socket_pdu
@@ -494,10 +494,10 @@ Output from these tests are in: /usr/lib/gnuradio/ptest/Testing/Temporary/LastTe
 Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.
 
 ERROR: Exit status is 8
-DURATION: 958
+DURATION: 1458
 END: /usr/lib/gnuradio/ptest
-2022-01-03T17:37
-2022-01-03T17:37
+2022-01-04T04:41
+2022-01-04T04:41
 BEGIN: /usr/lib/volk/ptest
 Test project /usr/lib/volk/ptest
         Start   1: qa_volk_16i_32fc_dot_prod_32fc
@@ -639,7 +639,7 @@ Test project /usr/lib/volk/ptest
         Start  69: qa_volk_32f_x2_subtract_32f
  69/135 Test  #69: qa_volk_32f_x2_subtract_32f ..........................   Passed    
         Start  70: qa_volk_32f_x3_sum_of_poly_32f
- 70/135 Test  #70: qa_volk_32f_x3_sum_of_poly_32f .......................***Failed    
+ 70/135 Test  #70: qa_volk_32f_x3_sum_of_poly_32f .......................   Passed    
         Start  71: qa_volk_32fc_32f_add_32fc
  71/135 Test  #71: qa_volk_32fc_32f_add_32fc ............................   Passed    
         Start  72: qa_volk_32fc_32f_dot_prod_32fc
@@ -771,19 +771,11 @@ Test project /usr/lib/volk/ptest
         Start 135: qa_volk_8u_x4_conv_k7_r2_8u
 135/135 Test #135: qa_volk_8u_x4_conv_k7_r2_8u ..........................   Passed    
 
-99% tests passed, 1 tests failed out of 135
+100% tests passed, 0 tests failed out of 135
 
 Total Test time (real) =  
-
-The following tests FAILED:
-	 70 - qa_volk_32f_x3_sum_of_poly_32f (Failed)
-Errors while running CTest
-Output from these tests are in: /usr/lib/volk/ptest/Testing/Temporary/LastTest.log
-Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.
-
-ERROR: Exit status is 8
-DURATION: 27
+DURATION: 36
 END: /usr/lib/volk/ptest
-2022-01-03T17:37
+2022-01-04T04:41
 STOP: ptest-runner
-TOTAL: 3 FAIL: 2
+TOTAL: 3 FAIL: 1
