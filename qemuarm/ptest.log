@@ -1,13 +1,13 @@
 START: ptest-runner
-2022-01-18T04:05
+2022-01-20T03:18
 BEGIN: /usr/lib/fftw/ptest
 fftw  test result:PASSED
 fftwf test result:PASSED
 fftwl test result:PASSED
-DURATION: 1097
+DURATION: 1003
 END: /usr/lib/fftw/ptest
-2022-01-18T04:23
-2022-01-18T04:23
+2022-01-20T03:35
+2022-01-20T03:35
 BEGIN: /usr/lib/gnuradio/ptest
 Test project /usr/lib/gnuradio/ptest
         Start   1: qa_flowgraph
@@ -212,13 +212,13 @@ Unable to find executable: gr_fec_rstest
         Start  92: qa_fecapi_repetition
  92/213 Test  #92: qa_fecapi_repetition .................***Failed    
         Start  93: qa_polar_decoder_sc
- 93/213 Test  #93: qa_polar_decoder_sc ..................   Passed    
+ 93/213 Test  #93: qa_polar_decoder_sc ..................   Passed   
         Start  94: qa_polar_decoder_sc_list
  94/213 Test  #94: qa_polar_decoder_sc_list .............   Passed    
         Start  95: qa_polar_decoder_sc_systematic
  95/213 Test  #95: qa_polar_decoder_sc_systematic .......   Passed    
         Start  96: qa_polar_encoder
- 96/213 Test  #96: qa_polar_encoder .....................   Passed   
+ 96/213 Test  #96: qa_polar_encoder .....................   Passed    
         Start  97: qa_polar_encoder_systematic
  97/213 Test  #97: qa_polar_encoder_systematic ..........   Passed   
         Start  98: qa_puncture
@@ -238,7 +238,7 @@ Unable to find executable: gr_fec_rstest
         Start 105: qa_filter_delay_fc
 105/213 Test #105: qa_filter_delay_fc ...................   Passed    
         Start 106: qa_filterbank
-106/213 Test #106: qa_filterbank ........................***Failed    
+106/213 Test #106: qa_filterbank ........................   Passed    
         Start 107: qa_fir_filter
 107/213 Test #107: qa_fir_filter ........................   Passed    
         Start 108: qa_firdes
@@ -454,7 +454,7 @@ Unable to find executable: gr_fec_rstest
         Start 213: qa_udp_source
 213/213 Test #213: qa_udp_source ........................***Failed    
 
-86% tests passed, 30 tests failed out of 213
+86% tests passed, 29 tests failed out of 213
 
 Total Test time (real) = 
 
@@ -469,7 +469,6 @@ The following tests FAILED:
 	 91 - qa_fecapi_ldpc (Failed)
 	 92 - qa_fecapi_repetition (Failed)
 	104 - qa_file_taps_loader (Failed)
-	106 - qa_filterbank (Failed)
 	111 - qa_freq_xlating_fft_filter (Failed)
 	115 - qa_interp_fir_filter (Failed)
 	122 - qa_rational_resampler (Failed)
@@ -494,10 +493,10 @@ Output from these tests are in: /usr/lib/gnuradio/ptest/Testing/Temporary/LastTe
 Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.
 
 ERROR: Exit status is 8
-DURATION: 1692
+DURATION: 1650
 END: /usr/lib/gnuradio/ptest
-2022-01-18T04:51
-2022-01-18T04:51
+2022-01-20T04:03
+2022-01-20T04:03
 BEGIN: /usr/lib/volk/ptest
 Test project /usr/lib/volk/ptest
         Start   1: qa_volk_16i_32fc_dot_prod_32fc
@@ -776,6 +775,6 @@ Test project /usr/lib/volk/ptest
 Total Test time (real) =  
 DURATION: 38
 END: /usr/lib/volk/ptest
-2022-01-18T04:52
+2022-01-20T04:03
 STOP: ptest-runner
 TOTAL: 3 FAIL: 1
