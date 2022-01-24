@@ -1,13 +1,13 @@
 START: ptest-runner
-2022-01-24T00:48
+2022-01-24T22:11
 BEGIN: /usr/lib/fftw/ptest
 fftw  test result:PASSED
 fftwf test result:PASSED
 fftwl test result:PASSED
-DURATION: 516
+DURATION: 746
 END: /usr/lib/fftw/ptest
-2022-01-24T00:56
-2022-01-24T00:56
+2022-01-24T22:24
+2022-01-24T22:24
 BEGIN: /usr/lib/gnuradio/ptest
 Test project /usr/lib/gnuradio/ptest
         Start   1: qa_flowgraph
@@ -238,7 +238,7 @@ Unable to find executable: gr_fec_rstest
         Start 105: qa_filter_delay_fc
 105/213 Test #105: qa_filter_delay_fc ...................   Passed
         Start 106: qa_filterbank
-106/213 Test #106: qa_filterbank ........................   Passed
+106/213 Test #106: qa_filterbank ........................***Failed
         Start 107: qa_fir_filter
 107/213 Test #107: qa_fir_filter ........................   Passed
         Start 108: qa_firdes
@@ -406,21 +406,21 @@ Unable to find executable: gr_fec_rstest
         Start 189: qa_fading_model
 189/213 Test #189: qa_fading_model ......................   Passed
         Start 190: qa_add_system_time
-190/213 Test #190: qa_add_system_time ...................***Failed
+190/213 Test #190: qa_add_system_time ...................   Passed
         Start 191: qa_pdu
-191/213 Test #191: qa_pdu ...............................***Failed
+191/213 Test #191: qa_pdu ...............................   Passed
         Start 192: qa_pdu_lambda
-192/213 Test #192: qa_pdu_lambda ........................***Failed
+192/213 Test #192: qa_pdu_lambda ........................   Passed
         Start 193: qa_pdu_split
-193/213 Test #193: qa_pdu_split .........................***Failed
+193/213 Test #193: qa_pdu_split .........................   Passed
         Start 194: qa_pdu_to_stream
-194/213 Test #194: qa_pdu_to_stream .....................***Failed
+194/213 Test #194: qa_pdu_to_stream .....................   Passed
         Start 195: qa_tags_to_pdu
-195/213 Test #195: qa_tags_to_pdu .......................***Failed
+195/213 Test #195: qa_tags_to_pdu .......................   Passed
         Start 196: qa_take_skip_to_pdu
-196/213 Test #196: qa_take_skip_to_pdu ..................***Failed
+196/213 Test #196: qa_take_skip_to_pdu ..................   Passed
         Start 197: qa_time_delta
-197/213 Test #197: qa_time_delta ........................***Failed
+197/213 Test #197: qa_time_delta ........................   Passed
         Start 198: qa_qtgui
 198/213 Test #198: qa_qtgui .............................***Failed
         Start 199: qa_trellis
@@ -446,15 +446,15 @@ Unable to find executable: gr_fec_rstest
         Start 209: qa_zeromq_sub_msg_source
 209/213 Test #209: qa_zeromq_sub_msg_source .............   Passed
         Start 210: qa_socket_pdu
-210/213 Test #210: qa_socket_pdu ........................***Failed
+210/213 Test #210: qa_socket_pdu ........................   Passed
         Start 211: qa_tcp_sink
-211/213 Test #211: qa_tcp_sink ..........................***Failed
+211/213 Test #211: qa_tcp_sink ..........................   Passed
         Start 212: qa_udp_sink
-212/213 Test #212: qa_udp_sink ..........................***Failed
+212/213 Test #212: qa_udp_sink ..........................   Passed
         Start 213: qa_udp_source
-213/213 Test #213: qa_udp_source ........................***Failed
+213/213 Test #213: qa_udp_source ........................   Passed
 
-88% tests passed, 25 tests failed out of 213
+93% tests passed, 14 tests failed out of 213
 
 Total Test time (real) =
 
@@ -465,34 +465,23 @@ The following tests FAILED:
 	 83 - qa_wavfile (Failed)
 	 84 - test_rs (Not Run)
 	 88 - qa_fecapi_cc (Failed)
+	106 - qa_filterbank (Failed)
 	111 - qa_freq_xlating_fft_filter (Failed)
 	115 - qa_interp_fir_filter (Failed)
 	122 - qa_rational_resampler (Failed)
 	157 - qa_cpm (Failed)
 	170 - qa_linear_equalizer (Failed)
-	190 - qa_add_system_time (Failed)
-	191 - qa_pdu (Failed)
-	192 - qa_pdu_lambda (Failed)
-	193 - qa_pdu_split (Failed)
-	194 - qa_pdu_to_stream (Failed)
-	195 - qa_tags_to_pdu (Failed)
-	196 - qa_take_skip_to_pdu (Failed)
-	197 - qa_time_delta (Failed)
 	198 - qa_qtgui (Failed)
 	200 - test_modtool (Failed)
-	210 - qa_socket_pdu (Failed)
-	211 - qa_tcp_sink (Failed)
-	212 - qa_udp_sink (Failed)
-	213 - qa_udp_source (Failed)
 Errors while running CTest
 Output from these tests are in: /usr/lib/gnuradio/ptest/Testing/Temporary/LastTest.log
 Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.
 
 ERROR: Exit status is 8
-DURATION: 1008
+DURATION: 1019
 END: /usr/lib/gnuradio/ptest
-2022-01-24T01:13
-2022-01-24T01:13
+2022-01-24T22:41
+2022-01-24T22:41
 BEGIN: /usr/lib/volk/ptest
 Test project /usr/lib/volk/ptest
         Start   1: qa_volk_16i_32fc_dot_prod_32fc
@@ -771,6 +760,6 @@ Test project /usr/lib/volk/ptest
 Total Test time (real) =
 DURATION: 28
 END: /usr/lib/volk/ptest
-2022-01-24T01:14
+2022-01-24T22:41
 STOP: ptest-runner
 TOTAL: 3 FAIL: 1
