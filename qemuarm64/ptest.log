@@ -1,13 +1,13 @@
 START: ptest-runner
-2022-01-11T20:46
+2022-02-03T14:57
 BEGIN: /usr/lib/fftw/ptest
 fftw  test result:PASSED
 fftwf test result:PASSED
 fftwl test result:PASSED
-DURATION: 3515
+DURATION: 2604
 END: /usr/lib/fftw/ptest
-2022-01-11T21:45
-2022-01-11T21:45
+2022-02-03T15:41
+2022-02-03T15:41
 BEGIN: /usr/lib/gnuradio/ptest
 Test project /usr/lib/gnuradio/ptest
         Start   1: qa_flowgraph
@@ -206,7 +206,7 @@ Unable to find executable: gr_fec_rstest
         Start  89: qa_ber_bf
  89/209 Test  #89: qa_ber_bf ............................   Passed    
         Start  90: qa_depuncture
- 90/209 Test  #90: qa_depuncture ........................   Passed   
+ 90/209 Test  #90: qa_depuncture ........................   Passed    
         Start  91: qa_ecc_ccsds_27
  91/209 Test  #91: qa_ecc_ccsds_27 ......................   Passed    
         Start  92: qa_fecapi_cc
@@ -270,7 +270,7 @@ Unable to find executable: gr_fec_rstest
         Start 121: qa_pfb_channelizer
 121/209 Test #121: qa_pfb_channelizer ...................   Passed    
         Start 122: qa_pfb_decimator
-122/209 Test #122: qa_pfb_decimator .....................   Passed   
+122/209 Test #122: qa_pfb_decimator .....................   Passed    
         Start 123: qa_pfb_interpolator
 123/209 Test #123: qa_pfb_interpolator ..................   Passed    
         Start 124: qa_pfb_synthesizer
@@ -290,7 +290,7 @@ Unable to find executable: gr_fec_rstest
         Start 131: qa_dpll
 131/209 Test #131: qa_dpll ..............................   Passed    
         Start 132: qa_fastnoise
-132/209 Test #132: qa_fastnoise .........................   Passed  
+132/209 Test #132: qa_fastnoise .........................   Passed   
         Start 133: qa_fm_emph
 133/209 Test #133: qa_fm_emph ...........................   Passed    
         Start 134: qa_fmdet
@@ -370,11 +370,11 @@ Unable to find executable: gr_fec_rstest
         Start 171: qa_framer_sink
 171/209 Test #171: qa_framer_sink .......................   Passed    
         Start 172: qa_glfsr_source
-172/209 Test #172: qa_glfsr_source ......................   Passed   
+172/209 Test #172: qa_glfsr_source ......................   Passed    
         Start 173: qa_hdlc_framer
 173/209 Test #173: qa_hdlc_framer .......................   Passed    
         Start 174: qa_header_payload_demux
-174/209 Test #174: qa_header_payload_demux ..............   Passed   
+174/209 Test #174: qa_header_payload_demux ..............   Passed    
         Start 175: qa_lfsr
 175/209 Test #175: qa_lfsr ..............................   Passed    
         Start 176: qa_linear_equalizer
@@ -463,10 +463,10 @@ The following tests FAILED:
 Errors while running CTest
 
 ERROR: Exit status is 8
-DURATION: 1230
+DURATION: 761
 END: /usr/lib/gnuradio/ptest
-2022-01-11T22:05
-2022-01-11T22:05
+2022-02-03T15:53
+2022-02-03T15:53
 BEGIN: /usr/lib/volk/ptest
 Test project /usr/lib/volk/ptest
         Start   1: qa_volk_16i_32fc_dot_prod_32fc
@@ -743,8 +743,8 @@ Test project /usr/lib/volk/ptest
 100% tests passed, 0 tests failed out of 135
 
 Total Test time (real) =  
-DURATION: 15
+DURATION: 11
 END: /usr/lib/volk/ptest
-2022-01-11T22:05
+2022-02-03T15:53
 STOP: ptest-runner
 TOTAL: 3 FAIL: 1
