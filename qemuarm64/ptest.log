@@ -1,13 +1,13 @@
 START: ptest-runner
-2022-02-09T22:05
+2022-02-10T13:31
 BEGIN: /usr/lib/fftw/ptest
 fftw  test result:PASSED
 fftwf test result:PASSED
 fftwl test result:PASSED
-DURATION: 2860
+DURATION: 2884
 END: /usr/lib/fftw/ptest
-2022-02-09T22:52
-2022-02-09T22:52
+2022-02-10T14:19
+2022-02-10T14:19
 BEGIN: /usr/lib/gnuradio/ptest
 Test project /usr/lib/gnuradio/ptest
         Start   1: qa_flowgraph
@@ -238,7 +238,7 @@ Unable to find executable: gr_fec_rstest
         Start 105: qa_filter_delay_fc
 105/213 Test #105: qa_filter_delay_fc ...................   Passed
         Start 106: qa_filterbank
-106/213 Test #106: qa_filterbank ........................***Failed
+106/213 Test #106: qa_filterbank ........................   Passed
         Start 107: qa_fir_filter
 107/213 Test #107: qa_fir_filter ........................   Passed
         Start 108: qa_firdes
@@ -454,7 +454,7 @@ Unable to find executable: gr_fec_rstest
         Start 213: qa_udp_source
 213/213 Test #213: qa_udp_source ........................   Passed
 
-97% tests passed, 6 tests failed out of 213
+98% tests passed, 5 tests failed out of 213
 
 Total Test time (real) =
 
@@ -462,7 +462,6 @@ The following tests FAILED:
 	 77 - qa_type_conversions (Failed)
 	 83 - qa_wavfile (Failed)
 	 84 - test_rs (Not Run)
-	106 - qa_filterbank (Failed)
 	198 - qa_qtgui (Failed)
 	200 - test_modtool (Failed)
 Errors while running CTest
@@ -470,10 +469,10 @@ Output from these tests are in: /usr/lib/gnuradio/ptest/Testing/Temporary/LastTe
 Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.
 
 ERROR: Exit status is 8
-DURATION: 1354
+DURATION: 1357
 END: /usr/lib/gnuradio/ptest
-2022-02-09T23:15
-2022-02-09T23:15
+2022-02-10T14:42
+2022-02-10T14:42
 BEGIN: /usr/lib/volk/ptest
 Test project /usr/lib/volk/ptest
         Start   1: qa_volk_16i_32fc_dot_prod_32fc
@@ -750,8 +749,8 @@ Test project /usr/lib/volk/ptest
 100% tests passed, 0 tests failed out of 135
 
 Total Test time (real) =
-DURATION: 19
+DURATION: 20
 END: /usr/lib/volk/ptest
-2022-02-09T23:15
+2022-02-10T14:42
 STOP: ptest-runner
 TOTAL: 3 FAIL: 1
