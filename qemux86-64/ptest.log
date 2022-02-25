@@ -1,13 +1,13 @@
 START: ptest-runner
-2022-02-03T12:09
+2022-02-25T02:08
 BEGIN: /usr/lib/fftw/ptest
 fftw  test result:PASSED
 fftwf test result:PASSED
 fftwl test result:PASSED
-DURATION: 1829
+DURATION: 3073
 END: /usr/lib/fftw/ptest
-2022-02-03T12:39
-2022-02-03T12:39
+2022-02-25T02:59
+2022-02-25T02:59
 BEGIN: /usr/lib/gnuradio/ptest
 Test project /usr/lib/gnuradio/ptest
         Start   1: qa_flowgraph
@@ -468,10 +468,10 @@ Output from these tests are in: /usr/lib/gnuradio/ptest/Testing/Temporary/LastTe
 Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.
 
 ERROR: Exit status is 8
-DURATION: 1701
+DURATION: 1708
 END: /usr/lib/gnuradio/ptest
-2022-02-03T13:07
-2022-02-03T13:07
+2022-02-25T03:28
+2022-02-25T03:28
 BEGIN: /usr/lib/volk/ptest
 Test project /usr/lib/volk/ptest
         Start   1: qa_volk_16i_32fc_dot_prod_32fc
@@ -748,8 +748,8 @@ Test project /usr/lib/volk/ptest
 100% tests passed, 0 tests failed out of 135
 
 Total Test time (real) =
-DURATION: 36
+DURATION: 35
 END: /usr/lib/volk/ptest
-2022-02-03T13:08
+2022-02-25T03:28
 STOP: ptest-runner
 TOTAL: 3 FAIL: 1
