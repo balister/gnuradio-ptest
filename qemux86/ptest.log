@@ -1,13 +1,13 @@
 START: ptest-runner
-2022-03-30T21:23
+2022-04-03T17:08
 BEGIN: /usr/lib/fftw/ptest
 fftw  test result:PASSED
 fftwf test result:PASSED
 fftwl test result:PASSED
-DURATION: 2597
+DURATION: 1258
 END: /usr/lib/fftw/ptest
-2022-03-30T22:06
-2022-03-30T22:06
+2022-04-03T17:29
+2022-04-03T17:29
 BEGIN: /usr/lib/gnuradio/ptest
 Test project /usr/lib/gnuradio/ptest
         Start   1: qa_flowgraph
@@ -129,7 +129,7 @@ Test project /usr/lib/gnuradio/ptest
         Start  59: qa_rms
  59/209 Test  #59: qa_rms ...............................   Passed    
         Start  60: qa_rotator_cc
- 60/209 Test  #60: qa_rotator_cc ........................   Passed    
+ 60/209 Test  #60: qa_rotator_cc ........................***Failed    
         Start  61: qa_sample_and_hold
  61/209 Test  #61: qa_sample_and_hold ...................   Passed    
         Start  62: qa_selector
@@ -206,7 +206,7 @@ Unable to find executable: gr_fec_rstest
         Start  89: qa_ber_bf
  89/209 Test  #89: qa_ber_bf ............................   Passed    
         Start  90: qa_depuncture
- 90/209 Test  #90: qa_depuncture ........................   Passed    
+ 90/209 Test  #90: qa_depuncture ........................   Passed   
         Start  91: qa_ecc_ccsds_27
  91/209 Test  #91: qa_ecc_ccsds_27 ......................   Passed    
         Start  92: qa_fecapi_cc
@@ -446,11 +446,12 @@ Unable to find executable: gr_fec_rstest
         Start 209: qa_zeromq_sub_msg_source
 209/209 Test #209: qa_zeromq_sub_msg_source .............   Passed    
 
-96% tests passed, 8 tests failed out of 209
+96% tests passed, 9 tests failed out of 209
 
 Total Test time (real) = 
 
 The following tests FAILED:
+	 60 - qa_rotator_cc (Failed)
 	 87 - qa_wavfile (Failed)
 	 88 - test_rs (Not Run)
 	 92 - qa_fecapi_cc (Failed)
@@ -462,10 +463,10 @@ The following tests FAILED:
 Errors while running CTest
 
 ERROR: Exit status is 8
-DURATION: 1035
+DURATION: 1040
 END: /usr/lib/gnuradio/ptest
-2022-03-30T22:23
-2022-03-30T22:23
+2022-04-03T17:46
+2022-04-03T17:46
 BEGIN: /usr/lib/volk/ptest
 Test project /usr/lib/volk/ptest
         Start   1: qa_volk_16i_32fc_dot_prod_32fc
@@ -744,6 +745,6 @@ Test project /usr/lib/volk/ptest
 Total Test time (real) =  
 DURATION: 17
 END: /usr/lib/volk/ptest
-2022-03-30T22:23
+2022-04-03T17:46
 STOP: ptest-runner
 TOTAL: 3 FAIL: 1
