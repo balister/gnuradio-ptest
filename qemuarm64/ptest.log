@@ -1,13 +1,13 @@
 START: ptest-runner
-2022-05-07T16:51
+2022-05-15T15:15
 BEGIN: /usr/lib/fftw/ptest
 fftw  test result:PASSED
 fftwf test result:PASSED
 fftwl test result:PASSED
-DURATION: 3443
+DURATION: 3503
 END: /usr/lib/fftw/ptest
-2022-05-07T17:49
-2022-05-07T17:49
+2022-05-15T16:13
+2022-05-15T16:13
 BEGIN: /usr/lib/gnuradio/ptest
 Test project /usr/lib/gnuradio/ptest
         Start   1: qa_flowgraph
@@ -346,7 +346,7 @@ Unable to find executable: gr_fec_rstest
         Start 159: qa_crc
 159/216 Test #159: qa_crc ...............................   Passed
         Start 160: qa_crc16_async_bb
-160/216 Test #160: qa_crc16_async_bb ....................***Failed
+160/216 Test #160: qa_crc16_async_bb ....................   Passed
         Start 161: qa_crc32_async_bb
 161/216 Test #161: qa_crc32_async_bb ....................   Passed
         Start 162: qa_crc32_bb
@@ -460,7 +460,7 @@ Unable to find executable: gr_fec_rstest
         Start 216: qa_udp_source
 216/216 Test #216: qa_udp_source ........................   Passed
 
-98% tests passed, 5 tests failed out of 216
+98% tests passed, 4 tests failed out of 216
 
 Total Test time (real) =
 
@@ -468,17 +468,16 @@ The following tests FAILED:
 	 78 - qa_type_conversions (Failed)
 	 84 - qa_wavfile (Failed)
 	 85 - test_rs (Not Run)
-	160 - qa_crc16_async_bb (Failed)
 	203 - test_modtool (Failed)
 Errors while running CTest
 Output from these tests are in: /usr/lib/gnuradio/ptest/Testing/Temporary/LastTest.log
 Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.
 
 ERROR: Exit status is 8
-DURATION: 893
+DURATION: 1367
 END: /usr/lib/gnuradio/ptest
-2022-05-07T18:04
-2022-05-07T18:04
+2022-05-15T16:36
+2022-05-15T16:36
 BEGIN: /usr/lib/volk/ptest
 Test project /usr/lib/volk/ptest
         Start   1: qa_volk_16i_32fc_dot_prod_32fc
@@ -763,8 +762,8 @@ Test project /usr/lib/volk/ptest
 100% tests passed, 0 tests failed out of 139
 
 Total Test time (real) =
-DURATION: 15
+DURATION: 20
 END: /usr/lib/volk/ptest
-2022-05-07T18:04
+2022-05-15T16:36
 STOP: ptest-runner
 TOTAL: 3 FAIL: 1
