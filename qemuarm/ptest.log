@@ -1,13 +1,13 @@
 START: ptest-runner
-2022-05-07T18:53
+2022-05-15T19:49
 BEGIN: /usr/lib/fftw/ptest
 fftw  test result:PASSED
 fftwf test result:PASSED
 fftwl test result:PASSED
-DURATION: 623
+DURATION: 1379
 END: /usr/lib/fftw/ptest
-2022-05-07T19:04
-2022-05-07T19:04
+2022-05-15T20:12
+2022-05-15T20:12
 BEGIN: /usr/lib/gnuradio/ptest
 Test project /usr/lib/gnuradio/ptest
         Start   1: qa_flowgraph
@@ -117,7 +117,7 @@ Test project /usr/lib/gnuradio/ptest
         Start  53: qa_plateau_detector_fb
  53/216 Test  #53: qa_plateau_detector_fb ...............   Passed
         Start  54: qa_probe_signal
- 54/216 Test  #54: qa_probe_signal ......................   Passed
+ 54/216 Test  #54: qa_probe_signal ......................***Failed
         Start  55: qa_python_message_passing
  55/216 Test  #55: qa_python_message_passing ............   Passed
         Start  56: qa_regenerate
@@ -240,7 +240,7 @@ Unable to find executable: gr_fec_rstest
         Start 106: qa_filter_delay_fc
 106/216 Test #106: qa_filter_delay_fc ...................   Passed
         Start 107: qa_filterbank
-107/216 Test #107: qa_filterbank ........................***Failed
+107/216 Test #107: qa_filterbank ........................   Passed
         Start 108: qa_fir_filter
 108/216 Test #108: qa_fir_filter ........................   Passed
         Start 109: qa_firdes
@@ -467,10 +467,10 @@ Total Test time (real) =
 The following tests FAILED:
 	  9 - qa_add_mult_div_sub (Failed)
 	 10 - qa_add_mult_v (Failed)
+	 54 - qa_probe_signal (Failed)
 	 78 - qa_type_conversions (Failed)
 	 84 - qa_wavfile (Failed)
 	 85 - test_rs (Not Run)
-	107 - qa_filterbank (Failed)
 	116 - qa_interp_fir_filter (Failed)
 	123 - qa_rational_resampler (Failed)
 	158 - qa_cpm (Failed)
@@ -481,10 +481,10 @@ Output from these tests are in: /usr/lib/gnuradio/ptest/Testing/Temporary/LastTe
 Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.
 
 ERROR: Exit status is 8
-DURATION: 1106
+DURATION: 1680
 END: /usr/lib/gnuradio/ptest
-2022-05-07T19:22
-2022-05-07T19:22
+2022-05-15T20:40
+2022-05-15T20:40
 BEGIN: /usr/lib/volk/ptest
 Test project /usr/lib/volk/ptest
         Start   1: qa_volk_16i_32fc_dot_prod_32fc
@@ -769,8 +769,8 @@ Test project /usr/lib/volk/ptest
 100% tests passed, 0 tests failed out of 139
 
 Total Test time (real) =
-DURATION: 27
+DURATION: 39
 END: /usr/lib/volk/ptest
-2022-05-07T19:23
+2022-05-15T20:41
 STOP: ptest-runner
 TOTAL: 3 FAIL: 1
