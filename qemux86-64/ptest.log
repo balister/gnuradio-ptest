@@ -1,13 +1,13 @@
 START: ptest-runner
-2022-05-07T23:20
+2022-05-16T02:33
 BEGIN: /usr/lib/fftw/ptest
 fftw  test result:PASSED
 fftwf test result:PASSED
 fftwl test result:PASSED
-DURATION: 2406
+DURATION: 3407
 END: /usr/lib/fftw/ptest
-2022-05-08T00:00
-2022-05-08T00:00
+2022-05-16T03:29
+2022-05-16T03:29
 BEGIN: /usr/lib/gnuradio/ptest
 Test project /usr/lib/gnuradio/ptest
         Start   1: qa_flowgraph
@@ -346,7 +346,7 @@ Unable to find executable: gr_fec_rstest
         Start 159: qa_crc
 159/216 Test #159: qa_crc ...............................   Passed
         Start 160: qa_crc16_async_bb
-160/216 Test #160: qa_crc16_async_bb ....................***Failed
+160/216 Test #160: qa_crc16_async_bb ....................   Passed
         Start 161: qa_crc32_async_bb
 161/216 Test #161: qa_crc32_async_bb ....................   Passed
         Start 162: qa_crc32_bb
@@ -460,24 +460,23 @@ Unable to find executable: gr_fec_rstest
         Start 216: qa_udp_source
 216/216 Test #216: qa_udp_source ........................   Passed
 
-98% tests passed, 4 tests failed out of 216
+99% tests passed, 3 tests failed out of 216
 
 Total Test time (real) =
 
 The following tests FAILED:
 	 84 - qa_wavfile (Failed)
 	 85 - test_rs (Not Run)
-	160 - qa_crc16_async_bb (Failed)
 	203 - test_modtool (Failed)
 Errors while running CTest
 Output from these tests are in: /usr/lib/gnuradio/ptest/Testing/Temporary/LastTest.log
 Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.
 
 ERROR: Exit status is 8
-DURATION: 1226
+DURATION: 1941
 END: /usr/lib/gnuradio/ptest
-2022-05-08T00:20
-2022-05-08T00:20
+2022-05-16T04:02
+2022-05-16T04:02
 BEGIN: /usr/lib/volk/ptest
 Test project /usr/lib/volk/ptest
         Start   1: qa_volk_16i_32fc_dot_prod_32fc
@@ -762,8 +761,8 @@ Test project /usr/lib/volk/ptest
 100% tests passed, 0 tests failed out of 139
 
 Total Test time (real) =
-DURATION: 29
+DURATION: 38
 END: /usr/lib/volk/ptest
-2022-05-08T00:21
+2022-05-16T04:02
 STOP: ptest-runner
 TOTAL: 3 FAIL: 1
