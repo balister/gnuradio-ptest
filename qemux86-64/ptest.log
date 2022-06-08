@@ -1,0 +1,768 @@
+START: ptest-runner
+2022-06-08T03:16
+BEGIN: /usr/lib/fftw/ptest
+fftw  test result:PASSED
+fftwf test result:PASSED
+fftwl test result:PASSED
+DURATION: 2450
+END: /usr/lib/fftw/ptest
+2022-06-08T03:57
+2022-06-08T03:57
+BEGIN: /usr/lib/gnuradio/ptest
+Test project /usr/lib/gnuradio/ptest
+        Start   1: qa_flowgraph
+  1/216 Test   #1: qa_flowgraph .........................   Passed
+        Start   2: qa_prefs
+  2/216 Test   #2: qa_prefs .............................   Passed
+        Start   3: qa_random
+  3/216 Test   #3: qa_random ............................   Passed
+        Start   4: qa_tag_utils
+  4/216 Test   #4: qa_tag_utils .........................   Passed
+        Start   5: qa_hier_block2
+  5/216 Test   #5: qa_hier_block2 .......................   Passed
+        Start   6: qa_uncaught_exception
+  6/216 Test   #6: qa_uncaught_exception ................   Passed
+        Start   7: qa_pmt
+  7/216 Test   #7: qa_pmt ...............................   Passed
+        Start   8: qa_pmt_to_python
+  8/216 Test   #8: qa_pmt_to_python .....................   Passed
+        Start   9: qa_add_mult_div_sub
+  9/216 Test   #9: qa_add_mult_div_sub ..................   Passed
+        Start  10: qa_add_mult_v
+ 10/216 Test  #10: qa_add_mult_v ........................   Passed
+        Start  11: qa_affinity
+ 11/216 Test  #11: qa_affinity ..........................   Passed
+        Start  12: qa_argmax
+ 12/216 Test  #12: qa_argmax ............................   Passed
+        Start  13: qa_block_behavior
+ 13/216 Test  #13: qa_block_behavior ....................   Passed
+        Start  14: qa_block_gateway
+ 14/216 Test  #14: qa_block_gateway .....................   Passed
+        Start  15: qa_boolean_operators
+ 15/216 Test  #15: qa_boolean_operators .................   Passed
+        Start  16: qa_burst_tagger
+ 16/216 Test  #16: qa_burst_tagger ......................   Passed
+        Start  17: qa_conjugate
+ 17/216 Test  #17: qa_conjugate .........................   Passed
+        Start  18: qa_copy
+ 18/216 Test  #18: qa_copy ..............................   Passed
+        Start  19: qa_delay
+ 19/216 Test  #19: qa_delay .............................   Passed
+        Start  20: qa_endian_swap
+ 20/216 Test  #20: qa_endian_swap .......................   Passed
+        Start  21: qa_exponentiate_const_cci
+ 21/216 Test  #21: qa_exponentiate_const_cci ............   Passed
+        Start  22: qa_file_descriptor_source_sink
+ 22/216 Test  #22: qa_file_descriptor_source_sink .......   Passed
+        Start  23: qa_file_metadata
+ 23/216 Test  #23: qa_file_metadata .....................   Passed
+        Start  24: qa_file_sink
+ 24/216 Test  #24: qa_file_sink .........................   Passed
+        Start  25: qa_file_source
+ 25/216 Test  #25: qa_file_source .......................   Passed
+        Start  26: qa_head
+ 26/216 Test  #26: qa_head ..............................   Passed
+        Start  27: qa_hier_block2
+ 27/216 Test  #27: qa_hier_block2 .......................   Passed
+        Start  28: qa_hier_block2_message_connections
+ 28/216 Test  #28: qa_hier_block2_message_connections ...   Passed
+        Start  29: qa_host_buffer_copy
+ 29/216 Test  #29: qa_host_buffer_copy ..................   Passed
+        Start  30: qa_integrate
+ 30/216 Test  #30: qa_integrate .........................   Passed
+        Start  31: qa_interleave
+ 31/216 Test  #31: qa_interleave ........................   Passed
+        Start  32: qa_keep_m_in_n
+ 32/216 Test  #32: qa_keep_m_in_n .......................   Passed
+        Start  33: qa_keep_one_in_n
+ 33/216 Test  #33: qa_keep_one_in_n .....................   Passed
+        Start  34: qa_logger
+ 34/216 Test  #34: qa_logger ............................   Passed
+        Start  35: qa_matrix_interleaver
+ 35/216 Test  #35: qa_matrix_interleaver ................   Passed
+        Start  36: qa_max
+ 36/216 Test  #36: qa_max ...............................   Passed
+        Start  37: qa_message
+ 37/216 Test  #37: qa_message ...........................   Passed
+        Start  38: qa_message_debug
+ 38/216 Test  #38: qa_message_debug .....................   Passed
+        Start  39: qa_message_strobe
+ 39/216 Test  #39: qa_message_strobe ....................   Passed
+        Start  40: qa_min
+ 40/216 Test  #40: qa_min ...............................   Passed
+        Start  41: qa_moving_average
+ 41/216 Test  #41: qa_moving_average ....................   Passed
+        Start  42: qa_multiply_conjugate
+ 42/216 Test  #42: qa_multiply_conjugate ................   Passed
+        Start  43: qa_multiply_matrix_xx
+ 43/216 Test  #43: qa_multiply_matrix_xx ................   Passed
+        Start  44: qa_mute
+ 44/216 Test  #44: qa_mute ..............................   Passed
+        Start  45: qa_nlog10
+ 45/216 Test  #45: qa_nlog10 ............................   Passed
+        Start  46: qa_null_sink_source
+ 46/216 Test  #46: qa_null_sink_source ..................   Passed
+        Start  47: qa_pack_k_bits
+ 47/216 Test  #47: qa_pack_k_bits .......................   Passed
+        Start  48: qa_packed_to_unpacked
+ 48/216 Test  #48: qa_packed_to_unpacked ................   Passed
+        Start  49: qa_patterned_interleaver
+ 49/216 Test  #49: qa_patterned_interleaver .............   Passed
+        Start  50: qa_peak_detector
+ 50/216 Test  #50: qa_peak_detector .....................   Passed
+        Start  51: qa_peak_detector2
+ 51/216 Test  #51: qa_peak_detector2 ....................   Passed
+        Start  52: qa_pipe_fittings
+ 52/216 Test  #52: qa_pipe_fittings .....................   Passed
+        Start  53: qa_plateau_detector_fb
+ 53/216 Test  #53: qa_plateau_detector_fb ...............   Passed
+        Start  54: qa_probe_signal
+ 54/216 Test  #54: qa_probe_signal ......................   Passed
+        Start  55: qa_python_message_passing
+ 55/216 Test  #55: qa_python_message_passing ............   Passed
+        Start  56: qa_regenerate
+ 56/216 Test  #56: qa_regenerate ........................   Passed
+        Start  57: qa_repack_bits_bb
+ 57/216 Test  #57: qa_repack_bits_bb ....................   Passed
+        Start  58: qa_repeat
+ 58/216 Test  #58: qa_repeat ............................   Passed
+        Start  59: qa_rms
+ 59/216 Test  #59: qa_rms ...............................   Passed
+        Start  60: qa_rotator_cc
+ 60/216 Test  #60: qa_rotator_cc ........................   Passed
+        Start  61: qa_sample_and_hold
+ 61/216 Test  #61: qa_sample_and_hold ...................   Passed
+        Start  62: qa_selector
+ 62/216 Test  #62: qa_selector ..........................   Passed
+        Start  63: qa_skiphead
+ 63/216 Test  #63: qa_skiphead ..........................   Passed
+        Start  64: qa_stream_demux
+ 64/216 Test  #64: qa_stream_demux ......................   Passed
+        Start  65: qa_stream_mux
+ 65/216 Test  #65: qa_stream_mux ........................   Passed
+        Start  66: qa_stream_to_tagged_stream
+ 66/216 Test  #66: qa_stream_to_tagged_stream ...........   Passed
+        Start  67: qa_stretch
+ 67/216 Test  #67: qa_stretch ...........................   Passed
+        Start  68: qa_tag_debug
+ 68/216 Test  #68: qa_tag_debug .........................   Passed
+        Start  69: qa_tag_file_sink
+ 69/216 Test  #69: qa_tag_file_sink .....................   Passed
+        Start  70: qa_tag_gate
+ 70/216 Test  #70: qa_tag_gate ..........................   Passed
+        Start  71: qa_tag_share
+ 71/216 Test  #71: qa_tag_share .........................   Passed
+        Start  72: qa_tagged_stream_mux
+ 72/216 Test  #72: qa_tagged_stream_mux .................   Passed
+        Start  73: qa_tags_strobe
+ 73/216 Test  #73: qa_tags_strobe .......................   Passed
+        Start  74: qa_threshold
+ 74/216 Test  #74: qa_threshold .........................   Passed
+        Start  75: qa_throttle
+ 75/216 Test  #75: qa_throttle ..........................   Passed
+        Start  76: qa_transcendental
+ 76/216 Test  #76: qa_transcendental ....................   Passed
+        Start  77: qa_tsb_vector_sink_X
+ 77/216 Test  #77: qa_tsb_vector_sink_X .................   Passed
+        Start  78: qa_type_conversions
+ 78/216 Test  #78: qa_type_conversions ..................   Passed
+        Start  79: qa_unpack_k_bits
+ 79/216 Test  #79: qa_unpack_k_bits .....................   Passed
+        Start  80: qa_vco
+ 80/216 Test  #80: qa_vco ...............................   Passed
+        Start  81: qa_vector_insert
+ 81/216 Test  #81: qa_vector_insert .....................   Passed
+        Start  82: qa_vector_map
+ 82/216 Test  #82: qa_vector_map ........................   Passed
+        Start  83: qa_vector_sink_source
+ 83/216 Test  #83: qa_vector_sink_source ................   Passed
+        Start  84: qa_wavfile
+ 84/216 Test  #84: qa_wavfile ...........................***Failed
+        Start  85: test_rs
+Could not find executable gr_fec_rstest
+Looked in the following places:
+gr_fec_rstest
+gr_fec_rstest
+Release/gr_fec_rstest
+Release/gr_fec_rstest
+Debug/gr_fec_rstest
+Debug/gr_fec_rstest
+MinSizeRel/gr_fec_rstest
+MinSizeRel/gr_fec_rstest
+RelWithDebInfo/gr_fec_rstest
+RelWithDebInfo/gr_fec_rstest
+Deployment/gr_fec_rstest
+Deployment/gr_fec_rstest
+Development/gr_fec_rstest
+Development/gr_fec_rstest
+Unable to find executable: gr_fec_rstest
+ 85/216 Test  #85: test_rs ..............................***Not Run
+        Start  86: qa_ber_bf
+ 86/216 Test  #86: qa_ber_bf ............................   Passed
+        Start  87: qa_depuncture
+ 87/216 Test  #87: qa_depuncture ........................   Passed
+        Start  88: qa_ecc_ccsds_27
+ 88/216 Test  #88: qa_ecc_ccsds_27 ......................   Passed
+        Start  89: qa_fecapi_cc
+ 89/216 Test  #89: qa_fecapi_cc .........................   Passed
+        Start  90: qa_fecapi_cc_buffer_overflow
+ 90/216 Test  #90: qa_fecapi_cc_buffer_overflow .........   Passed
+        Start  91: qa_fecapi_dummy
+ 91/216 Test  #91: qa_fecapi_dummy ......................   Passed
+        Start  92: qa_fecapi_ldpc
+ 92/216 Test  #92: qa_fecapi_ldpc .......................   Passed
+        Start  93: qa_fecapi_repetition
+ 93/216 Test  #93: qa_fecapi_repetition .................   Passed
+        Start  94: qa_polar_decoder_sc
+ 94/216 Test  #94: qa_polar_decoder_sc ..................   Passed
+        Start  95: qa_polar_decoder_sc_list
+ 95/216 Test  #95: qa_polar_decoder_sc_list .............   Passed
+        Start  96: qa_polar_decoder_sc_systematic
+ 96/216 Test  #96: qa_polar_decoder_sc_systematic .......   Passed
+        Start  97: qa_polar_encoder
+ 97/216 Test  #97: qa_polar_encoder .....................   Passed
+        Start  98: qa_polar_encoder_systematic
+ 98/216 Test  #98: qa_polar_encoder_systematic ..........   Passed
+        Start  99: qa_puncture
+ 99/216 Test  #99: qa_puncture ..........................   Passed
+        Start 100: qa_fft
+100/216 Test #100: qa_fft ...............................   Passed
+        Start 101: qa_goertzel
+101/216 Test #101: qa_goertzel ..........................   Passed
+        Start 102: qa_window
+102/216 Test #102: qa_window ............................   Passed
+        Start 103: qa_dc_blocker
+103/216 Test #103: qa_dc_blocker ........................   Passed
+        Start 104: qa_fft_filter
+104/216 Test #104: qa_fft_filter ........................   Passed
+        Start 105: qa_file_taps_loader
+105/216 Test #105: qa_file_taps_loader ..................   Passed
+        Start 106: qa_filter_delay_fc
+106/216 Test #106: qa_filter_delay_fc ...................   Passed
+        Start 107: qa_filterbank
+107/216 Test #107: qa_filterbank ........................   Passed
+        Start 108: qa_fir_filter
+108/216 Test #108: qa_fir_filter ........................   Passed
+        Start 109: qa_firdes
+109/216 Test #109: qa_firdes ............................   Passed
+        Start 110: qa_fractional_interpolator
+110/216 Test #110: qa_fractional_interpolator ...........   Passed
+        Start 111: qa_fractional_resampler
+111/216 Test #111: qa_fractional_resampler ..............   Passed
+        Start 112: qa_freq_xlating_fft_filter
+112/216 Test #112: qa_freq_xlating_fft_filter ...........   Passed
+        Start 113: qa_freq_xlating_fir_filter
+113/216 Test #113: qa_freq_xlating_fir_filter ...........   Passed
+        Start 114: qa_hilbert
+114/216 Test #114: qa_hilbert ...........................   Passed
+        Start 115: qa_iir_filter
+115/216 Test #115: qa_iir_filter ........................   Passed
+        Start 116: qa_interp_fir_filter
+116/216 Test #116: qa_interp_fir_filter .................   Passed
+        Start 117: qa_pfb_arb_resampler
+117/216 Test #117: qa_pfb_arb_resampler .................   Passed
+        Start 118: qa_pfb_channelizer
+118/216 Test #118: qa_pfb_channelizer ...................   Passed
+        Start 119: qa_pfb_decimator
+119/216 Test #119: qa_pfb_decimator .....................   Passed
+        Start 120: qa_pfb_interpolator
+120/216 Test #120: qa_pfb_interpolator ..................   Passed
+        Start 121: qa_pfb_synthesizer
+121/216 Test #121: qa_pfb_synthesizer ...................   Passed
+        Start 122: qa_pm_remez
+122/216 Test #122: qa_pm_remez ..........................   Passed
+        Start 123: qa_rational_resampler
+123/216 Test #123: qa_rational_resampler ................   Passed
+        Start 124: qa_single_pole_iir
+124/216 Test #124: qa_single_pole_iir ...................   Passed
+        Start 125: qa_agc
+125/216 Test #125: qa_agc ...............................   Passed
+        Start 126: qa_cpfsk
+126/216 Test #126: qa_cpfsk .............................   Passed
+        Start 127: qa_ctcss_squelch
+127/216 Test #127: qa_ctcss_squelch .....................   Passed
+        Start 128: qa_dpll
+128/216 Test #128: qa_dpll ..............................   Passed
+        Start 129: qa_fastnoise
+129/216 Test #129: qa_fastnoise .........................   Passed
+        Start 130: qa_fm_emph
+130/216 Test #130: qa_fm_emph ...........................   Passed
+        Start 131: qa_fmdet
+131/216 Test #131: qa_fmdet .............................   Passed
+        Start 132: qa_frequency_modulator
+132/216 Test #132: qa_frequency_modulator ...............   Passed
+        Start 133: qa_noise
+133/216 Test #133: qa_noise .............................   Passed
+        Start 134: qa_phase_modulator
+134/216 Test #134: qa_phase_modulator ...................   Passed
+        Start 135: qa_pll_carriertracking
+135/216 Test #135: qa_pll_carriertracking ...............   Passed
+        Start 136: qa_pll_freqdet
+136/216 Test #136: qa_pll_freqdet .......................   Passed
+        Start 137: qa_pll_refout
+137/216 Test #137: qa_pll_refout ........................   Passed
+        Start 138: qa_probe_avg_mag_sqrd
+138/216 Test #138: qa_probe_avg_mag_sqrd ................   Passed
+        Start 139: qa_pwr_squelch
+139/216 Test #139: qa_pwr_squelch .......................   Passed
+        Start 140: qa_quadrature_demod
+140/216 Test #140: qa_quadrature_demod ..................   Passed
+        Start 141: qa_rail_ff
+141/216 Test #141: qa_rail_ff ...........................   Passed
+        Start 142: qa_random_uniform_source
+142/216 Test #142: qa_random_uniform_source .............   Passed
+        Start 143: qa_sig_source
+143/216 Test #143: qa_sig_source ........................   Passed
+        Start 144: qa_simple_squelch
+144/216 Test #144: qa_simple_squelch ....................   Passed
+        Start 145: qa_binary_slicer_fb
+145/216 Test #145: qa_binary_slicer_fb ..................   Passed
+        Start 146: qa_burst_shaper
+146/216 Test #146: qa_burst_shaper ......................   Passed
+        Start 147: qa_chunks_to_symbols
+147/216 Test #147: qa_chunks_to_symbols .................   Passed
+        Start 148: qa_clock_recovery_mm
+148/216 Test #148: qa_clock_recovery_mm .................   Passed
+        Start 149: qa_constellation
+149/216 Test #149: qa_constellation .....................   Passed
+        Start 150: qa_constellation_decoder_cb
+150/216 Test #150: qa_constellation_decoder_cb ..........   Passed
+        Start 151: qa_constellation_encoder_bc
+151/216 Test #151: qa_constellation_encoder_bc ..........   Passed
+        Start 152: qa_constellation_receiver
+152/216 Test #152: qa_constellation_receiver ............   Passed
+        Start 153: qa_constellation_soft_decoder_cf
+153/216 Test #153: qa_constellation_soft_decoder_cf .....   Passed
+        Start 154: qa_correlate_access_code
+154/216 Test #154: qa_correlate_access_code .............   Passed
+        Start 155: qa_correlate_access_code_XX_ts
+155/216 Test #155: qa_correlate_access_code_XX_ts .......   Passed
+        Start 156: qa_correlate_access_code_tag
+156/216 Test #156: qa_correlate_access_code_tag .........   Passed
+        Start 157: qa_costas_loop_cc
+157/216 Test #157: qa_costas_loop_cc ....................   Passed
+        Start 158: qa_cpm
+158/216 Test #158: qa_cpm ...............................   Passed
+        Start 159: qa_crc
+159/216 Test #159: qa_crc ...............................   Passed
+        Start 160: qa_crc16_async_bb
+160/216 Test #160: qa_crc16_async_bb ....................   Passed
+        Start 161: qa_crc32_async_bb
+161/216 Test #161: qa_crc32_async_bb ....................   Passed
+        Start 162: qa_crc32_bb
+162/216 Test #162: qa_crc32_bb ..........................   Passed
+        Start 163: qa_decision_feedback_equalizer
+163/216 Test #163: qa_decision_feedback_equalizer .......   Passed
+        Start 164: qa_diff_encoder
+164/216 Test #164: qa_diff_encoder ......................   Passed
+        Start 165: qa_diff_encoder_nrzi
+165/216 Test #165: qa_diff_encoder_nrzi .................   Passed
+        Start 166: qa_diff_phasor_cc
+166/216 Test #166: qa_diff_phasor_cc ....................   Passed
+        Start 167: qa_digital
+167/216 Test #167: qa_digital ...........................   Passed
+        Start 168: qa_fll_band_edge
+168/216 Test #168: qa_fll_band_edge .....................   Passed
+        Start 169: qa_framer_sink
+169/216 Test #169: qa_framer_sink .......................   Passed
+        Start 170: qa_glfsr_source
+170/216 Test #170: qa_glfsr_source ......................   Passed
+        Start 171: qa_hdlc_framer
+171/216 Test #171: qa_hdlc_framer .......................   Passed
+        Start 172: qa_header_payload_demux
+172/216 Test #172: qa_header_payload_demux ..............   Passed
+        Start 173: qa_lfsr
+173/216 Test #173: qa_lfsr ..............................   Passed
+        Start 174: qa_linear_equalizer
+174/216 Test #174: qa_linear_equalizer ..................   Passed
+        Start 175: qa_map
+175/216 Test #175: qa_map ...............................   Passed
+        Start 176: qa_meas_evm_cc
+176/216 Test #176: qa_meas_evm_cc .......................   Passed
+        Start 177: qa_mpsk_snr_est
+177/216 Test #177: qa_mpsk_snr_est ......................   Passed
+        Start 178: qa_ofdm_carrier_allocator_cvc
+178/216 Test #178: qa_ofdm_carrier_allocator_cvc ........   Passed
+        Start 179: qa_ofdm_chanest_vcvc
+179/216 Test #179: qa_ofdm_chanest_vcvc .................   Passed
+        Start 180: qa_ofdm_cyclic_prefixer
+180/216 Test #180: qa_ofdm_cyclic_prefixer ..............   Passed
+        Start 181: qa_ofdm_frame_equalizer_vcvc
+181/216 Test #181: qa_ofdm_frame_equalizer_vcvc .........   Passed
+        Start 182: qa_ofdm_serializer_vcc
+182/216 Test #182: qa_ofdm_serializer_vcc ...............   Passed
+        Start 183: qa_ofdm_sync_sc_cfb
+183/216 Test #183: qa_ofdm_sync_sc_cfb ..................   Passed
+        Start 184: qa_ofdm_txrx
+184/216 Test #184: qa_ofdm_txrx .........................   Passed
+        Start 185: qa_packet_format
+185/216 Test #185: qa_packet_format .....................   Passed
+        Start 186: qa_packet_headergenerator_bb
+186/216 Test #186: qa_packet_headergenerator_bb .........   Passed
+        Start 187: qa_packet_headerparser_b
+187/216 Test #187: qa_packet_headerparser_b .............   Passed
+        Start 188: qa_pfb_clock_sync
+188/216 Test #188: qa_pfb_clock_sync ....................   Passed
+        Start 189: qa_pn_correlator_cc
+189/216 Test #189: qa_pn_correlator_cc ..................   Passed
+        Start 190: qa_probe_density
+190/216 Test #190: qa_probe_density .....................   Passed
+        Start 191: qa_scrambler
+191/216 Test #191: qa_scrambler .........................   Passed
+        Start 192: qa_channel_model
+192/216 Test #192: qa_channel_model .....................   Passed
+        Start 193: qa_fading_model
+193/216 Test #193: qa_fading_model ......................   Passed
+        Start 194: qa_add_system_time
+194/216 Test #194: qa_add_system_time ...................   Passed
+        Start 195: qa_pdu
+195/216 Test #195: qa_pdu ...............................   Passed
+        Start 196: qa_pdu_lambda
+196/216 Test #196: qa_pdu_lambda ........................   Passed
+        Start 197: qa_pdu_split
+197/216 Test #197: qa_pdu_split .........................   Passed
+        Start 198: qa_pdu_to_stream
+198/216 Test #198: qa_pdu_to_stream .....................   Passed
+        Start 199: qa_tags_to_pdu
+199/216 Test #199: qa_tags_to_pdu .......................   Passed
+        Start 200: qa_take_skip_to_pdu
+200/216 Test #200: qa_take_skip_to_pdu ..................   Passed
+        Start 201: qa_time_delta
+201/216 Test #201: qa_time_delta ........................   Passed
+        Start 202: qa_trellis
+202/216 Test #202: qa_trellis ...........................   Passed
+        Start 203: test_modtool
+203/216 Test #203: test_modtool .........................***Failed
+        Start 204: qa_classify
+204/216 Test #204: qa_classify ..........................   Passed
+        Start 205: qa_zeromq_pub
+205/216 Test #205: qa_zeromq_pub ........................   Passed
+        Start 206: qa_zeromq_pubsub
+206/216 Test #206: qa_zeromq_pubsub .....................   Passed
+        Start 207: qa_zeromq_pull_msg_source
+207/216 Test #207: qa_zeromq_pull_msg_source ............   Passed
+        Start 208: qa_zeromq_pushpull
+208/216 Test #208: qa_zeromq_pushpull ...................   Passed
+        Start 209: qa_zeromq_req_msg_source
+209/216 Test #209: qa_zeromq_req_msg_source .............   Passed
+        Start 210: qa_zeromq_reqrep
+210/216 Test #210: qa_zeromq_reqrep .....................   Passed
+        Start 211: qa_zeromq_sub
+211/216 Test #211: qa_zeromq_sub ........................   Passed
+        Start 212: qa_zeromq_sub_msg_source
+212/216 Test #212: qa_zeromq_sub_msg_source .............   Passed
+        Start 213: qa_socket_pdu
+213/216 Test #213: qa_socket_pdu ........................   Passed
+        Start 214: qa_tcp_sink
+214/216 Test #214: qa_tcp_sink ..........................   Passed
+        Start 215: qa_udp_sink
+215/216 Test #215: qa_udp_sink ..........................   Passed
+        Start 216: qa_udp_source
+216/216 Test #216: qa_udp_source ........................   Passed
+
+99% tests passed, 3 tests failed out of 216
+
+Total Test time (real) =
+
+The following tests FAILED:
+	 84 - qa_wavfile (Failed)
+	 85 - test_rs (Not Run)
+	203 - test_modtool (Failed)
+Errors while running CTest
+Output from these tests are in: /usr/lib/gnuradio/ptest/Testing/Temporary/LastTest.log
+Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.
+
+ERROR: Exit status is 8
+DURATION: 1164
+END: /usr/lib/gnuradio/ptest
+2022-06-08T04:16
+2022-06-08T04:16
+BEGIN: /usr/lib/volk/ptest
+Test project /usr/lib/volk/ptest
+        Start   1: qa_volk_16i_32fc_dot_prod_32fc
+  1/139 Test   #1: qa_volk_16i_32fc_dot_prod_32fc .......................   Passed
+        Start   2: qa_volk_16i_branch_4_state_8
+  2/139 Test   #2: qa_volk_16i_branch_4_state_8 .........................   Passed
+        Start   3: qa_volk_16i_convert_8i
+  3/139 Test   #3: qa_volk_16i_convert_8i ...............................   Passed
+        Start   4: qa_volk_16i_max_star_16i
+  4/139 Test   #4: qa_volk_16i_max_star_16i .............................   Passed
+        Start   5: qa_volk_16i_max_star_horizontal_16i
+  5/139 Test   #5: qa_volk_16i_max_star_horizontal_16i ..................   Passed
+        Start   6: qa_volk_16i_permute_and_scalar_add
+  6/139 Test   #6: qa_volk_16i_permute_and_scalar_add ...................   Passed
+        Start   7: qa_volk_16i_s32f_convert_32f
+  7/139 Test   #7: qa_volk_16i_s32f_convert_32f .........................   Passed
+        Start   8: qa_volk_16i_x4_quad_max_star_16i
+  8/139 Test   #8: qa_volk_16i_x4_quad_max_star_16i .....................   Passed
+        Start   9: qa_volk_16i_x5_add_quad_16i_x4
+  9/139 Test   #9: qa_volk_16i_x5_add_quad_16i_x4 .......................   Passed
+        Start  10: qa_volk_16ic_convert_32fc
+ 10/139 Test  #10: qa_volk_16ic_convert_32fc ............................   Passed
+        Start  11: qa_volk_16ic_deinterleave_16i_x2
+ 11/139 Test  #11: qa_volk_16ic_deinterleave_16i_x2 .....................   Passed
+        Start  12: qa_volk_16ic_deinterleave_real_16i
+ 12/139 Test  #12: qa_volk_16ic_deinterleave_real_16i ...................   Passed
+        Start  13: qa_volk_16ic_deinterleave_real_8i
+ 13/139 Test  #13: qa_volk_16ic_deinterleave_real_8i ....................   Passed
+        Start  14: qa_volk_16ic_magnitude_16i
+ 14/139 Test  #14: qa_volk_16ic_magnitude_16i ...........................   Passed
+        Start  15: qa_volk_16ic_s32f_deinterleave_32f_x2
+ 15/139 Test  #15: qa_volk_16ic_s32f_deinterleave_32f_x2 ................   Passed
+        Start  16: qa_volk_16ic_s32f_deinterleave_real_32f
+ 16/139 Test  #16: qa_volk_16ic_s32f_deinterleave_real_32f ..............   Passed
+        Start  17: qa_volk_16ic_s32f_magnitude_32f
+ 17/139 Test  #17: qa_volk_16ic_s32f_magnitude_32f ......................   Passed
+        Start  18: qa_volk_16ic_x2_dot_prod_16ic
+ 18/139 Test  #18: qa_volk_16ic_x2_dot_prod_16ic ........................   Passed
+        Start  19: qa_volk_16ic_x2_multiply_16ic
+ 19/139 Test  #19: qa_volk_16ic_x2_multiply_16ic ........................   Passed
+        Start  20: qa_volk_16u_byteswap
+ 20/139 Test  #20: qa_volk_16u_byteswap .................................   Passed
+        Start  21: qa_volk_16u_byteswappuppet_16u
+ 21/139 Test  #21: qa_volk_16u_byteswappuppet_16u .......................   Passed
+        Start  22: qa_volk_32f_64f_add_64f
+ 22/139 Test  #22: qa_volk_32f_64f_add_64f ..............................   Passed
+        Start  23: qa_volk_32f_64f_multiply_64f
+ 23/139 Test  #23: qa_volk_32f_64f_multiply_64f .........................   Passed
+        Start  24: qa_volk_32f_8u_polarbutterfly_32f
+ 24/139 Test  #24: qa_volk_32f_8u_polarbutterfly_32f ....................   Passed
+        Start  25: qa_volk_32f_8u_polarbutterflypuppet_32f
+ 25/139 Test  #25: qa_volk_32f_8u_polarbutterflypuppet_32f ..............   Passed
+        Start  26: qa_volk_32f_accumulator_s32f
+ 26/139 Test  #26: qa_volk_32f_accumulator_s32f .........................   Passed
+        Start  27: qa_volk_32f_acos_32f
+ 27/139 Test  #27: qa_volk_32f_acos_32f .................................   Passed
+        Start  28: qa_volk_32f_asin_32f
+ 28/139 Test  #28: qa_volk_32f_asin_32f .................................   Passed
+        Start  29: qa_volk_32f_atan_32f
+ 29/139 Test  #29: qa_volk_32f_atan_32f .................................   Passed
+        Start  30: qa_volk_32f_binary_slicer_32i
+ 30/139 Test  #30: qa_volk_32f_binary_slicer_32i ........................   Passed
+        Start  31: qa_volk_32f_binary_slicer_8i
+ 31/139 Test  #31: qa_volk_32f_binary_slicer_8i .........................   Passed
+        Start  32: qa_volk_32f_convert_64f
+ 32/139 Test  #32: qa_volk_32f_convert_64f ..............................   Passed
+        Start  33: qa_volk_32f_cos_32f
+ 33/139 Test  #33: qa_volk_32f_cos_32f ..................................   Passed
+        Start  34: qa_volk_32f_exp_32f
+ 34/139 Test  #34: qa_volk_32f_exp_32f ..................................   Passed
+        Start  35: qa_volk_32f_expfast_32f
+ 35/139 Test  #35: qa_volk_32f_expfast_32f ..............................   Passed
+        Start  36: qa_volk_32f_index_max_16u
+ 36/139 Test  #36: qa_volk_32f_index_max_16u ............................   Passed
+        Start  37: qa_volk_32f_index_max_32u
+ 37/139 Test  #37: qa_volk_32f_index_max_32u ............................   Passed
+        Start  38: qa_volk_32f_index_min_16u
+ 38/139 Test  #38: qa_volk_32f_index_min_16u ............................   Passed
+        Start  39: qa_volk_32f_index_min_32u
+ 39/139 Test  #39: qa_volk_32f_index_min_32u ............................   Passed
+        Start  40: qa_volk_32f_invsqrt_32f
+ 40/139 Test  #40: qa_volk_32f_invsqrt_32f ..............................   Passed
+        Start  41: qa_volk_32f_log2_32f
+ 41/139 Test  #41: qa_volk_32f_log2_32f .................................   Passed
+        Start  42: qa_volk_32f_null_32f
+ 42/139 Test  #42: qa_volk_32f_null_32f .................................   Passed
+        Start  43: qa_volk_32f_s32f_32f_fm_detect_32f
+ 43/139 Test  #43: qa_volk_32f_s32f_32f_fm_detect_32f ...................   Passed
+        Start  44: qa_volk_32f_s32f_add_32f
+ 44/139 Test  #44: qa_volk_32f_s32f_add_32f .............................   Passed
+        Start  45: qa_volk_32f_s32f_calc_spectral_noise_floor_32f
+ 45/139 Test  #45: qa_volk_32f_s32f_calc_spectral_noise_floor_32f .......   Passed
+        Start  46: qa_volk_32f_s32f_convert_16i
+ 46/139 Test  #46: qa_volk_32f_s32f_convert_16i .........................   Passed
+        Start  47: qa_volk_32f_s32f_convert_32i
+ 47/139 Test  #47: qa_volk_32f_s32f_convert_32i .........................   Passed
+        Start  48: qa_volk_32f_s32f_convert_8i
+ 48/139 Test  #48: qa_volk_32f_s32f_convert_8i ..........................   Passed
+        Start  49: qa_volk_32f_s32f_mod_rangepuppet_32f
+ 49/139 Test  #49: qa_volk_32f_s32f_mod_rangepuppet_32f .................   Passed
+        Start  50: qa_volk_32f_s32f_multiply_32f
+ 50/139 Test  #50: qa_volk_32f_s32f_multiply_32f ........................   Passed
+        Start  51: qa_volk_32f_s32f_normalize
+ 51/139 Test  #51: qa_volk_32f_s32f_normalize ...........................   Passed
+        Start  52: qa_volk_32f_s32f_power_32f
+ 52/139 Test  #52: qa_volk_32f_s32f_power_32f ...........................   Passed
+        Start  53: qa_volk_32f_s32f_s32f_mod_range_32f
+ 53/139 Test  #53: qa_volk_32f_s32f_s32f_mod_range_32f ..................   Passed
+        Start  54: qa_volk_32f_s32f_stddev_32f
+ 54/139 Test  #54: qa_volk_32f_s32f_stddev_32f ..........................   Passed
+        Start  55: qa_volk_32f_sin_32f
+ 55/139 Test  #55: qa_volk_32f_sin_32f ..................................   Passed
+        Start  56: qa_volk_32f_sqrt_32f
+ 56/139 Test  #56: qa_volk_32f_sqrt_32f .................................   Passed
+        Start  57: qa_volk_32f_stddev_and_mean_32f_x2
+ 57/139 Test  #57: qa_volk_32f_stddev_and_mean_32f_x2 ...................   Passed
+        Start  58: qa_volk_32f_tan_32f
+ 58/139 Test  #58: qa_volk_32f_tan_32f ..................................   Passed
+        Start  59: qa_volk_32f_tanh_32f
+ 59/139 Test  #59: qa_volk_32f_tanh_32f .................................   Passed
+        Start  60: qa_volk_32f_x2_add_32f
+ 60/139 Test  #60: qa_volk_32f_x2_add_32f ...............................   Passed
+        Start  61: qa_volk_32f_x2_divide_32f
+ 61/139 Test  #61: qa_volk_32f_x2_divide_32f ............................   Passed
+        Start  62: qa_volk_32f_x2_dot_prod_16i
+ 62/139 Test  #62: qa_volk_32f_x2_dot_prod_16i ..........................   Passed
+        Start  63: qa_volk_32f_x2_dot_prod_32f
+ 63/139 Test  #63: qa_volk_32f_x2_dot_prod_32f ..........................   Passed
+        Start  64: qa_volk_32f_x2_fm_detectpuppet_32f
+ 64/139 Test  #64: qa_volk_32f_x2_fm_detectpuppet_32f ...................   Passed
+        Start  65: qa_volk_32f_x2_interleave_32fc
+ 65/139 Test  #65: qa_volk_32f_x2_interleave_32fc .......................   Passed
+        Start  66: qa_volk_32f_x2_max_32f
+ 66/139 Test  #66: qa_volk_32f_x2_max_32f ...............................   Passed
+        Start  67: qa_volk_32f_x2_min_32f
+ 67/139 Test  #67: qa_volk_32f_x2_min_32f ...............................   Passed
+        Start  68: qa_volk_32f_x2_multiply_32f
+ 68/139 Test  #68: qa_volk_32f_x2_multiply_32f ..........................   Passed
+        Start  69: qa_volk_32f_x2_pow_32f
+ 69/139 Test  #69: qa_volk_32f_x2_pow_32f ...............................   Passed
+        Start  70: qa_volk_32f_x2_s32f_interleave_16ic
+ 70/139 Test  #70: qa_volk_32f_x2_s32f_interleave_16ic ..................   Passed
+        Start  71: qa_volk_32f_x2_subtract_32f
+ 71/139 Test  #71: qa_volk_32f_x2_subtract_32f ..........................   Passed
+        Start  72: qa_volk_32f_x3_sum_of_poly_32f
+ 72/139 Test  #72: qa_volk_32f_x3_sum_of_poly_32f .......................   Passed
+        Start  73: qa_volk_32fc_32f_add_32fc
+ 73/139 Test  #73: qa_volk_32fc_32f_add_32fc ............................   Passed
+        Start  74: qa_volk_32fc_32f_dot_prod_32fc
+ 74/139 Test  #74: qa_volk_32fc_32f_dot_prod_32fc .......................   Passed
+        Start  75: qa_volk_32fc_32f_multiply_32fc
+ 75/139 Test  #75: qa_volk_32fc_32f_multiply_32fc .......................   Passed
+        Start  76: qa_volk_32fc_accumulator_s32fc
+ 76/139 Test  #76: qa_volk_32fc_accumulator_s32fc .......................   Passed
+        Start  77: qa_volk_32fc_conjugate_32fc
+ 77/139 Test  #77: qa_volk_32fc_conjugate_32fc ..........................   Passed
+        Start  78: qa_volk_32fc_convert_16ic
+ 78/139 Test  #78: qa_volk_32fc_convert_16ic ............................   Passed
+        Start  79: qa_volk_32fc_deinterleave_32f_x2
+ 79/139 Test  #79: qa_volk_32fc_deinterleave_32f_x2 .....................   Passed
+        Start  80: qa_volk_32fc_deinterleave_64f_x2
+ 80/139 Test  #80: qa_volk_32fc_deinterleave_64f_x2 .....................   Passed
+        Start  81: qa_volk_32fc_deinterleave_imag_32f
+ 81/139 Test  #81: qa_volk_32fc_deinterleave_imag_32f ...................   Passed
+        Start  82: qa_volk_32fc_deinterleave_real_32f
+ 82/139 Test  #82: qa_volk_32fc_deinterleave_real_32f ...................   Passed
+        Start  83: qa_volk_32fc_deinterleave_real_64f
+ 83/139 Test  #83: qa_volk_32fc_deinterleave_real_64f ...................   Passed
+        Start  84: qa_volk_32fc_index_max_16u
+ 84/139 Test  #84: qa_volk_32fc_index_max_16u ...........................   Passed
+        Start  85: qa_volk_32fc_index_max_32u
+ 85/139 Test  #85: qa_volk_32fc_index_max_32u ...........................   Passed
+        Start  86: qa_volk_32fc_index_min_16u
+ 86/139 Test  #86: qa_volk_32fc_index_min_16u ...........................   Passed
+        Start  87: qa_volk_32fc_index_min_32u
+ 87/139 Test  #87: qa_volk_32fc_index_min_32u ...........................   Passed
+        Start  88: qa_volk_32fc_magnitude_32f
+ 88/139 Test  #88: qa_volk_32fc_magnitude_32f ...........................   Passed
+        Start  89: qa_volk_32fc_magnitude_squared_32f
+ 89/139 Test  #89: qa_volk_32fc_magnitude_squared_32f ...................   Passed
+        Start  90: qa_volk_32fc_s32f_atan2_32f
+ 90/139 Test  #90: qa_volk_32fc_s32f_atan2_32f ..........................   Passed
+        Start  91: qa_volk_32fc_s32f_deinterleave_real_16i
+ 91/139 Test  #91: qa_volk_32fc_s32f_deinterleave_real_16i ..............   Passed
+        Start  92: qa_volk_32fc_s32f_magnitude_16i
+ 92/139 Test  #92: qa_volk_32fc_s32f_magnitude_16i ......................   Passed
+        Start  93: qa_volk_32fc_s32f_power_32fc
+ 93/139 Test  #93: qa_volk_32fc_s32f_power_32fc .........................   Passed
+        Start  94: qa_volk_32fc_s32f_power_spectral_densitypuppet_32f
+ 94/139 Test  #94: qa_volk_32fc_s32f_power_spectral_densitypuppet_32f ...   Passed
+        Start  95: qa_volk_32fc_s32f_power_spectrum_32f
+ 95/139 Test  #95: qa_volk_32fc_s32f_power_spectrum_32f .................   Passed
+        Start  96: qa_volk_32fc_s32f_x2_power_spectral_density_32f
+ 96/139 Test  #96: qa_volk_32fc_s32f_x2_power_spectral_density_32f ......   Passed
+        Start  97: qa_volk_32fc_s32fc_multiply_32fc
+ 97/139 Test  #97: qa_volk_32fc_s32fc_multiply_32fc .....................   Passed
+        Start  98: qa_volk_32fc_s32fc_rotatorpuppet_32fc
+ 98/139 Test  #98: qa_volk_32fc_s32fc_rotatorpuppet_32fc ................   Passed
+        Start  99: qa_volk_32fc_s32fc_x2_rotator_32fc
+ 99/139 Test  #99: qa_volk_32fc_s32fc_x2_rotator_32fc ...................   Passed
+        Start 100: qa_volk_32fc_x2_add_32fc
+100/139 Test #100: qa_volk_32fc_x2_add_32fc .............................   Passed
+        Start 101: qa_volk_32fc_x2_conjugate_dot_prod_32fc
+101/139 Test #101: qa_volk_32fc_x2_conjugate_dot_prod_32fc ..............   Passed
+        Start 102: qa_volk_32fc_x2_divide_32fc
+102/139 Test #102: qa_volk_32fc_x2_divide_32fc ..........................   Passed
+        Start 103: qa_volk_32fc_x2_dot_prod_32fc
+103/139 Test #103: qa_volk_32fc_x2_dot_prod_32fc ........................   Passed
+        Start 104: qa_volk_32fc_x2_multiply_32fc
+104/139 Test #104: qa_volk_32fc_x2_multiply_32fc ........................   Passed
+        Start 105: qa_volk_32fc_x2_multiply_conjugate_32fc
+105/139 Test #105: qa_volk_32fc_x2_multiply_conjugate_32fc ..............   Passed
+        Start 106: qa_volk_32fc_x2_s32f_square_dist_scalar_mult_32f
+106/139 Test #106: qa_volk_32fc_x2_s32f_square_dist_scalar_mult_32f .....   Passed
+        Start 107: qa_volk_32fc_x2_s32fc_multiply_conjugate_add_32fc
+107/139 Test #107: qa_volk_32fc_x2_s32fc_multiply_conjugate_add_32fc ....   Passed
+        Start 108: qa_volk_32fc_x2_square_dist_32f
+108/139 Test #108: qa_volk_32fc_x2_square_dist_32f ......................   Passed
+        Start 109: qa_volk_32i_s32f_convert_32f
+109/139 Test #109: qa_volk_32i_s32f_convert_32f .........................   Passed
+        Start 110: qa_volk_32i_x2_and_32i
+110/139 Test #110: qa_volk_32i_x2_and_32i ...............................   Passed
+        Start 111: qa_volk_32i_x2_or_32i
+111/139 Test #111: qa_volk_32i_x2_or_32i ................................   Passed
+        Start 112: qa_volk_32u_byteswap
+112/139 Test #112: qa_volk_32u_byteswap .................................   Passed
+        Start 113: qa_volk_32u_byteswappuppet_32u
+113/139 Test #113: qa_volk_32u_byteswappuppet_32u .......................   Passed
+        Start 114: qa_volk_32u_popcnt
+114/139 Test #114: qa_volk_32u_popcnt ...................................   Passed
+        Start 115: qa_volk_32u_popcntpuppet_32u
+115/139 Test #115: qa_volk_32u_popcntpuppet_32u .........................   Passed
+        Start 116: qa_volk_32u_reverse_32u
+116/139 Test #116: qa_volk_32u_reverse_32u ..............................   Passed
+        Start 117: qa_volk_64f_convert_32f
+117/139 Test #117: qa_volk_64f_convert_32f ..............................   Passed
+        Start 118: qa_volk_64f_x2_add_64f
+118/139 Test #118: qa_volk_64f_x2_add_64f ...............................   Passed
+        Start 119: qa_volk_64f_x2_max_64f
+119/139 Test #119: qa_volk_64f_x2_max_64f ...............................   Passed
+        Start 120: qa_volk_64f_x2_min_64f
+120/139 Test #120: qa_volk_64f_x2_min_64f ...............................   Passed
+        Start 121: qa_volk_64f_x2_multiply_64f
+121/139 Test #121: qa_volk_64f_x2_multiply_64f ..........................   Passed
+        Start 122: qa_volk_64u_byteswap
+122/139 Test #122: qa_volk_64u_byteswap .................................   Passed
+        Start 123: qa_volk_64u_byteswappuppet_64u
+123/139 Test #123: qa_volk_64u_byteswappuppet_64u .......................   Passed
+        Start 124: qa_volk_64u_popcnt
+124/139 Test #124: qa_volk_64u_popcnt ...................................   Passed
+        Start 125: qa_volk_64u_popcntpuppet_64u
+125/139 Test #125: qa_volk_64u_popcntpuppet_64u .........................   Passed
+        Start 126: qa_volk_8i_convert_16i
+126/139 Test #126: qa_volk_8i_convert_16i ...............................   Passed
+        Start 127: qa_volk_8i_s32f_convert_32f
+127/139 Test #127: qa_volk_8i_s32f_convert_32f ..........................   Passed
+        Start 128: qa_volk_8ic_deinterleave_16i_x2
+128/139 Test #128: qa_volk_8ic_deinterleave_16i_x2 ......................   Passed
+        Start 129: qa_volk_8ic_deinterleave_real_16i
+129/139 Test #129: qa_volk_8ic_deinterleave_real_16i ....................   Passed
+        Start 130: qa_volk_8ic_deinterleave_real_8i
+130/139 Test #130: qa_volk_8ic_deinterleave_real_8i .....................   Passed
+        Start 131: qa_volk_8ic_s32f_deinterleave_32f_x2
+131/139 Test #131: qa_volk_8ic_s32f_deinterleave_32f_x2 .................   Passed
+        Start 132: qa_volk_8ic_s32f_deinterleave_real_32f
+132/139 Test #132: qa_volk_8ic_s32f_deinterleave_real_32f ...............   Passed
+        Start 133: qa_volk_8ic_x2_multiply_conjugate_16ic
+133/139 Test #133: qa_volk_8ic_x2_multiply_conjugate_16ic ...............   Passed
+        Start 134: qa_volk_8ic_x2_s32f_multiply_conjugate_32fc
+134/139 Test #134: qa_volk_8ic_x2_s32f_multiply_conjugate_32fc ..........   Passed
+        Start 135: qa_volk_8u_conv_k7_r2puppet_8u
+135/139 Test #135: qa_volk_8u_conv_k7_r2puppet_8u .......................   Passed
+        Start 136: qa_volk_8u_x2_encodeframepolar_8u
+136/139 Test #136: qa_volk_8u_x2_encodeframepolar_8u ....................   Passed
+        Start 137: qa_volk_8u_x3_encodepolar_8u_x2
+137/139 Test #137: qa_volk_8u_x3_encodepolar_8u_x2 ......................   Passed
+        Start 138: qa_volk_8u_x3_encodepolarpuppet_8u
+138/139 Test #138: qa_volk_8u_x3_encodepolarpuppet_8u ...................   Passed
+        Start 139: qa_volk_8u_x4_conv_k7_r2_8u
+139/139 Test #139: qa_volk_8u_x4_conv_k7_r2_8u ..........................   Passed
+
+100% tests passed, 0 tests failed out of 139
+
+Total Test time (real) =
+DURATION: 29
+END: /usr/lib/volk/ptest
+2022-06-08T04:17
+STOP: ptest-runner
+TOTAL: 3 FAIL: 1
