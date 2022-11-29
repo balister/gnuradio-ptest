@@ -1,13 +1,13 @@
 START: ptest-runner
-2022-11-27T10:48
+2022-11-29T03:16
 BEGIN: /usr/lib/fftw/ptest
 fftw  test result:PASSED
 fftwf test result:PASSED
 fftwl test result:PASSED
-DURATION: 3529
+DURATION: 2477
 END: /usr/lib/fftw/ptest
-2022-11-27T11:46
-2022-11-27T11:46
+2022-11-29T03:57
+2022-11-29T03:57
 BEGIN: /usr/lib/gnuradio/ptest
 Test project /usr/lib/gnuradio/ptest
         Start   1: qa_flowgraph
@@ -40,32 +40,32 @@ Test project /usr/lib/gnuradio/ptest
  14/217 Test  #14: qa_block_gateway .....................   Passed
         Start  15: qa_blockinterleaver_xx
  15/217 Test  #15: qa_blockinterleaver_xx ...............   Passed
-        Start  16: qa_boolean_operators
- 16/217 Test  #16: qa_boolean_operators .................   Passed
-        Start  17: qa_burst_tagger
- 17/217 Test  #17: qa_burst_tagger ......................   Passed
-        Start  18: qa_conjugate
- 18/217 Test  #18: qa_conjugate .........................   Passed
-        Start  19: qa_copy
- 19/217 Test  #19: qa_copy ..............................   Passed
-        Start  20: qa_delay
- 20/217 Test  #20: qa_delay .............................   Passed
-        Start  21: qa_endian_swap
- 21/217 Test  #21: qa_endian_swap .......................   Passed
-        Start  22: qa_exponentiate_const_cci
- 22/217 Test  #22: qa_exponentiate_const_cci ............   Passed
-        Start  23: qa_file_descriptor_source_sink
- 23/217 Test  #23: qa_file_descriptor_source_sink .......   Passed
-        Start  24: qa_file_metadata
- 24/217 Test  #24: qa_file_metadata .....................   Passed
-        Start  25: qa_file_sink
- 25/217 Test  #25: qa_file_sink .........................   Passed
-        Start  26: qa_file_source
- 26/217 Test  #26: qa_file_source .......................   Passed
-        Start  27: qa_head
- 27/217 Test  #27: qa_head ..............................   Passed
-        Start  28: qa_hier_block2
- 28/217 Test  #28: qa_hier_block2 .......................   Passed
+        Start  16: qa_blocks_hier_block2
+ 16/217 Test  #16: qa_blocks_hier_block2 ................   Passed
+        Start  17: qa_boolean_operators
+ 17/217 Test  #17: qa_boolean_operators .................   Passed
+        Start  18: qa_burst_tagger
+ 18/217 Test  #18: qa_burst_tagger ......................   Passed
+        Start  19: qa_conjugate
+ 19/217 Test  #19: qa_conjugate .........................   Passed
+        Start  20: qa_copy
+ 20/217 Test  #20: qa_copy ..............................   Passed
+        Start  21: qa_delay
+ 21/217 Test  #21: qa_delay .............................   Passed
+        Start  22: qa_endian_swap
+ 22/217 Test  #22: qa_endian_swap .......................   Passed
+        Start  23: qa_exponentiate_const_cci
+ 23/217 Test  #23: qa_exponentiate_const_cci ............   Passed
+        Start  24: qa_file_descriptor_source_sink
+ 24/217 Test  #24: qa_file_descriptor_source_sink .......   Passed
+        Start  25: qa_file_metadata
+ 25/217 Test  #25: qa_file_metadata .....................   Passed
+        Start  26: qa_file_sink
+ 26/217 Test  #26: qa_file_sink .........................   Passed
+        Start  27: qa_file_source
+ 27/217 Test  #27: qa_file_source .......................   Passed
+        Start  28: qa_head
+ 28/217 Test  #28: qa_head ..............................   Passed
         Start  29: qa_hier_block2_message_connections
  29/217 Test  #29: qa_hier_block2_message_connections ...   Passed
         Start  30: qa_host_buffer_copy
@@ -475,10 +475,10 @@ Output from these tests are in: /usr/lib/gnuradio/ptest/Testing/Temporary/LastTe
 Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.
 
 ERROR: Exit status is 8
-DURATION: 2070
+DURATION: 1332
 END: /usr/lib/gnuradio/ptest
-2022-11-27T12:21
-2022-11-27T12:21
+2022-11-29T04:19
+2022-11-29T04:19
 BEGIN: /usr/lib/volk/ptest
 Test project /usr/lib/volk/ptest
         Start   1: qa_volk_16i_32fc_dot_prod_32fc
@@ -763,8 +763,8 @@ Test project /usr/lib/volk/ptest
 100% tests passed, 0 tests failed out of 139
 
 Total Test time (real) =
-DURATION: 27
+DURATION: 20
 END: /usr/lib/volk/ptest
-2022-11-27T12:21
+2022-11-29T04:20
 STOP: ptest-runner
 TOTAL: 3 FAIL: 1
