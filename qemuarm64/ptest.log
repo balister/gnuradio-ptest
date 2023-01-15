@@ -1,13 +1,13 @@
 START: ptest-runner
-2023-01-13T04:05
+2023-01-15T03:42
 BEGIN: /usr/lib/fftw/ptest
 fftw  test result:PASSED
 fftwf test result:PASSED
 fftwl test result:PASSED
-DURATION: 2792
+DURATION: 2780
 END: /usr/lib/fftw/ptest
-2023-01-13T04:52
-2023-01-13T04:52
+2023-01-15T04:28
+2023-01-15T04:28
 BEGIN: /usr/lib/gnuradio/ptest
 Test project /usr/lib/gnuradio/ptest
         Start   1: qa_flowgraph
@@ -476,10 +476,10 @@ Output from these tests are in: /usr/lib/gnuradio/ptest/Testing/Temporary/LastTe
 Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.
 
 ERROR: Exit status is 8
-DURATION: 1125
+DURATION: 727
 END: /usr/lib/gnuradio/ptest
-2023-01-13T05:11
-2023-01-13T05:11
+2023-01-15T04:40
+2023-01-15T04:40
 BEGIN: /usr/lib/volk/ptest
 Test project /usr/lib/volk/ptest
         Start   1: qa_volk_16i_32fc_dot_prod_32fc
@@ -671,7 +671,7 @@ Test project /usr/lib/volk/ptest
         Start  94: qa_volk_32fc_s32f_power_spectral_densitypuppet_32f
  94/139 Test  #94: qa_volk_32fc_s32f_power_spectral_densitypuppet_32f ...   Passed
         Start  95: qa_volk_32fc_s32f_power_spectrum_32f
- 95/139 Test  #95: qa_volk_32fc_s32f_power_spectrum_32f .................   Passed
+ 95/139 Test  #95: qa_volk_32fc_s32f_power_spectrum_32f .................***Failed
         Start  96: qa_volk_32fc_s32f_x2_power_spectral_density_32f
  96/139 Test  #96: qa_volk_32fc_s32f_x2_power_spectral_density_32f ......   Passed
         Start  97: qa_volk_32fc_s32fc_multiply_32fc
@@ -761,11 +761,19 @@ Test project /usr/lib/volk/ptest
         Start 139: qa_volk_8u_x4_conv_k7_r2_8u
 139/139 Test #139: qa_volk_8u_x4_conv_k7_r2_8u ..........................   Passed
 
-100% tests passed, 0 tests failed out of 139
+99% tests passed, 1 tests failed out of 139
 
 Total Test time (real) =
-DURATION: 11
+
+The following tests FAILED:
+	 95 - qa_volk_32fc_s32f_power_spectrum_32f (Failed)
+Errors while running CTest
+Output from these tests are in: /usr/lib/volk/ptest/Testing/Temporary/LastTest.log
+Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.
+
+ERROR: Exit status is 8
+DURATION: 9
 END: /usr/lib/volk/ptest
-2023-01-13T05:11
+2023-01-15T04:41
 STOP: ptest-runner
-TOTAL: 3 FAIL: 1
+TOTAL: 3 FAIL: 2
