@@ -1,13 +1,13 @@
 START: ptest-runner
-2023-02-24T00:13
+2023-02-24T03:18
 BEGIN: /usr/lib/fftw/ptest
 fftw  test result:PASSED
 fftwf test result:PASSED
 fftwl test result:PASSED
-DURATION: 513
+DURATION: 616
 END: /usr/lib/fftw/ptest
-2023-02-24T00:21
-2023-02-24T00:21
+2023-02-24T03:28
+2023-02-24T03:28
 BEGIN: /usr/lib/gnuradio/ptest
 Test project /usr/lib/gnuradio/ptest
         Start   1: qa_flowgraph
@@ -208,7 +208,7 @@ Unable to find executable: gr_fec_rstest
         Start  90: qa_ecc_ccsds_27
  90/218 Test  #90: qa_ecc_ccsds_27 ......................   Passed
         Start  91: qa_fecapi_cc
- 91/218 Test  #91: qa_fecapi_cc .........................***Failed
+ 91/218 Test  #91: qa_fecapi_cc .........................   Passed
         Start  92: qa_fecapi_cc_buffer_overflow
  92/218 Test  #92: qa_fecapi_cc_buffer_overflow .........   Passed
         Start  93: qa_fecapi_dummy
@@ -464,7 +464,7 @@ Unable to find executable: gr_fec_rstest
         Start 218: qa_udp_source
 218/218 Test #218: qa_udp_source ........................   Passed
 
-94% tests passed, 12 tests failed out of 218
+95% tests passed, 11 tests failed out of 218
 
 Total Test time (real) =
 
@@ -474,7 +474,6 @@ The following tests FAILED:
 	 80 - qa_type_conversions (Failed)
 	 86 - qa_wavfile (Failed)
 	 87 - test_rs (Not Run)
-	 91 - qa_fecapi_cc (Failed)
 	106 - qa_fft_filter (Failed)
 	118 - qa_interp_fir_filter (Failed)
 	125 - qa_rational_resampler (Failed)
@@ -486,10 +485,10 @@ Output from these tests are in: /usr/lib/gnuradio/ptest/Testing/Temporary/LastTe
 Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.
 
 ERROR: Exit status is 8
-DURATION: 989
+DURATION: 971
 END: /usr/lib/gnuradio/ptest
-2023-02-24T00:38
-2023-02-24T00:38
+2023-02-24T03:44
+2023-02-24T03:44
 BEGIN: /usr/lib/volk/ptest
 Test project /usr/lib/volk/ptest
         Start   1: qa_volk_16i_32fc_dot_prod_32fc
@@ -774,8 +773,8 @@ Test project /usr/lib/volk/ptest
 100% tests passed, 0 tests failed out of 139
 
 Total Test time (real) =
-DURATION: 23
+DURATION: 24
 END: /usr/lib/volk/ptest
-2023-02-24T00:38
+2023-02-24T03:45
 STOP: ptest-runner
 TOTAL: 3 FAIL: 1
