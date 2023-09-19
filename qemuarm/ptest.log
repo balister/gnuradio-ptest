@@ -1,13 +1,13 @@
 START: ptest-runner
-2023-09-09T00:25
+2023-09-19T02:43
 BEGIN: /usr/lib/fftw/ptest
 fftw  test result:PASSED
 fftwf test result:PASSED
 fftwl test result:PASSED
-DURATION: 640
+DURATION: 435
 END: /usr/lib/fftw/ptest
-2023-09-09T00:36
-2023-09-09T00:36
+2023-09-19T02:50
+2023-09-19T02:50
 BEGIN: /usr/lib/gnuradio/ptest
 Test project /usr/lib/gnuradio/ptest
         Start   1: qa_flowgraph
@@ -485,10 +485,10 @@ Output from these tests are in: /usr/lib/gnuradio/ptest/Testing/Temporary/LastTe
 Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.
 
 ERROR: Exit status is 8
-DURATION: 1358
+DURATION: 1406
 END: /usr/lib/gnuradio/ptest
-2023-09-09T00:59
-2023-09-09T00:59
+2023-09-19T03:13
+2023-09-19T03:13
 BEGIN: /usr/lib/volk/ptest
 Test project /usr/lib/volk/ptest
         Start   1: check_lgpl
@@ -667,7 +667,7 @@ Unable to find executable: /scripts/licensing/count_contrib.sh
         Start  72: qa_volk_32f_x2_subtract_32f
  72/140 Test  #72: qa_volk_32f_x2_subtract_32f ..........................   Passed
         Start  73: qa_volk_32f_x3_sum_of_poly_32f
- 73/140 Test  #73: qa_volk_32f_x3_sum_of_poly_32f .......................***Failed
+ 73/140 Test  #73: qa_volk_32f_x3_sum_of_poly_32f .......................   Passed
         Start  74: qa_volk_32fc_32f_add_32fc
  74/140 Test  #74: qa_volk_32fc_32f_add_32fc ............................   Passed
         Start  75: qa_volk_32fc_32f_dot_prod_32fc
@@ -803,20 +803,19 @@ Unable to find executable: /scripts/licensing/count_contrib.sh
         Start 140: qa_volk_8u_x4_conv_k7_r2_8u
 140/140 Test #140: qa_volk_8u_x4_conv_k7_r2_8u ..........................   Passed
 
-99% tests passed, 2 tests failed out of 140
+99% tests passed, 1 tests failed out of 140
 
 Total Test time (real) =
 
 The following tests FAILED:
 	  1 - check_lgpl (Not Run)
-	 73 - qa_volk_32f_x3_sum_of_poly_32f (Failed)
 Errors while running CTest
 Output from these tests are in: /usr/lib/volk/ptest/Testing/Temporary/LastTest.log
 Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.
 
 ERROR: Exit status is 8
-DURATION: 27
+DURATION: 26
 END: /usr/lib/volk/ptest
-2023-09-09T00:59
+2023-09-19T03:14
 STOP: ptest-runner
 TOTAL: 3 FAIL: 1
