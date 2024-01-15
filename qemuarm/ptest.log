@@ -1,13 +1,13 @@
 START: ptest-runner
-2024-01-12T15:05
+2024-01-15T20:49
 BEGIN: /usr/lib/fftw/ptest
 PASS: fftw
 PASS: fftwf
 PASS: fftwl
-DURATION: 875
+DURATION: 1347
 END: /usr/lib/fftw/ptest
-2024-01-12T15:20
-2024-01-12T15:20
+2024-01-15T21:12
+2024-01-15T21:12
 BEGIN: /usr/lib/gnuradio/ptest
 Test project /usr/lib/gnuradio/ptest
         Start   1: qa_flowgraph
@@ -210,7 +210,7 @@ Unable to find executable: gr_fec_rstest
         Start  91: qa_ecc_ccsds_27
  91/219 Test  #91: qa_ecc_ccsds_27 ......................   Passed
         Start  92: qa_fecapi_cc
- 92/219 Test  #92: qa_fecapi_cc .........................   Passed
+ 92/219 Test  #92: qa_fecapi_cc .........................***Failed
         Start  93: qa_fecapi_cc_buffer_overflow
  93/219 Test  #93: qa_fecapi_cc_buffer_overflow .........   Passed
         Start  94: qa_fecapi_dummy
@@ -466,7 +466,7 @@ Unable to find executable: gr_fec_rstest
         Start 219: qa_udp_source
 219/219 Test #219: qa_udp_source ........................   Passed
 
-95% tests passed, 11 tests failed out of 219
+95% tests passed, 12 tests failed out of 219
 
 Total Test time (real) =
 
@@ -476,6 +476,7 @@ The following tests FAILED:
 	 81 - qa_type_conversions (Failed)
 	 87 - qa_wavfile (Failed)
 	 88 - test_rs (Not Run)
+	 92 - qa_fecapi_cc (Failed)
 	107 - qa_fft_filter (Failed)
 	119 - qa_interp_fir_filter (Failed)
 	126 - qa_rational_resampler (Failed)
@@ -487,10 +488,10 @@ Output from these tests are in: /usr/lib/gnuradio/ptest/Testing/Temporary/LastTe
 Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.
 
 ERROR: Exit status is 8
-DURATION: 2306
+DURATION: 2342
 END: /usr/lib/gnuradio/ptest
-2024-01-12T15:58
-2024-01-12T15:58
+2024-01-15T21:51
+2024-01-15T21:51
 BEGIN: /usr/lib/volk/ptest
 Test project /usr/lib/volk/ptest
         Start   1: qa_volk_16i_32fc_dot_prod_32fc
@@ -793,6 +794,6 @@ Test project /usr/lib/volk/ptest
 Total Test time (real) =
 DURATION: 36
 END: /usr/lib/volk/ptest
-2024-01-12T15:59
+2024-01-15T21:51
 STOP: ptest-runner
 TOTAL: 3 FAIL: 0
