@@ -1,13 +1,13 @@
 START: ptest-runner
-2024-02-12T02:07
+2024-02-12T16:01
 BEGIN: /usr/lib/fftw/ptest
 fftw  test result:PASSED
 fftwf test result:PASSED
 fftwl test result:PASSED
-DURATION: 2519
+DURATION: 3231
 END: /usr/lib/fftw/ptest
-2024-02-12T02:49
-2024-02-12T02:49
+2024-02-12T16:55
+2024-02-12T16:55
 BEGIN: /usr/lib/gnuradio/ptest
 Test project /usr/lib/gnuradio/ptest
         Start   1: qa_flowgraph
@@ -479,10 +479,10 @@ Output from these tests are in: /usr/lib/gnuradio/ptest/Testing/Temporary/LastTe
 Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.
 
 ERROR: Exit status is 8
-DURATION: 3195
+DURATION: 3297
 END: /usr/lib/gnuradio/ptest
-2024-02-12T03:43
-2024-02-12T03:43
+2024-02-12T17:50
+2024-02-12T17:50
 BEGIN: /usr/lib/volk/ptest
 Test project /usr/lib/volk/ptest
         Start   1: qa_volk_16i_32fc_dot_prod_32fc
@@ -700,7 +700,7 @@ Test project /usr/lib/volk/ptest
         Start 107: qa_volk_32fc_x2_add_32fc
 107/147 Test #107: qa_volk_32fc_x2_add_32fc .............................   Passed
         Start 108: qa_volk_32fc_x2_conjugate_dot_prod_32fc
-108/147 Test #108: qa_volk_32fc_x2_conjugate_dot_prod_32fc ..............***Failed
+108/147 Test #108: qa_volk_32fc_x2_conjugate_dot_prod_32fc ..............   Passed
         Start 109: qa_volk_32fc_x2_divide_32fc
 109/147 Test #109: qa_volk_32fc_x2_divide_32fc ..........................   Passed
         Start 110: qa_volk_32fc_x2_dot_prod_32fc
@@ -780,19 +780,11 @@ Test project /usr/lib/volk/ptest
         Start 147: qa_volk_8u_x4_conv_k7_r2_8u
 147/147 Test #147: qa_volk_8u_x4_conv_k7_r2_8u ..........................   Passed
 
-99% tests passed, 1 tests failed out of 147
+100% tests passed, 0 tests failed out of 147
 
 Total Test time (real) =
-
-The following tests FAILED:
-	108 - qa_volk_32fc_x2_conjugate_dot_prod_32fc (Failed)
-Errors while running CTest
-Output from these tests are in: /usr/lib/volk/ptest/Testing/Temporary/LastTest.log
-Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.
-
-ERROR: Exit status is 8
 DURATION: 25
 END: /usr/lib/volk/ptest
-2024-02-12T03:43
+2024-02-12T17:50
 STOP: ptest-runner
-TOTAL: 3 FAIL: 2
+TOTAL: 3 FAIL: 1
