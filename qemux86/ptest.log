@@ -1,13 +1,13 @@
 START: ptest-runner
-2024-02-11T20:15
+2024-02-13T19:32
 BEGIN: /usr/lib/fftw/ptest
 PASS: fftw
 PASS: fftwf
 PASS: fftwl
-DURATION: 3607
+DURATION: 6042
 END: /usr/lib/fftw/ptest
-2024-02-11T21:15
-2024-02-11T21:15
+2024-02-13T21:13
+2024-02-13T21:13
 BEGIN: /usr/lib/gnuradio/ptest
 Test project /usr/lib/gnuradio/ptest
         Start   1: qa_flowgraph
@@ -482,10 +482,10 @@ Output from these tests are in: /usr/lib/gnuradio/ptest/Testing/Temporary/LastTe
 Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.
 
 ERROR: Exit status is 8
-DURATION: 1815
+DURATION: 2982
 END: /usr/lib/gnuradio/ptest
-2024-02-11T21:45
-2024-02-11T21:45
+2024-02-13T22:02
+2024-02-13T22:02
 BEGIN: /usr/lib/volk/ptest
 Test project /usr/lib/volk/ptest
         Start   1: qa_volk_16i_32fc_dot_prod_32fc
@@ -703,7 +703,7 @@ Test project /usr/lib/volk/ptest
         Start 107: qa_volk_32fc_x2_add_32fc
 107/147 Test #107: qa_volk_32fc_x2_add_32fc .............................   Passed
         Start 108: qa_volk_32fc_x2_conjugate_dot_prod_32fc
-108/147 Test #108: qa_volk_32fc_x2_conjugate_dot_prod_32fc ..............***Failed
+108/147 Test #108: qa_volk_32fc_x2_conjugate_dot_prod_32fc ..............   Passed
         Start 109: qa_volk_32fc_x2_divide_32fc
 109/147 Test #109: qa_volk_32fc_x2_divide_32fc ..........................   Passed
         Start 110: qa_volk_32fc_x2_dot_prod_32fc
@@ -783,19 +783,11 @@ Test project /usr/lib/volk/ptest
         Start 147: qa_volk_8u_x4_conv_k7_r2_8u
 147/147 Test #147: qa_volk_8u_x4_conv_k7_r2_8u ..........................   Passed
 
-99% tests passed, 1 tests failed out of 147
+100% tests passed, 0 tests failed out of 147
 
 Total Test time (real) =
-
-The following tests FAILED:
-	108 - qa_volk_32fc_x2_conjugate_dot_prod_32fc (Failed)
-Errors while running CTest
-Output from these tests are in: /usr/lib/volk/ptest/Testing/Temporary/LastTest.log
-Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.
-
-ERROR: Exit status is 8
-DURATION: 20
+DURATION: 29
 END: /usr/lib/volk/ptest
-2024-02-11T21:46
+2024-02-13T22:03
 STOP: ptest-runner
-TOTAL: 3 FAIL: 1
+TOTAL: 3 FAIL: 0
