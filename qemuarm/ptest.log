@@ -1,13 +1,13 @@
 START: ptest-runner
-2024-08-08T07:24
+2024-08-16T07:04
 BEGIN: /usr/lib/fftw/ptest
 fftw  test result:PASSED
 fftwf test result:PASSED
 fftwl test result:PASSED
-DURATION: 982
+DURATION: 1187
 END: /usr/lib/fftw/ptest
-2024-08-08T07:40
-2024-08-08T07:40
+2024-08-16T07:24
+2024-08-16T07:24
 BEGIN: /usr/lib/gnuradio/ptest
 Test project /usr/lib/gnuradio/ptest
         Start   1: qa_flowgraph
@@ -362,7 +362,7 @@ Unable to find executable: gr_fec_rstest
         Start 167: qa_crc32_bb
 167/221 Test #167: qa_crc32_bb ..........................   Passed
         Start 168: qa_decision_feedback_equalizer
-168/221 Test #168: qa_decision_feedback_equalizer .......***Failed
+168/221 Test #168: qa_decision_feedback_equalizer .......   Passed
         Start 169: qa_diff_encoder
 169/221 Test #169: qa_diff_encoder ......................   Passed
         Start 170: qa_diff_encoder_nrzi
@@ -470,7 +470,7 @@ Unable to find executable: gr_fec_rstest
         Start 221: qa_udp_source
 221/221 Test #221: qa_udp_source ........................   Passed
 
-95% tests passed, 12 tests failed out of 221
+95% tests passed, 11 tests failed out of 221
 
 Total Test time (real) =
 
@@ -484,7 +484,6 @@ The following tests FAILED:
 	121 - qa_interp_fir_filter (Failed)
 	128 - qa_rational_resampler (Failed)
 	163 - qa_cpm (Failed)
-	168 - qa_decision_feedback_equalizer (Failed)
 	178 - qa_linear_equalizer (Failed)
 	207 - test_modtool (Failed)
 Errors while running CTest
@@ -492,10 +491,10 @@ Output from these tests are in: /usr/lib/gnuradio/ptest/Testing/Temporary/LastTe
 Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.
 
 ERROR: Exit status is 8
-DURATION: 2811
+DURATION: 2788
 END: /usr/lib/gnuradio/ptest
-2024-08-08T08:27
-2024-08-08T08:27
+2024-08-16T08:10
+2024-08-16T08:10
 BEGIN: /usr/lib/volk/ptest
 Test project /usr/lib/volk/ptest
         Start   1: qa_volk_16i_32fc_dot_prod_32fc
@@ -796,8 +795,8 @@ Test project /usr/lib/volk/ptest
 100% tests passed, 0 tests failed out of 147
 
 Total Test time (real) =
-DURATION: 37
+DURATION: 38
 END: /usr/lib/volk/ptest
-2024-08-08T08:28
+2024-08-16T08:11
 STOP: ptest-runner
 TOTAL: 3 FAIL: 1
