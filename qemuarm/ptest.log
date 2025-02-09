@@ -1,325 +1,710 @@
 START: ptest-runner
-2025-01-19T04:09
+2025-02-09T12:51
 BEGIN: /usr/lib/fftw/ptest
 PASS: fftw
 PASS: fftwf
 PASS: fftwl
-DURATION: 974
+DURATION: 1145
 END: /usr/lib/fftw/ptest
-2025-01-19T04:25
-2025-01-19T04:25
+2025-02-09T13:11
+2025-02-09T13:11
 BEGIN: /usr/lib/gnuradio/ptest
 Test project /usr/lib/gnuradio/ptest
         Start   1: qa_flowgraph
-  1/221 Test   #1: qa_flowgraph .........................   Passed
+  1/221 Test   #1: qa_flowgraph .........................***Failed
         Start   2: qa_prefs
-  2/221 Test   #2: qa_prefs .............................   Passed
+  2/221 Test   #2: qa_prefs .............................***Failed
         Start   3: qa_python_logging
-  3/221 Test   #3: qa_python_logging ....................   Passed
+  3/221 Test   #3: qa_python_logging ....................***Failed
         Start   4: qa_random
-  4/221 Test   #4: qa_random ............................   Passed
+  4/221 Test   #4: qa_random ............................***Failed
         Start   5: qa_sys_paths
-  5/221 Test   #5: qa_sys_paths .........................   Passed
+  5/221 Test   #5: qa_sys_paths .........................***Failed
         Start   6: qa_tag_utils
-[    0.000000] Booting Linux on physical CPU 0x0
-[    0.000000] Linux version 6.12.9-yocto-standard (oe-user@oe-host) (arm-oe-linux-gnueabi-gcc (GCC) 14.2.0, GNU ld (GNU Binutils) 2.43.1.20241111) #1 SMP PREEMPT Fri Jan 10 17:45:46 UTC 2025
-[    0.000000] CPU: ARMv7 Processor [414fc0f0] revision 0 (ARMv7), cr=30c5387d
-[    0.000000] CPU: div instructions available: patching division code
-[    0.000000] CPU: PIPT / VIPT nonaliasing data cache, PIPT instruction cache
-[    0.000000] OF: fdt: Machine model: linux,dummy-virt
-[    0.000000] random: crng init done
-[    0.000000] Memory policy: Data cache writealloc
-[    0.000000] Zone ranges:
-[    0.000000]   Normal   [mem 0x0000000040000000-0x000000006fffffff]
-[    0.000000]   HighMem  [mem 0x0000000070000000-0x00000000bfffffff]
-[    0.000000] Movable zone start for each node
-[    0.000000] Early memory node ranges
-[    0.000000]   node   0: [mem 0x0000000040000000-0x00000000bfffffff]
-[    0.000000] Initmem setup node 0 [mem 0x0000000040000000-0x00000000bfffffff]
-[    0.000000] psci: probing for conduit method from DT.
-[    0.000000] psci: PSCIv1.1 detected in firmware.
-[    0.000000] psci: Using standard PSCI v0.2 function IDs
-[    0.000000] psci: Trusted OS migration not required
-[    0.000000] psci: SMC Calling Convention v1.0
-[    0.000000] percpu: Embedded 18 pages/cpu s42252 r8192 d23284 u73728
-[    0.000000] pcpu-alloc: s42252 r8192 d23284 u73728 alloc=18*4096
-[    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
-[    0.000000] Kernel command line: root=/dev/vda rw  mem=2048M ip=192.168.7.2::192.168.7.1:255.255.255.0::eth0:off:8.8.8.8 net.ifnames=0 swiotlb=0 
-[    0.000000] Dentry cache hash table entries: 131072 (order: 7, 524288 bytes, linear)
-[    0.000000] Inode-cache hash table entries: 65536 (order: 6, 262144 bytes, linear)
-[    0.000000] Built 1 zonelists, mobility grouping on.  Total pages: 524288
-[    0.000000] mem auto-init: stack:all(zero), heap alloc:off, heap free:off
-[    0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=4, Nodes=1
-[    0.000000] ftrace: allocating 43028 entries in 127 pages
-[    0.000000] ftrace: allocated 127 pages with 7 groups
-[    0.000000] rcu: Preemptible hierarchical RCU implementation.
-[    0.000000] rcu: 	RCU restricting CPUs from NR_CPUS=8 to nr_cpu_ids=4.
-[    0.000000] 	Trampoline variant of Tasks RCU enabled.
-[    0.000000] 	Rude variant of Tasks RCU enabled.
-[    0.000000] 	Tracing variant of Tasks RCU enabled.
-[    0.000000] rcu: RCU calculated value of scheduler-enlistment delay is 10 jiffies.
-[    0.000000] rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=4
-[    0.000000] RCU Tasks: Setting shift to 2 and lim to 1 rcu_task_cb_adjust=1 rcu_task_cpu_ids=4.
-[    0.000000] RCU Tasks Rude: Setting shift to 2 and lim to 1 rcu_task_cb_adjust=1 rcu_task_cpu_ids=4.
-[    0.000000] RCU Tasks Trace: Setting shift to 2 and lim to 1 rcu_task_cb_adjust=1 rcu_task_cpu_ids=4.
-[    0.000000] NR_IRQS: 16, nr_irqs: 16, preallocated irqs: 16
-[    0.000000] GICv2m: range[mem 0x08020000-0x08020fff], SPI[80:143]
-[    0.000000] rcu: srcu_init: Setting srcu_struct sizes based on contention.
-[    0.000000] arch_timer: cp15 timer(s) running at 62.50MHz (virt).
-[    0.000000] clocksource: arch_sys_counter: mask: 0x1ffffffffffffff max_cycles: 0x1cd42e208c, max_idle_ns: 881590405314 ns
-[    0.000188] sched_clock: 57 bits at 63MHz, resolution 16ns, wraps every 4398046511096ns
-[    0.000381] Switching to timer-based delay loop, resolution 16ns
-[    0.015687] kfence: initialized - using 2097152 bytes for 255 objects at 0x(ptrval)-0x(ptrval)
-[    0.023823] Console: colour dummy device 80x30
-[    0.024979] printk: legacy console [tty0] enabled
-[    0.029796] Calibrating delay loop (skipped), value calculated using timer frequency.. 125.00 BogoMIPS (lpj=625000)
-[    0.030044] CPU: Testing write buffer coherency: ok
-[    0.031739] CPU0: Spectre v2: firmware did not set auxiliary control register IBE bit, system vulnerable
-[    0.031982] CPU0: Spectre BHB: enabling loop workaround for all CPUs
-[    0.032149] pid_max: default: 32768 minimum: 301
-[    0.034092] LSM: initializing lsm=capability,landlock
-[    0.034857] landlock: Up and running.
-[    0.036932] Mount-cache hash table entries: 2048 (order: 1, 8192 bytes, linear)
-[    0.037039] Mountpoint-cache hash table entries: 2048 (order: 1, 8192 bytes, linear)
-[    0.070356] /cpus/cpu@0 missing clock-frequency property
-[    0.070816] /cpus/cpu@1 missing clock-frequency property
-[    0.070911] /cpus/cpu@2 missing clock-frequency property
-[    0.071000] /cpus/cpu@3 missing clock-frequency property
-[    0.074804] CPU0: thread -1, cpu 0, socket 0, mpidr 80000000
-[    0.099062] Setting up static identity map for 0x40200000 - 0x40200060
-[    0.100593] rcu: Hierarchical SRCU implementation.
-[    0.100692] rcu: 	Max phase no-delay instances is 1000.
-[    0.114965] smp: Bringing up secondary CPUs ...
-[    0.146354] CPU1: thread -1, cpu 1, socket 0, mpidr 80000001
-[    0.146443] CPU1: Spectre v2: firmware did not set auxiliary control register IBE bit, system vulnerable
-[    0.155572] CPU2: thread -1, cpu 2, socket 0, mpidr 80000002
-[    0.155628] CPU2: Spectre v2: firmware did not set auxiliary control register IBE bit, system vulnerable
-[    0.176439] CPU3: thread -1, cpu 3, socket 0, mpidr 80000003
-[    0.176509] CPU3: Spectre v2: firmware did not set auxiliary control register IBE bit, system vulnerable
-[    0.177516] smp: Brought up 1 node, 4 CPUs
-[    0.177805] SMP: Total of 4 processors activated (500.00 BogoMIPS).
-[    0.178824] CPU: All CPU(s) started in SVC mode.
-[    0.192419] Memory: 2048640K/2097152K available (12288K kernel code, 1491K rwdata, 2924K rodata, 2048K init, 343K bss, 43060K reserved, 0K cma-reserved, 1310720K highmem)
-[    0.205659] devtmpfs: initialized
-[    0.233623] VFP support v0.3: implementor 41 architecture 4 part 30 variant f rev 0
-[    0.257862] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 19112604462750000 ns
-[    0.259084] futex hash table entries: 1024 (order: 4, 65536 bytes, linear)
-[    0.289567] NET: Registered PF_NETLINK/PF_ROUTE protocol family
-[    0.296519] DMA: preallocated 256 KiB pool for atomic coherent allocations
-[    0.305321] cpuidle: using governor ladder
-[    0.307690] hw-breakpoint: found 5 (+1 reserved) breakpoint and 4 watchpoint registers.
-[    0.307872] hw-breakpoint: maximum watchpoint size is 8 bytes.
-[    0.310075] Serial: AMBA PL011 UART driver
-[    0.357891] 9000000.pl011: ttyAMA0 at MMIO 0x9000000 (irq = 28, base_baud = 0) is a PL011 rev1
-[    0.360066] printk: legacy console [ttyAMA0] enabled
-[    0.395164] 9040000.pl011: ttyAMA1 at MMIO 0x9040000 (irq = 29, base_baud = 0) is a PL011 rev1
-[    0.399608] kprobes: kprobe jump-optimization is enabled. All kprobes are optimized if possible.
-[    0.412020] cryptd: max_cpu_qlen set to 1000
-[    0.587699] raid6: neonx8   gen()   769 MB/s
-[    0.759988] raid6: neonx4   gen()  1953 MB/s
-[    0.932317] raid6: neonx2   gen()  1828 MB/s
-[    1.104682] raid6: neonx1   gen()  1269 MB/s
-[    1.276634] raid6: int32x8  gen()   173 MB/s
-[    1.448415] raid6: int32x4  gen()   184 MB/s
-[    1.620371] raid6: int32x2  gen()   558 MB/s
-[    1.792317] raid6: int32x1  gen()   595 MB/s
-[    1.792636] raid6: using algorithm neonx4 gen() 1953 MB/s
-[    1.965702] raid6: .... xor() 911 MB/s, rmw enabled
-[    1.966082] raid6: using neon recovery algorithm
-[    1.972603] SCSI subsystem initialized
-[    1.973826] usbcore: registered new interface driver usbfs
-[    1.974377] usbcore: registered new interface driver hub
-[    1.974926] usbcore: registered new device driver usb
-[    1.975803] pps_core: LinuxPPS API ver. 1 registered
-[    1.976085] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
-[    1.976655] PTP clock support registered
-[    1.995291] vgaarb: loaded
-[    2.002244] clocksource: Switched to clocksource arch_sys_counter
-[    2.041455] NET: Registered PF_INET protocol family
-[    2.043433] IP idents hash table entries: 16384 (order: 5, 131072 bytes, linear)
-[    2.053718] tcp_listen_portaddr_hash hash table entries: 512 (order: 0, 4096 bytes, linear)
-[    2.054285] Table-perturb hash table entries: 65536 (order: 6, 262144 bytes, linear)
-[    2.054737] TCP established hash table entries: 8192 (order: 3, 32768 bytes, linear)
-[    2.055308] TCP bind hash table entries: 8192 (order: 5, 131072 bytes, linear)
-[    2.055940] TCP: Hash tables configured (established 8192 bind 8192)
-[    2.057559] UDP hash table entries: 512 (order: 2, 16384 bytes, linear)
-[    2.058159] UDP-Lite hash table entries: 512 (order: 2, 16384 bytes, linear)
-[    2.169813] NET: Registered PF_UNIX/PF_LOCAL protocol family
-[    2.175469] RPC: Registered named UNIX socket transport module.
-[    2.175862] RPC: Registered udp transport module.
-[    2.176102] RPC: Registered tcp transport module.
-[    2.176321] RPC: Registered tcp-with-tls transport module.
-[    2.176566] RPC: Registered tcp NFSv4.1 backchannel transport module.
-[    2.176976] PCI: CLS 0 bytes, default 64
-[    2.187925] workingset: timestamp_bits=14 max_order=19 bucket_order=5
-[    2.194186] NFS: Registering the id_resolver key type
-[    2.197171] Key type id_resolver registered
-[    2.197436] Key type id_legacy registered
-[    2.205834] Key type cifs.idmap registered
-[    2.363880] xor: measuring software checksum speed
-[    2.367428]    arm4regs        :  1047 MB/sec
-[    2.370295]    8regs           :  1267 MB/sec
-[    2.373524]    32regs          :  1095 MB/sec
-[    2.376284]    neon            :  1325 MB/sec
-[    2.376546] xor: using function: neon (1325 MB/sec)
-[    2.376834] async_tx: api initialized (async)
-[    2.378408] bounce: pool size: 64 pages
-[    2.378912] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 249)
-[    2.379453] io scheduler mq-deadline registered
-[    2.379796] io scheduler kyber registered
-[    2.384240] pci-host-generic 3f000000.pcie: host bridge /pcie@10000000 ranges:
-[    2.385483] pci-host-generic 3f000000.pcie:       IO 0x003eff0000..0x003effffff -> 0x0000000000
-[    2.386715] pci-host-generic 3f000000.pcie:      MEM 0x0010000000..0x003efeffff -> 0x0010000000
-[    2.388199] pci-host-generic 3f000000.pcie: ECAM at [mem 0x3f000000-0x3fffffff] for [bus 00-0f]
-[    2.390452] pci-host-generic 3f000000.pcie: PCI host bridge to bus 0000:00
-[    2.391046] pci_bus 0000:00: root bus resource [bus 00-0f]
-[    2.392035] pci_bus 0000:00: root bus resource [io  0x0000-0xffff]
-[    2.392554] pci_bus 0000:00: root bus resource [mem 0x10000000-0x3efeffff]
-[    2.396334] pci 0000:00:00.0: [1b36:0008] type 00 class 0x060000 conventional PCI endpoint
-[    2.401037] pci 0000:00:01.0: [1af4:1005] type 00 class 0x00ff00 conventional PCI endpoint
-[    2.402203] pci 0000:00:01.0: BAR 0 [io  0x0000-0x001f]
-[    2.402554] pci 0000:00:01.0: BAR 1 [mem 0x00000000-0x00000fff]
-[    2.402904] pci 0000:00:01.0: BAR 4 [mem 0x00000000-0x00003fff 64bit pref]
-[    2.404118] pci 0000:00:02.0: [1b36:000d] type 00 class 0x0c0330 PCIe Root Complex Integrated Endpoint
-[    2.404569] pci 0000:00:02.0: BAR 0 [mem 0x00000000-0x00003fff 64bit]
-[    2.405200] pci 0000:00:02.0: enabling Extended Tags
-[    2.406129] pci 0000:00:03.0: [1af4:1050] type 00 class 0x038000 conventional PCI endpoint
-[    2.406550] pci 0000:00:03.0: BAR 1 [mem 0x00000000-0x00000fff]
-[    2.406848] pci 0000:00:03.0: BAR 4 [mem 0x00000000-0x00003fff 64bit pref]
-[    2.409129] PCI: bus0: Fast back to back transfers disabled
-[    2.411703] pci 0000:00:01.0: BAR 4 [mem 0x10000000-0x10003fff 64bit pref]: assigned
-[    2.412758] pci 0000:00:02.0: BAR 0 [mem 0x10004000-0x10007fff 64bit]: assigned
-[    2.413221] pci 0000:00:03.0: BAR 4 [mem 0x10008000-0x1000bfff 64bit pref]: assigned
-[    2.413643] pci 0000:00:01.0: BAR 1 [mem 0x1000c000-0x1000cfff]: assigned
-[    2.413948] pci 0000:00:03.0: BAR 1 [mem 0x1000d000-0x1000dfff]: assigned
-[    2.414254] pci 0000:00:01.0: BAR 0 [io  0x1000-0x101f]: assigned
-[    2.414843] pci_bus 0000:00: resource 4 [io  0x0000-0xffff]
-[    2.415107] pci_bus 0000:00: resource 5 [mem 0x10000000-0x3efeffff]
-[    2.416630] pci 0000:00:02.0: enabling device (0100 -> 0102)
-[    2.426282] virtio-pci 0000:00:01.0: enabling device (0100 -> 0103)
-[    2.429841] virtio-pci 0000:00:03.0: enabling device (0100 -> 0102)
-[    2.451014] [drm] pci: virtio-gpu-pci detected at 0000:00:03.0
-[    2.452611] [drm] features: -virgl +edid -resource_blob -host_visible
-[    2.452652] [drm] features: -context_init
-[    2.454557] [drm] number of scanouts: 1
-[    2.454808] [drm] number of cap sets: 0
-[    2.469290] [drm] Initialized virtio_gpu 0.1.0 for 0000:00:03.0 on minor 0
-[    2.569933] Console: switching to colour frame buffer device 160x50
-[    2.588639] virtio-pci 0000:00:03.0: [drm] fb0: virtio_gpudrmfb frame buffer device
-[    2.639823] brd: module loaded
-[    2.640955] virtio_blk virtio0: 1/0/0 default/read/poll queues
-[    2.649590] virtio_blk virtio0: [vda] 19295744 512-byte logical blocks (9.88 GB/9.20 GiB)
-[    2.676717] xhci_hcd 0000:00:02.0: xHCI Host Controller
-[    2.678461] xhci_hcd 0000:00:02.0: new USB bus registered, assigned bus number 1
-[    2.684589] xhci_hcd 0000:00:02.0: hcc params 0x00087001 hci version 0x100 quirks 0x0000000000000010
-[    2.689894] xhci_hcd 0000:00:02.0: xHCI Host Controller
-[    2.691004] xhci_hcd 0000:00:02.0: new USB bus registered, assigned bus number 2
-[    2.693166] xhci_hcd 0000:00:02.0: Host supports USB 3.0 SuperSpeed
-[    2.706115] hub 1-0:1.0: USB hub found
-[    2.708098] hub 1-0:1.0: 4 ports detected
-[    2.714936] usb usb2: We don't know the algorithms for LPM for this host, disabling LPM.
-[    2.719041] hub 2-0:1.0: USB hub found
-[    2.720433] hub 2-0:1.0: 4 ports detected
-[    2.730802] rtc-pl031 9010000.pl031: registered as rtc0
-[    2.733755] rtc-pl031 9010000.pl031: setting system clock to 2025-01-19T04:08:54 UTC (1737259734)
-[    2.739317] device-mapper: ioctl: 4.48.0-ioctl (2023-03-01) initialised: dm-devel@lists.linux.dev
-[    2.745168] usbcore: registered new interface driver usbhid
-[    2.746322] usbhid: USB HID core driver
-[    2.752583] u32 classifier
-[    2.755932]     input device check on
-[    2.759192]     Actions configured
-[    2.766633] NET: Registered PF_INET6 protocol family
-[    2.782517] Segment Routing with IPv6
-[    2.787140] In-situ OAM (IOAM) with IPv6
-[    2.792787] sit: IPv6, IPv4 and MPLS over IPv4 tunneling driver
-[    2.800672] NET: Registered PF_PACKET protocol family
-[    2.806306] Bridge firewalling registered
-[    2.812132] l2tp_core: L2TP core driver, V2.0
-[    2.816131] Key type dns_resolver registered
-[    2.820429] NET: Registered PF_VSOCK protocol family
-[    2.825997] Registering SWP/SWPB emulation handler
-[    2.857534] registered taskstats version 1
-[    2.891464] Key type .fscrypt registered
-[    2.895556] Key type fscrypt-provisioning registered
-[    2.907777] Btrfs loaded, zoned=no, fsverity=no
-[    2.945831] Key type encrypted registered
-[    2.952855] printk: legacy console [netcon0] enabled
-[    2.956848] netconsole: network logging started
-[    3.011835] usb 1-1: new high-speed USB device number 2 using xhci_hcd
-[    3.012702] IP-Config: Complete:
-[    3.018026]      device=eth0, hwaddr=52:54:00:12:34:02, ipaddr=192.168.7.2, mask=255.255.255.0, gw=192.168.7.1
-[    3.023081]      host=192.168.7.2, domain=, nis-domain=(none)
-[    3.026932]      bootserver=255.255.255.255, rootserver=255.255.255.255, rootpath=
-[    3.027114]      nameserver0=8.8.8.8
-[    3.037637] clk: Disabling unused clocks
-[    3.048129] md: Waiting for all devices to be available before autodetect
-[    3.052385] md: If you don't use raid, use raid=noautodetect
-[    3.056255] md: Autodetecting RAID arrays.
-[    3.059677] md: autorun ...
-[    3.063610] md: ... autorun DONE.
-[    3.205380] input: QEMU QEMU USB Tablet as /devices/platform/3f000000.pcie/pci0000:00/0000:00:02.0/usb1/1-1/1-1:1.0/0003:0627:0001.0001/input/input0
-[    3.213800] hid-generic 0003:0627:0001.0001: input: USB HID v0.01 Mouse [QEMU QEMU USB Tablet] on usb-0000:00:02.0-1/input0
-[    3.341507] usb 1-2: new high-speed USB device number 3 using xhci_hcd
-[    3.438666] EXT4-fs (vda): mounted filesystem a0bdf9fd-6496-478f-9735-24183c819fff r/w with ordered data mode. Quota mode: disabled.
-[    3.445693] VFS: Mounted root (ext4 filesystem) on device 253:0.
-[    3.460117] devtmpfs: mounted
-[    3.543753] input: QEMU QEMU USB Keyboard as /devices/platform/3f000000.pcie/pci0000:00/0000:00:02.0/usb1/1-2/1-2:1.0/0003:0627:0001.0002/input/input1
-[    3.612672] hid-generic 0003:0627:0001.0002: input: USB HID v1.11 Keyboard [QEMU QEMU USB Keyboard] on usb-0000:00:02.0-2/input0
-[    3.622552] Freeing unused kernel image (initmem) memory: 2048K
-[    3.719658] Run /sbin/init as init process
-[    3.724023]   with arguments:
-[    3.724095]     /sbin/init
-[    3.724133]   with environment:
-[    3.724166]     HOME=/
-[    3.724190]     TERM=linux
-[    6.757947] udevd[136]: starting version 3.2.14
-[    6.933585] udevd[136]: GOTO 'alsa_restore_std' has no matching label in: '/lib/udev/rules.d/90-alsa-restore.rules'
-[    6.934365] udevd[136]: GOTO 'alsa_restore_std' has no matching label in: '/lib/udev/rules.d/90-alsa-restore.rules'
-[    6.955135] udevd[137]: starting eudev-3.2.14
-[    7.330110] udevd[137]: GOTO 'alsa_restore_std' has no matching label in: '/lib/udev/rules.d/90-alsa-restore.rules'
-[    7.330868] udevd[137]: GOTO 'alsa_restore_std' has no matching label in: '/lib/udev/rules.d/90-alsa-restore.rules'
-[    8.295804] EXT4-fs (vda): re-mounted a0bdf9fd-6496-478f-9735-24183c819fff r/w. Quota mode: disabled.
-init
-  |-avahi-daemon
-  |   `-avahi-daemon
-  |-dbus-daemon --system
-  |-getty 38400 tty1
-  |-klogd -n
-  |-ntpd -u ntp:ntp -p /var/run/ntpd.pid -g
-  |   `-{ntpd}
-  |-rpc.statd
-  |-rpcbind
-  |-sshd
-  |   `-sshd-session
-  |       `-sshd-session
-  |           `-sh -c ptest-runner -t 1000; shutdown -hf now
-  |               `-ptest-runner -t 1000
-  |                   |-ptest-runner-co /usr/bin/ptest-runner-collect-system-data
-  |                   |   `-pstree -a -l
-  |                   `-(run-ptest)
-  |-start_getty /bin/start_getty 115200 ttyAMA0 vt102
-  |   `-getty -L 115200 ttyAMA0 vt102
-  |-syslogd -n -O /var/log/messages
-  |-tcf-agent -d -L- -l0
-  |   `-3*[{tcf-agent}]
-  |-ttyrun hvc0 /bin/start_getty 115200 hvc0 vt102
-  `-udevd -d
-Filesystem     1K-blocks    Used Available Use% Mounted on
-/dev/root        8941524 7229912   1212836  86% /
-devtmpfs         1027044       0   1027044   0% /dev
-tmpfs                 40       0        40   0% /mnt
-tmpfs            1028068     100   1027968   1% /run
-tmpfs            1028068      60   1028008   1% /var/volatile
-               total        used        free      shared  buff/cache   available
-Mem:         2056140       94272     1955540        4160       69148     1961868
-Swap:              0           0           0
+  6/221 Test   #6: qa_tag_utils .........................***Failed
+        Start   7: qa_hier_block2
+  7/221 Test   #7: qa_hier_block2 .......................***Failed
+        Start   8: qa_uncaught_exception
+  8/221 Test   #8: qa_uncaught_exception ................***Failed
+        Start   9: qa_pmt
+  9/221 Test   #9: qa_pmt ...............................***Failed
+        Start  10: qa_pmt_to_python
+ 10/221 Test  #10: qa_pmt_to_python .....................***Failed
+        Start  11: qa_add_mult_div_sub
+ 11/221 Test  #11: qa_add_mult_div_sub ..................***Failed
+        Start  12: qa_add_mult_v
+ 12/221 Test  #12: qa_add_mult_v ........................***Failed
+        Start  13: qa_affinity
+ 13/221 Test  #13: qa_affinity ..........................***Failed
+        Start  14: qa_argmax
+ 14/221 Test  #14: qa_argmax ............................***Failed
+        Start  15: qa_block_behavior
+ 15/221 Test  #15: qa_block_behavior ....................***Failed
+        Start  16: qa_block_gateway
+ 16/221 Test  #16: qa_block_gateway .....................***Failed
+        Start  17: qa_blockinterleaver_xx
+ 17/221 Test  #17: qa_blockinterleaver_xx ...............***Failed
+        Start  18: qa_blocks_hier_block2
+ 18/221 Test  #18: qa_blocks_hier_block2 ................***Failed
+        Start  19: qa_boolean_operators
+ 19/221 Test  #19: qa_boolean_operators .................***Failed
+        Start  20: qa_burst_tagger
+ 20/221 Test  #20: qa_burst_tagger ......................***Failed
+        Start  21: qa_burst_to_stream
+ 21/221 Test  #21: qa_burst_to_stream ...................***Failed
+        Start  22: qa_conjugate
+ 22/221 Test  #22: qa_conjugate .........................***Failed
+        Start  23: qa_copy
+ 23/221 Test  #23: qa_copy ..............................***Failed
+        Start  24: qa_delay
+ 24/221 Test  #24: qa_delay .............................***Failed
+        Start  25: qa_endian_swap
+ 25/221 Test  #25: qa_endian_swap .......................***Failed
+        Start  26: qa_exponentiate_const_cci
+ 26/221 Test  #26: qa_exponentiate_const_cci ............***Failed
+        Start  27: qa_file_descriptor_source_sink
+ 27/221 Test  #27: qa_file_descriptor_source_sink .......***Failed
+        Start  28: qa_file_metadata
+ 28/221 Test  #28: qa_file_metadata .....................***Failed
+        Start  29: qa_file_sink
+ 29/221 Test  #29: qa_file_sink .........................***Failed
+        Start  30: qa_file_source
+ 30/221 Test  #30: qa_file_source .......................***Failed
+        Start  31: qa_head
+ 31/221 Test  #31: qa_head ..............................***Failed
+        Start  32: qa_hier_block2_message_connections
+ 32/221 Test  #32: qa_hier_block2_message_connections ...***Failed
+        Start  33: qa_host_buffer_copy
+ 33/221 Test  #33: qa_host_buffer_copy ..................***Failed
+        Start  34: qa_integrate
+ 34/221 Test  #34: qa_integrate .........................***Failed
+        Start  35: qa_interleave
+ 35/221 Test  #35: qa_interleave ........................***Failed
+        Start  36: qa_keep_m_in_n
+ 36/221 Test  #36: qa_keep_m_in_n .......................***Failed
+        Start  37: qa_keep_one_in_n
+ 37/221 Test  #37: qa_keep_one_in_n .....................***Failed
+        Start  38: qa_logger
+ 38/221 Test  #38: qa_logger ............................***Failed
+        Start  39: qa_matrix_interleaver
+ 39/221 Test  #39: qa_matrix_interleaver ................***Failed
+        Start  40: qa_max
+ 40/221 Test  #40: qa_max ...............................***Failed
+        Start  41: qa_message
+ 41/221 Test  #41: qa_message ...........................***Failed
+        Start  42: qa_message_debug
+ 42/221 Test  #42: qa_message_debug .....................***Failed
+        Start  43: qa_message_strobe
+ 43/221 Test  #43: qa_message_strobe ....................***Failed
+        Start  44: qa_min
+ 44/221 Test  #44: qa_min ...............................***Failed
+        Start  45: qa_moving_average
+ 45/221 Test  #45: qa_moving_average ....................***Failed
+        Start  46: qa_msg_pair_to_var
+ 46/221 Test  #46: qa_msg_pair_to_var ...................***Failed
+        Start  47: qa_multiply_conjugate
+ 47/221 Test  #47: qa_multiply_conjugate ................***Failed
+        Start  48: qa_multiply_matrix_xx
+ 48/221 Test  #48: qa_multiply_matrix_xx ................***Failed
+        Start  49: qa_mute
+ 49/221 Test  #49: qa_mute ..............................***Failed
+        Start  50: qa_nlog10
+ 50/221 Test  #50: qa_nlog10 ............................***Failed
+        Start  51: qa_null_sink_source
+ 51/221 Test  #51: qa_null_sink_source ..................***Failed
+        Start  52: qa_pack_k_bits
+ 52/221 Test  #52: qa_pack_k_bits .......................***Failed
+        Start  53: qa_packed_to_unpacked
+ 53/221 Test  #53: qa_packed_to_unpacked ................***Failed
+        Start  54: qa_patterned_interleaver
+ 54/221 Test  #54: qa_patterned_interleaver .............***Failed
+        Start  55: qa_peak_detector
+ 55/221 Test  #55: qa_peak_detector .....................***Failed
+        Start  56: qa_peak_detector2
+ 56/221 Test  #56: qa_peak_detector2 ....................***Failed
+        Start  57: qa_pipe_fittings
+ 57/221 Test  #57: qa_pipe_fittings .....................***Failed
+        Start  58: qa_plateau_detector_fb
+ 58/221 Test  #58: qa_plateau_detector_fb ...............***Failed
+        Start  59: qa_probe_signal
+ 59/221 Test  #59: qa_probe_signal ......................***Failed
+        Start  60: qa_python_message_passing
+ 60/221 Test  #60: qa_python_message_passing ............***Failed
+        Start  61: qa_regenerate
+ 61/221 Test  #61: qa_regenerate ........................***Failed
+        Start  62: qa_repack_bits_bb
+ 62/221 Test  #62: qa_repack_bits_bb ....................***Failed
+        Start  63: qa_repeat
+ 63/221 Test  #63: qa_repeat ............................***Failed
+        Start  64: qa_rms
+ 64/221 Test  #64: qa_rms ...............................***Failed
+        Start  65: qa_rotator_cc
+ 65/221 Test  #65: qa_rotator_cc ........................***Failed
+        Start  66: qa_sample_and_hold
+ 66/221 Test  #66: qa_sample_and_hold ...................***Failed
+        Start  67: qa_selector
+ 67/221 Test  #67: qa_selector ..........................***Failed
+        Start  68: qa_skiphead
+ 68/221 Test  #68: qa_skiphead ..........................***Failed
+        Start  69: qa_stream_demux
+ 69/221 Test  #69: qa_stream_demux ......................***Failed
+        Start  70: qa_stream_mux
+ 70/221 Test  #70: qa_stream_mux ........................***Failed
+        Start  71: qa_stream_to_tagged_stream
+ 71/221 Test  #71: qa_stream_to_tagged_stream ...........***Failed
+        Start  72: qa_stretch
+ 72/221 Test  #72: qa_stretch ...........................***Failed
+        Start  73: qa_tag_debug
+ 73/221 Test  #73: qa_tag_debug .........................***Failed
+        Start  74: qa_tag_file_sink
+ 74/221 Test  #74: qa_tag_file_sink .....................***Failed
+        Start  75: qa_tag_gate
+ 75/221 Test  #75: qa_tag_gate ..........................***Failed
+        Start  76: qa_tag_share
+ 76/221 Test  #76: qa_tag_share .........................***Failed
+        Start  77: qa_tagged_stream_mux
+ 77/221 Test  #77: qa_tagged_stream_mux .................***Failed
+        Start  78: qa_tags_strobe
+ 78/221 Test  #78: qa_tags_strobe .......................***Failed
+        Start  79: qa_threshold
+ 79/221 Test  #79: qa_threshold .........................***Failed
+        Start  80: qa_throttle
+ 80/221 Test  #80: qa_throttle ..........................***Failed
+        Start  81: qa_transcendental
+ 81/221 Test  #81: qa_transcendental ....................***Failed
+        Start  82: qa_tsb_vector_sink_X
+ 82/221 Test  #82: qa_tsb_vector_sink_X .................***Failed
+        Start  83: qa_type_conversions
+ 83/221 Test  #83: qa_type_conversions ..................***Failed
+        Start  84: qa_unpack_k_bits
+ 84/221 Test  #84: qa_unpack_k_bits .....................***Failed
+        Start  85: qa_vco
+ 85/221 Test  #85: qa_vco ...............................***Failed
+        Start  86: qa_vector_insert
+ 86/221 Test  #86: qa_vector_insert .....................***Failed
+        Start  87: qa_vector_map
+ 87/221 Test  #87: qa_vector_map ........................***Failed
+        Start  88: qa_vector_sink_source
+ 88/221 Test  #88: qa_vector_sink_source ................***Failed
+        Start  89: qa_wavfile
+ 89/221 Test  #89: qa_wavfile ...........................***Failed
+        Start  90: test_rs
+Could not find executable gr_fec_rstest
+Looked in the following places:
+gr_fec_rstest
+gr_fec_rstest
+Release/gr_fec_rstest
+Release/gr_fec_rstest
+Debug/gr_fec_rstest
+Debug/gr_fec_rstest
+MinSizeRel/gr_fec_rstest
+MinSizeRel/gr_fec_rstest
+RelWithDebInfo/gr_fec_rstest
+RelWithDebInfo/gr_fec_rstest
+Deployment/gr_fec_rstest
+Deployment/gr_fec_rstest
+Development/gr_fec_rstest
+Development/gr_fec_rstest
+Unable to find executable: gr_fec_rstest
+ 90/221 Test  #90: test_rs ..............................***Not Run
+        Start  91: qa_ber_bf
+ 91/221 Test  #91: qa_ber_bf ............................***Failed
+        Start  92: qa_depuncture
+ 92/221 Test  #92: qa_depuncture ........................***Failed
+        Start  93: qa_ecc_ccsds_27
+ 93/221 Test  #93: qa_ecc_ccsds_27 ......................***Failed
+        Start  94: qa_fecapi_cc
+ 94/221 Test  #94: qa_fecapi_cc .........................***Failed
+        Start  95: qa_fecapi_cc_buffer_overflow
+ 95/221 Test  #95: qa_fecapi_cc_buffer_overflow .........***Failed
+        Start  96: qa_fecapi_dummy
+ 96/221 Test  #96: qa_fecapi_dummy ......................***Failed
+        Start  97: qa_fecapi_ldpc
+ 97/221 Test  #97: qa_fecapi_ldpc .......................***Failed
+        Start  98: qa_fecapi_repetition
+ 98/221 Test  #98: qa_fecapi_repetition .................***Failed
+        Start  99: qa_polar_decoder_sc
+ 99/221 Test  #99: qa_polar_decoder_sc ..................***Failed
+        Start 100: qa_polar_decoder_sc_list
+100/221 Test #100: qa_polar_decoder_sc_list .............***Failed
+        Start 101: qa_polar_decoder_sc_systematic
+101/221 Test #101: qa_polar_decoder_sc_systematic .......***Failed
+        Start 102: qa_polar_encoder
+102/221 Test #102: qa_polar_encoder .....................***Failed
+        Start 103: qa_polar_encoder_systematic
+103/221 Test #103: qa_polar_encoder_systematic ..........***Failed
+        Start 104: qa_puncture
+104/221 Test #104: qa_puncture ..........................***Failed
+        Start 105: qa_fft
+105/221 Test #105: qa_fft ...............................***Failed
+        Start 106: qa_goertzel
+106/221 Test #106: qa_goertzel ..........................***Failed
+        Start 107: qa_window
+107/221 Test #107: qa_window ............................***Failed
+        Start 108: qa_dc_blocker
+108/221 Test #108: qa_dc_blocker ........................***Failed
+        Start 109: qa_fft_filter
+109/221 Test #109: qa_fft_filter ........................***Failed
+        Start 110: qa_file_taps_loader
+110/221 Test #110: qa_file_taps_loader ..................***Failed
+        Start 111: qa_filter_delay_fc
+111/221 Test #111: qa_filter_delay_fc ...................***Failed
+        Start 112: qa_filterbank
+112/221 Test #112: qa_filterbank ........................***Failed
+        Start 113: qa_fir_filter
+113/221 Test #113: qa_fir_filter ........................***Failed
+        Start 114: qa_firdes
+114/221 Test #114: qa_firdes ............................***Failed
+        Start 115: qa_fractional_interpolator
+115/221 Test #115: qa_fractional_interpolator ...........***Failed
+        Start 116: qa_fractional_resampler
+116/221 Test #116: qa_fractional_resampler ..............***Failed
+        Start 117: qa_freq_xlating_fft_filter
+117/221 Test #117: qa_freq_xlating_fft_filter ...........***Failed
+        Start 118: qa_freq_xlating_fir_filter
+118/221 Test #118: qa_freq_xlating_fir_filter ...........***Failed
+        Start 119: qa_hilbert
+119/221 Test #119: qa_hilbert ...........................***Failed
+        Start 120: qa_iir_filter
+120/221 Test #120: qa_iir_filter ........................***Failed
+        Start 121: qa_interp_fir_filter
+121/221 Test #121: qa_interp_fir_filter .................***Failed
+        Start 122: qa_pfb_arb_resampler
+122/221 Test #122: qa_pfb_arb_resampler .................***Failed
+        Start 123: qa_pfb_channelizer
+123/221 Test #123: qa_pfb_channelizer ...................***Failed
+        Start 124: qa_pfb_decimator
+124/221 Test #124: qa_pfb_decimator .....................***Failed
+        Start 125: qa_pfb_interpolator
+125/221 Test #125: qa_pfb_interpolator ..................***Failed
+        Start 126: qa_pfb_synthesizer
+126/221 Test #126: qa_pfb_synthesizer ...................***Failed
+        Start 127: qa_pm_remez
+127/221 Test #127: qa_pm_remez ..........................***Failed
+        Start 128: qa_rational_resampler
+128/221 Test #128: qa_rational_resampler ................***Failed
+        Start 129: qa_single_pole_iir
+129/221 Test #129: qa_single_pole_iir ...................***Failed
+        Start 130: qa_agc
+130/221 Test #130: qa_agc ...............................***Failed
+        Start 131: qa_cpfsk
+131/221 Test #131: qa_cpfsk .............................***Failed
+        Start 132: qa_ctcss_squelch
+132/221 Test #132: qa_ctcss_squelch .....................***Failed
+        Start 133: qa_dpll
+133/221 Test #133: qa_dpll ..............................***Failed
+        Start 134: qa_fastnoise
+134/221 Test #134: qa_fastnoise .........................***Failed
+        Start 135: qa_fm_emph
+135/221 Test #135: qa_fm_emph ...........................***Failed
+        Start 136: qa_fmdet
+136/221 Test #136: qa_fmdet .............................***Failed
+        Start 137: qa_frequency_modulator
+137/221 Test #137: qa_frequency_modulator ...............***Failed
+        Start 138: qa_noise
+138/221 Test #138: qa_noise .............................***Failed
+        Start 139: qa_phase_modulator
+139/221 Test #139: qa_phase_modulator ...................***Failed
+        Start 140: qa_pll_carriertracking
+140/221 Test #140: qa_pll_carriertracking ...............***Failed
+        Start 141: qa_pll_freqdet
+141/221 Test #141: qa_pll_freqdet .......................***Failed
+        Start 142: qa_pll_refout
+142/221 Test #142: qa_pll_refout ........................***Failed
+        Start 143: qa_probe_avg_mag_sqrd
+143/221 Test #143: qa_probe_avg_mag_sqrd ................***Failed
+        Start 144: qa_pwr_squelch
+144/221 Test #144: qa_pwr_squelch .......................***Failed
+        Start 145: qa_quadrature_demod
+145/221 Test #145: qa_quadrature_demod ..................***Failed
+        Start 146: qa_rail_ff
+146/221 Test #146: qa_rail_ff ...........................***Failed
+        Start 147: qa_random_uniform_source
+147/221 Test #147: qa_random_uniform_source .............***Failed
+        Start 148: qa_sig_source
+148/221 Test #148: qa_sig_source ........................***Failed
+        Start 149: qa_simple_squelch
+149/221 Test #149: qa_simple_squelch ....................***Failed
+        Start 150: qa_binary_slicer_fb
+150/221 Test #150: qa_binary_slicer_fb ..................***Failed
+        Start 151: qa_burst_shaper
+151/221 Test #151: qa_burst_shaper ......................***Failed
+        Start 152: qa_chunks_to_symbols
+152/221 Test #152: qa_chunks_to_symbols .................***Failed
+        Start 153: qa_clock_recovery_mm
+153/221 Test #153: qa_clock_recovery_mm .................***Failed
+        Start 154: qa_constellation
+154/221 Test #154: qa_constellation .....................***Failed
+        Start 155: qa_constellation_decoder_cb
+155/221 Test #155: qa_constellation_decoder_cb ..........***Failed
+        Start 156: qa_constellation_encoder_bc
+156/221 Test #156: qa_constellation_encoder_bc ..........***Failed
+        Start 157: qa_constellation_receiver
+157/221 Test #157: qa_constellation_receiver ............***Failed
+        Start 158: qa_constellation_soft_decoder_cf
+158/221 Test #158: qa_constellation_soft_decoder_cf .....***Failed
+        Start 159: qa_correlate_access_code
+159/221 Test #159: qa_correlate_access_code .............***Failed
+        Start 160: qa_correlate_access_code_XX_ts
+160/221 Test #160: qa_correlate_access_code_XX_ts .......***Failed
+        Start 161: qa_correlate_access_code_tag
+161/221 Test #161: qa_correlate_access_code_tag .........***Failed
+        Start 162: qa_costas_loop_cc
+162/221 Test #162: qa_costas_loop_cc ....................***Failed
+        Start 163: qa_cpm
+163/221 Test #163: qa_cpm ...............................***Failed
+        Start 164: qa_crc
+164/221 Test #164: qa_crc ...............................***Failed
+        Start 165: qa_crc16_async_bb
+165/221 Test #165: qa_crc16_async_bb ....................***Failed
+        Start 166: qa_crc32_async_bb
+166/221 Test #166: qa_crc32_async_bb ....................***Failed
+        Start 167: qa_crc32_bb
+167/221 Test #167: qa_crc32_bb ..........................***Failed
+        Start 168: qa_decision_feedback_equalizer
+168/221 Test #168: qa_decision_feedback_equalizer .......***Failed
+        Start 169: qa_diff_encoder
+169/221 Test #169: qa_diff_encoder ......................***Failed
+        Start 170: qa_diff_encoder_nrzi
+170/221 Test #170: qa_diff_encoder_nrzi .................***Failed
+        Start 171: qa_diff_phasor_cc
+171/221 Test #171: qa_diff_phasor_cc ....................***Failed
+        Start 172: qa_fll_band_edge
+172/221 Test #172: qa_fll_band_edge .....................***Failed
+        Start 173: qa_framer_sink
+173/221 Test #173: qa_framer_sink .......................***Failed
+        Start 174: qa_glfsr_source
+174/221 Test #174: qa_glfsr_source ......................***Failed
+        Start 175: qa_hdlc_framer
+175/221 Test #175: qa_hdlc_framer .......................***Failed
+        Start 176: qa_header_payload_demux
+176/221 Test #176: qa_header_payload_demux ..............***Failed
+        Start 177: qa_lfsr
+177/221 Test #177: qa_lfsr ..............................***Failed
+        Start 178: qa_linear_equalizer
+178/221 Test #178: qa_linear_equalizer ..................***Failed
+        Start 179: qa_map
+179/221 Test #179: qa_map ...............................***Failed
+        Start 180: qa_meas_evm_cc
+180/221 Test #180: qa_meas_evm_cc .......................***Failed
+        Start 181: qa_mpsk_snr_est
+181/221 Test #181: qa_mpsk_snr_est ......................***Failed
+        Start 182: qa_ofdm_carrier_allocator_cvc
+182/221 Test #182: qa_ofdm_carrier_allocator_cvc ........***Failed
+        Start 183: qa_ofdm_chanest_vcvc
+183/221 Test #183: qa_ofdm_chanest_vcvc .................***Failed
+        Start 184: qa_ofdm_cyclic_prefixer
+184/221 Test #184: qa_ofdm_cyclic_prefixer ..............***Failed
+        Start 185: qa_ofdm_frame_equalizer_vcvc
+185/221 Test #185: qa_ofdm_frame_equalizer_vcvc .........***Failed
+        Start 186: qa_ofdm_serializer_vcc
+186/221 Test #186: qa_ofdm_serializer_vcc ...............***Failed
+        Start 187: qa_ofdm_sync_sc_cfb
+187/221 Test #187: qa_ofdm_sync_sc_cfb ..................***Failed
+        Start 188: qa_ofdm_txrx
+188/221 Test #188: qa_ofdm_txrx .........................***Failed
+        Start 189: qa_packet_format
+189/221 Test #189: qa_packet_format .....................***Failed
+        Start 190: qa_packet_headergenerator_bb
+190/221 Test #190: qa_packet_headergenerator_bb .........***Failed
+        Start 191: qa_packet_headerparser_b
+191/221 Test #191: qa_packet_headerparser_b .............***Failed
+        Start 192: qa_pfb_clock_sync
+192/221 Test #192: qa_pfb_clock_sync ....................***Failed
+        Start 193: qa_pn_correlator_cc
+193/221 Test #193: qa_pn_correlator_cc ..................***Failed
+        Start 194: qa_probe_density
+194/221 Test #194: qa_probe_density .....................***Failed
+        Start 195: qa_scrambler
+195/221 Test #195: qa_scrambler .........................***Failed
+        Start 196: qa_channel_model
+196/221 Test #196: qa_channel_model .....................***Failed
+        Start 197: qa_fading_model
+197/221 Test #197: qa_fading_model ......................***Failed
+        Start 198: qa_add_system_time
+198/221 Test #198: qa_add_system_time ...................***Failed
+        Start 199: qa_pdu
+199/221 Test #199: qa_pdu ...............................***Failed
+        Start 200: qa_pdu_lambda
+200/221 Test #200: qa_pdu_lambda ........................***Failed
+        Start 201: qa_pdu_split
+201/221 Test #201: qa_pdu_split .........................***Failed
+        Start 202: qa_pdu_to_stream
+202/221 Test #202: qa_pdu_to_stream .....................***Failed
+        Start 203: qa_tags_to_pdu
+203/221 Test #203: qa_tags_to_pdu .......................***Failed
+        Start 204: qa_take_skip_to_pdu
+204/221 Test #204: qa_take_skip_to_pdu ..................***Failed
+        Start 205: qa_time_delta
+205/221 Test #205: qa_time_delta ........................***Failed
+        Start 206: qa_trellis
+206/221 Test #206: qa_trellis ...........................***Failed
+        Start 207: test_modtool
+207/221 Test #207: test_modtool .........................***Failed
+        Start 208: qa_classify
+208/221 Test #208: qa_classify ..........................***Failed
+        Start 209: qa_zeromq_pub
+209/221 Test #209: qa_zeromq_pub ........................***Failed
+        Start 210: qa_zeromq_pubsub
+210/221 Test #210: qa_zeromq_pubsub .....................***Failed
+        Start 211: qa_zeromq_pull_msg_source
+211/221 Test #211: qa_zeromq_pull_msg_source ............***Failed
+        Start 212: qa_zeromq_pushpull
+212/221 Test #212: qa_zeromq_pushpull ...................***Failed
+        Start 213: qa_zeromq_req_msg_source
+213/221 Test #213: qa_zeromq_req_msg_source .............***Failed
+        Start 214: qa_zeromq_reqrep
+214/221 Test #214: qa_zeromq_reqrep .....................***Failed
+        Start 215: qa_zeromq_sub
+215/221 Test #215: qa_zeromq_sub ........................***Failed
+        Start 216: qa_zeromq_sub_msg_source
+216/221 Test #216: qa_zeromq_sub_msg_source .............***Failed
+        Start 217: qa_socket_pdu
+217/221 Test #217: qa_socket_pdu ........................***Failed
+        Start 218: qa_socket_pdu_stop
+218/221 Test #218: qa_socket_pdu_stop ...................***Failed
+        Start 219: qa_tcp_sink
+219/221 Test #219: qa_tcp_sink ..........................***Failed
+        Start 220: qa_udp_sink
+220/221 Test #220: qa_udp_sink ..........................***Failed
+        Start 221: qa_udp_source
+221/221 Test #221: qa_udp_source ........................***Failed
 
-ERROR: Exited from signal Killed (9)
-DURATION: 1062
-TIMEOUT: /usr/lib/gnuradio/ptest
+0% tests passed, 221 tests failed out of 221
+
+Total Test time (real) =
+
+The following tests FAILED:
+	  1 - qa_flowgraph (Failed)
+	  2 - qa_prefs (Failed)
+	  3 - qa_python_logging (Failed)
+	  4 - qa_random (Failed)
+	  5 - qa_sys_paths (Failed)
+	  6 - qa_tag_utils (Failed)
+	  7 - qa_hier_block2 (Failed)
+	  8 - qa_uncaught_exception (Failed)
+	  9 - qa_pmt (Failed)
+	 10 - qa_pmt_to_python (Failed)
+	 11 - qa_add_mult_div_sub (Failed)
+	 12 - qa_add_mult_v (Failed)
+	 13 - qa_affinity (Failed)
+	 14 - qa_argmax (Failed)
+	 15 - qa_block_behavior (Failed)
+	 16 - qa_block_gateway (Failed)
+	 17 - qa_blockinterleaver_xx (Failed)
+	 18 - qa_blocks_hier_block2 (Failed)
+	 19 - qa_boolean_operators (Failed)
+	 20 - qa_burst_tagger (Failed)
+	 21 - qa_burst_to_stream (Failed)
+	 22 - qa_conjugate (Failed)
+	 23 - qa_copy (Failed)
+	 24 - qa_delay (Failed)
+	 25 - qa_endian_swap (Failed)
+	 26 - qa_exponentiate_const_cci (Failed)
+	 27 - qa_file_descriptor_source_sink (Failed)
+	 28 - qa_file_metadata (Failed)
+	 29 - qa_file_sink (Failed)
+	 30 - qa_file_source (Failed)
+	 31 - qa_head (Failed)
+	 32 - qa_hier_block2_message_connections (Failed)
+	 33 - qa_host_buffer_copy (Failed)
+	 34 - qa_integrate (Failed)
+	 35 - qa_interleave (Failed)
+	 36 - qa_keep_m_in_n (Failed)
+	 37 - qa_keep_one_in_n (Failed)
+	 38 - qa_logger (Failed)
+	 39 - qa_matrix_interleaver (Failed)
+	 40 - qa_max (Failed)
+	 41 - qa_message (Failed)
+	 42 - qa_message_debug (Failed)
+	 43 - qa_message_strobe (Failed)
+	 44 - qa_min (Failed)
+	 45 - qa_moving_average (Failed)
+	 46 - qa_msg_pair_to_var (Failed)
+	 47 - qa_multiply_conjugate (Failed)
+	 48 - qa_multiply_matrix_xx (Failed)
+	 49 - qa_mute (Failed)
+	 50 - qa_nlog10 (Failed)
+	 51 - qa_null_sink_source (Failed)
+	 52 - qa_pack_k_bits (Failed)
+	 53 - qa_packed_to_unpacked (Failed)
+	 54 - qa_patterned_interleaver (Failed)
+	 55 - qa_peak_detector (Failed)
+	 56 - qa_peak_detector2 (Failed)
+	 57 - qa_pipe_fittings (Failed)
+	 58 - qa_plateau_detector_fb (Failed)
+	 59 - qa_probe_signal (Failed)
+	 60 - qa_python_message_passing (Failed)
+	 61 - qa_regenerate (Failed)
+	 62 - qa_repack_bits_bb (Failed)
+	 63 - qa_repeat (Failed)
+	 64 - qa_rms (Failed)
+	 65 - qa_rotator_cc (Failed)
+	 66 - qa_sample_and_hold (Failed)
+	 67 - qa_selector (Failed)
+	 68 - qa_skiphead (Failed)
+	 69 - qa_stream_demux (Failed)
+	 70 - qa_stream_mux (Failed)
+	 71 - qa_stream_to_tagged_stream (Failed)
+	 72 - qa_stretch (Failed)
+	 73 - qa_tag_debug (Failed)
+	 74 - qa_tag_file_sink (Failed)
+	 75 - qa_tag_gate (Failed)
+	 76 - qa_tag_share (Failed)
+	 77 - qa_tagged_stream_mux (Failed)
+	 78 - qa_tags_strobe (Failed)
+	 79 - qa_threshold (Failed)
+	 80 - qa_throttle (Failed)
+	 81 - qa_transcendental (Failed)
+	 82 - qa_tsb_vector_sink_X (Failed)
+	 83 - qa_type_conversions (Failed)
+	 84 - qa_unpack_k_bits (Failed)
+	 85 - qa_vco (Failed)
+	 86 - qa_vector_insert (Failed)
+	 87 - qa_vector_map (Failed)
+	 88 - qa_vector_sink_source (Failed)
+	 89 - qa_wavfile (Failed)
+	 90 - test_rs (Not Run)
+	 91 - qa_ber_bf (Failed)
+	 92 - qa_depuncture (Failed)
+	 93 - qa_ecc_ccsds_27 (Failed)
+	 94 - qa_fecapi_cc (Failed)
+	 95 - qa_fecapi_cc_buffer_overflow (Failed)
+	 96 - qa_fecapi_dummy (Failed)
+	 97 - qa_fecapi_ldpc (Failed)
+	 98 - qa_fecapi_repetition (Failed)
+	 99 - qa_polar_decoder_sc (Failed)
+	100 - qa_polar_decoder_sc_list (Failed)
+	101 - qa_polar_decoder_sc_systematic (Failed)
+	102 - qa_polar_encoder (Failed)
+	103 - qa_polar_encoder_systematic (Failed)
+	104 - qa_puncture (Failed)
+	105 - qa_fft (Failed)
+	106 - qa_goertzel (Failed)
+	107 - qa_window (Failed)
+	108 - qa_dc_blocker (Failed)
+	109 - qa_fft_filter (Failed)
+	110 - qa_file_taps_loader (Failed)
+	111 - qa_filter_delay_fc (Failed)
+	112 - qa_filterbank (Failed)
+	113 - qa_fir_filter (Failed)
+	114 - qa_firdes (Failed)
+	115 - qa_fractional_interpolator (Failed)
+	116 - qa_fractional_resampler (Failed)
+	117 - qa_freq_xlating_fft_filter (Failed)
+	118 - qa_freq_xlating_fir_filter (Failed)
+	119 - qa_hilbert (Failed)
+	120 - qa_iir_filter (Failed)
+	121 - qa_interp_fir_filter (Failed)
+	122 - qa_pfb_arb_resampler (Failed)
+	123 - qa_pfb_channelizer (Failed)
+	124 - qa_pfb_decimator (Failed)
+	125 - qa_pfb_interpolator (Failed)
+	126 - qa_pfb_synthesizer (Failed)
+	127 - qa_pm_remez (Failed)
+	128 - qa_rational_resampler (Failed)
+	129 - qa_single_pole_iir (Failed)
+	130 - qa_agc (Failed)
+	131 - qa_cpfsk (Failed)
+	132 - qa_ctcss_squelch (Failed)
+	133 - qa_dpll (Failed)
+	134 - qa_fastnoise (Failed)
+	135 - qa_fm_emph (Failed)
+	136 - qa_fmdet (Failed)
+	137 - qa_frequency_modulator (Failed)
+	138 - qa_noise (Failed)
+	139 - qa_phase_modulator (Failed)
+	140 - qa_pll_carriertracking (Failed)
+	141 - qa_pll_freqdet (Failed)
+	142 - qa_pll_refout (Failed)
+	143 - qa_probe_avg_mag_sqrd (Failed)
+	144 - qa_pwr_squelch (Failed)
+	145 - qa_quadrature_demod (Failed)
+	146 - qa_rail_ff (Failed)
+	147 - qa_random_uniform_source (Failed)
+	148 - qa_sig_source (Failed)
+	149 - qa_simple_squelch (Failed)
+	150 - qa_binary_slicer_fb (Failed)
+	151 - qa_burst_shaper (Failed)
+	152 - qa_chunks_to_symbols (Failed)
+	153 - qa_clock_recovery_mm (Failed)
+	154 - qa_constellation (Failed)
+	155 - qa_constellation_decoder_cb (Failed)
+	156 - qa_constellation_encoder_bc (Failed)
+	157 - qa_constellation_receiver (Failed)
+	158 - qa_constellation_soft_decoder_cf (Failed)
+	159 - qa_correlate_access_code (Failed)
+	160 - qa_correlate_access_code_XX_ts (Failed)
+	161 - qa_correlate_access_code_tag (Failed)
+	162 - qa_costas_loop_cc (Failed)
+	163 - qa_cpm (Failed)
+	164 - qa_crc (Failed)
+	165 - qa_crc16_async_bb (Failed)
+	166 - qa_crc32_async_bb (Failed)
+	167 - qa_crc32_bb (Failed)
+	168 - qa_decision_feedback_equalizer (Failed)
+	169 - qa_diff_encoder (Failed)
+	170 - qa_diff_encoder_nrzi (Failed)
+	171 - qa_diff_phasor_cc (Failed)
+	172 - qa_fll_band_edge (Failed)
+	173 - qa_framer_sink (Failed)
+	174 - qa_glfsr_source (Failed)
+	175 - qa_hdlc_framer (Failed)
+	176 - qa_header_payload_demux (Failed)
+	177 - qa_lfsr (Failed)
+	178 - qa_linear_equalizer (Failed)
+	179 - qa_map (Failed)
+	180 - qa_meas_evm_cc (Failed)
+	181 - qa_mpsk_snr_est (Failed)
+	182 - qa_ofdm_carrier_allocator_cvc (Failed)
+	183 - qa_ofdm_chanest_vcvc (Failed)
+	184 - qa_ofdm_cyclic_prefixer (Failed)
+	185 - qa_ofdm_frame_equalizer_vcvc (Failed)
+	186 - qa_ofdm_serializer_vcc (Failed)
+	187 - qa_ofdm_sync_sc_cfb (Failed)
+	188 - qa_ofdm_txrx (Failed)
+	189 - qa_packet_format (Failed)
+	190 - qa_packet_headergenerator_bb (Failed)
+	191 - qa_packet_headerparser_b (Failed)
+	192 - qa_pfb_clock_sync (Failed)
+	193 - qa_pn_correlator_cc (Failed)
+	194 - qa_probe_density (Failed)
+	195 - qa_scrambler (Failed)
+	196 - qa_channel_model (Failed)
+	197 - qa_fading_model (Failed)
+	198 - qa_add_system_time (Failed)
+	199 - qa_pdu (Failed)
+	200 - qa_pdu_lambda (Failed)
+	201 - qa_pdu_split (Failed)
+	202 - qa_pdu_to_stream (Failed)
+	203 - qa_tags_to_pdu (Failed)
+	204 - qa_take_skip_to_pdu (Failed)
+	205 - qa_time_delta (Failed)
+	206 - qa_trellis (Failed)
+	207 - test_modtool (Failed)
+	208 - qa_classify (Failed)
+	209 - qa_zeromq_pub (Failed)
+	210 - qa_zeromq_pubsub (Failed)
+	211 - qa_zeromq_pull_msg_source (Failed)
+	212 - qa_zeromq_pushpull (Failed)
+	213 - qa_zeromq_req_msg_source (Failed)
+	214 - qa_zeromq_reqrep (Failed)
+	215 - qa_zeromq_sub (Failed)
+	216 - qa_zeromq_sub_msg_source (Failed)
+	217 - qa_socket_pdu (Failed)
+	218 - qa_socket_pdu_stop (Failed)
+	219 - qa_tcp_sink (Failed)
+	220 - qa_udp_sink (Failed)
+	221 - qa_udp_source (Failed)
+Errors while running CTest
+Output from these tests are in: /usr/lib/gnuradio/ptest/Testing/Temporary/LastTest.log
+Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.
+
+ERROR: Exit status is 8
+DURATION: 372
 END: /usr/lib/gnuradio/ptest
-2025-01-19T04:43
-2025-01-19T04:43
+2025-02-09T13:17
+2025-02-09T13:17
 BEGIN: /usr/lib/volk/ptest
 Test project /usr/lib/volk/ptest
         Start   1: qa_volk_16i_32fc_dot_prod_32fc
@@ -620,8 +1005,8 @@ Test project /usr/lib/volk/ptest
 100% tests passed, 0 tests failed out of 147
 
 Total Test time (real) =
-DURATION: 45
+DURATION: 44
 END: /usr/lib/volk/ptest
-2025-01-19T04:43
+2025-02-09T13:18
 STOP: ptest-runner
-TOTAL: 3 FAIL: 2
+TOTAL: 3 FAIL: 1
